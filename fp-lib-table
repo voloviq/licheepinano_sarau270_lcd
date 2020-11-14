@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name LicheePi_SOM)(type KiCad)(uri ${KISYS3DMOD}/SOM_Modules/SiPeed/LicheePi_SOM.pretty)(options "")(descr ""))
+  (lib (name Ant_Microdis)(type KiCad)(uri ${KISYS3DMOD}/Modem_GSM/Antenna/Ant_Microdis.pretty)(options "")(descr ""))
+  (lib (name UBlox)(type KiCad)(uri ${KISYS3DMOD}/Modem_GSM/UBlox/UBlox.pretty)(options "")(descr ""))
+  (lib (name Communication_Interfaces)(type KiCad)(uri ${KISYS3DMOD}/Communication_Interfaces/Communication_Interfaces.pretty)(options "")(descr ""))
+  (lib (name Connector_USB)(type KiCad)(uri ${KISYS3DMOD}/Connectors/USB_Connectors/Connector_USB.pretty)(options "")(descr ""))
+  (lib (name Display_Lcd)(type KiCad)(uri ${KISYS3DMOD}/Display/Display_Lcd/Display_Lcd.pretty)(options "")(descr ""))
+)
