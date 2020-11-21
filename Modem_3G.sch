@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 6
-Title "EM205 Communication Measurements Module (KBDE0232)"
-Date "2019-11-07"
-Rev "3.0"
-Comp "EMAR - Samoraj i spółka - spółka jawna"
-Comment1 "Alternatywna płyta dla modułów komunikacji i pomiarowych (tzw. tył bileterki)"
-Comment2 "Autor: Wiktor Porakowski"
+Title "Sara U270 3G Modem"
+Date "2020-11-21"
+Rev "V1.0"
+Comp "Embedded System Labs"
+Comment1 ""
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -56,96 +56,6 @@ F 1 "GND" H 8000 3300 30  0001 C CNN
 F 2 "" H 8000 3400 60  0000 C CNN
 F 3 "" H 8000 3400 60  0000 C CNN
 	1    8000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C4ABAD6
-P 7150 3000
-AR Path="/5BF6704F/5C4ABAD6" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C4ABAD6" Ref="#Pwr?"  Part="1" 
-AR Path="/5C4ABAD6" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C4ABAD6" Ref="#Pwr03"  Part="1" 
-F 0 "#Pwr03" H 7150 3200 30  0001 C CNN
-F 1 "3V8" H 7150 3150 50  0000 C CNN
-F 2 "" H 7150 3000 50  0001 C CNN
-F 3 "" H 7150 3000 50  0001 C CNN
-	1    7150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C4ABADC
-P 7600 3000
-AR Path="/5BF6704F/5C4ABADC" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C4ABADC" Ref="#Pwr?"  Part="1" 
-AR Path="/5C4ABADC" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C4ABADC" Ref="#Pwr04"  Part="1" 
-F 0 "#Pwr04" H 7600 3200 30  0001 C CNN
-F 1 "3V8" H 7600 3150 50  0000 C CNN
-F 2 "" H 7600 3000 50  0001 C CNN
-F 3 "" H 7600 3000 50  0001 C CNN
-	1    7600 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C4ABAE2
-P 8000 3000
-AR Path="/5BF6704F/5C4ABAE2" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C4ABAE2" Ref="#Pwr?"  Part="1" 
-AR Path="/5C4ABAE2" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C4ABAE2" Ref="#Pwr05"  Part="1" 
-F 0 "#Pwr05" H 8000 3200 30  0001 C CNN
-F 1 "3V8" H 8000 3150 50  0000 C CNN
-F 2 "" H 8000 3000 50  0001 C CNN
-F 3 "" H 8000 3000 50  0001 C CNN
-	1    8000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C4ABAE8
-P 8800 3000
-AR Path="/5BF6704F/5C4ABAE8" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C4ABAE8" Ref="#Pwr?"  Part="1" 
-AR Path="/5C4ABAE8" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C4ABAE8" Ref="#Pwr07"  Part="1" 
-F 0 "#Pwr07" H 8800 3200 30  0001 C CNN
-F 1 "3V8" H 8800 3150 50  0000 C CNN
-F 2 "" H 8800 3000 50  0001 C CNN
-F 3 "" H 8800 3000 50  0001 C CNN
-	1    8800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C4ABAEE
-P 9100 3000
-AR Path="/5BF6704F/5C4ABAEE" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C4ABAEE" Ref="#Pwr?"  Part="1" 
-AR Path="/5C4ABAEE" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C4ABAEE" Ref="#Pwr08"  Part="1" 
-F 0 "#Pwr08" H 9100 3200 30  0001 C CNN
-F 1 "3V8" H 9100 3150 50  0000 C CNN
-F 2 "" H 9100 3000 50  0001 C CNN
-F 3 "" H 9100 3000 50  0001 C CNN
-	1    9100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C4ABAF4
-P 9400 3000
-AR Path="/5BF6704F/5C4ABAF4" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C4ABAF4" Ref="#Pwr?"  Part="1" 
-AR Path="/5C4ABAF4" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C4ABAF4" Ref="#Pwr09"  Part="1" 
-F 0 "#Pwr09" H 9400 3200 30  0001 C CNN
-F 1 "3V8" H 9400 3150 50  0000 C CNN
-F 2 "" H 9400 3000 50  0001 C CNN
-F 3 "" H 9400 3000 50  0001 C CNN
-	1    9400 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -498,9 +408,9 @@ Entry Wire Line
 Entry Wire Line
 	5900 6550 6000 6450
 Text HLabel 3750 6250 0    50   BiDi ~ 10
-LOCAL_USB_MODEM_D-
+USB_MODEM_D-
 Text HLabel 3750 6350 0    50   BiDi ~ 10
-LOCAL_USB_MODEM_D+
+USB_MODEM_D+
 $Comp
 L power:VBUS #PWR?
 U 1 1 5C4ABBEB
@@ -526,9 +436,9 @@ Wire Wire Line
 Wire Wire Line
 	6400 5950 7250 5950
 Text HLabel 7000 5450 0    50   Input ~ 10
-UART_LOCAL_MODEM_1V8_RXD
+UART_MODEM_1V8_RXD
 Text HLabel 7000 5550 0    50   Output ~ 10
-UART_LOCAL_MODEM_1V8_TXD
+UART_MODEM_1V8_TXD
 Wire Wire Line
 	7000 5450 7300 5450
 Wire Wire Line
@@ -572,14 +482,6 @@ $EndComp
 NoConn ~ 7300 4850
 NoConn ~ 7300 4950
 NoConn ~ 7300 5050
-Text Notes 5550 4700 0    100  Italic 20
-Note 1.
-Wire Notes Line
-	6350 4750 6350 5350
-Wire Notes Line
-	6350 4750 5600 4750
-Text Notes 14000 7950 0    50   Italic 10
-NOTE:\n-----------------\n1. UART crossed due\nto U270 pinout description
 Text HLabel 7100 7600 0    50   Input ~ 10
 LOCAL_MODEM_1V8_~RESET
 Text HLabel 7100 7100 0    50   Output ~ 10
@@ -817,16 +719,6 @@ F 3 "" H 13000 6700 60  0000 C CNN
 	1    13000 6700
 	0    1    1    0   
 $EndComp
-Text HLabel 11500 3600 2    50   Input ~ 10
-I2S_WA
-Text HLabel 11500 3700 2    50   Output ~ 10
-I2S_TXD
-Text HLabel 11500 3800 2    50   BiDi ~ 10
-I2S_CLK
-Text HLabel 11500 3900 2    50   Input ~ 10
-I2S_RXD
-Text HLabel 11500 4000 2    50   Output ~ 10
-CODEC_CLK
 $Comp
 L power:GND #PWR?
 U 1 1 5C4B5B50
@@ -842,43 +734,6 @@ F 3 "" H 8400 3400 60  0000 C CNN
 	1    8400 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C4B5B56
-P 8400 3000
-AR Path="/5BF6704F/5C4B5B56" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C4B5B56" Ref="#Pwr?"  Part="1" 
-AR Path="/5C4B5B56" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C4B5B56" Ref="#Pwr06"  Part="1" 
-F 0 "#Pwr06" H 8400 3200 30  0001 C CNN
-F 1 "3V8" H 8400 3150 50  0000 C CNN
-F 2 "" H 8400 3000 50  0001 C CNN
-F 3 "" H 8400 3000 50  0001 C CNN
-	1    8400 3000
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	5900 10500 5800 10600
-Entry Wire Line
-	5900 10600 5800 10700
-Entry Wire Line
-	5900 10700 5800 10800
-Entry Wire Line
-	5900 10800 5800 10900
-Text HLabel 4500 10700 0    50   BiDi ~ 10
-MPCIE_SIM_IO
-Text HLabel 4500 10800 0    50   Input ~ 10
-MPCIE_SIM_CLK
-Text HLabel 4500 10600 0    50   Input ~ 10
-MPCIE_VSIM
-Text HLabel 4500 10900 0    50   Input ~ 10
-MPCIE_SIM_RST
-Text Notes 3650 10950 2    100  Italic 20
-To Mini-PCIe\nconnector
-Wire Wire Line
-	9100 3000 9100 3300
-Wire Wire Line
-	8800 3000 8800 3300
 Wire Notes Line width 10 style solid
 	5700 5450 5500 5450
 Wire Notes Line width 10 style solid
@@ -893,12 +748,8 @@ Wire Notes Line width 10 style solid
 	5500 5550 5550 5500
 Text Notes 5600 1250 0    500  ~ 100
 MODEM 3G GSM
-Wire Wire Line
-	7300 7100 7250 7100
 Text Label 7300 8250 2    50   ~ 10
 SIM_DET
-Text HLabel 4500 11000 0    50   Input ~ 10
-MPCIE_SIM_DET
 Wire Wire Line
 	5400 9000 5800 9000
 Wire Wire Line
@@ -907,47 +758,10 @@ Wire Wire Line
 	4800 9350 5800 9350
 Wire Wire Line
 	4500 9450 5800 9450
-Entry Wire Line
-	5900 10900 5800 11000
-Text HLabel 7100 7300 0    50   BiDi ~ 10
-NXP_I2C_1V8_SDA
-Text HLabel 7100 7400 0    50   Output ~ 10
-NXP_I2C_1V8_SCL
-Wire Wire Line
-	7100 7400 7250 7400
-Wire Wire Line
-	7250 7400 7250 7100
-Connection ~ 7250 7100
-Wire Wire Line
-	7250 7100 7100 7100
-Wire Wire Line
-	7100 7000 7200 7000
-Wire Wire Line
-	7200 7300 7200 7000
-Wire Wire Line
-	7100 7300 7200 7300
-Connection ~ 7200 7000
-Wire Wire Line
-	7200 7000 7300 7000
 Wire Wire Line
 	7100 7600 7250 7600
 Text HLabel 6400 5950 0    50   Input ~ 10
-LOCAL_MODEM_~W_DISABLE
-$Comp
-L power:1V8 #PWR?
-U 1 1 5C6B9385
-P 3950 8300
-AR Path="/5BF6704F/5C6B9385" Ref="#PWR?"  Part="1" 
-AR Path="/5BF67117/5C6B9385" Ref="#PWR?"  Part="1" 
-AR Path="/5C6B9385" Ref="#PWR?"  Part="1" 
-AR Path="/5FB33D69/5C6B9385" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 3950 8250 20  0001 C CNN
-F 1 "1V8" H 3950 8450 50  0000 C CNN
-F 2 "" H 3950 8300 60  0000 C CNN
-F 3 "" H 3950 8300 60  0000 C CNN
-	1    3950 8300
-	1    0    0    -1  
-$EndComp
+MODEM_PWR_ON
 Wire Wire Line
 	3950 8900 5800 8900
 Entry Wire Line
@@ -956,20 +770,6 @@ Text Label 3950 8900 0    50   ~ 10
 SIM_DET
 Wire Wire Line
 	3950 8800 3950 8900
-Text Notes 2950 8400 0    100  Italic 20
-Note 2.
-Wire Notes Line
-	3750 8450 3000 8450
-Wire Notes Line
-	3750 8450 3750 8600
-Text Notes 14000 8850 0    50   Italic 10
-2. SIM_DET pulled-up to recognize \nas SIM card present.\n\nSee: \nSARA-G3 and SARA-U2 series \nSystem Integration Manual\nUBLOX, March 2018\nRev. 27\npg. 44.
-Text Notes 3550 5800 0    100  Italic 20
-Note 3.
-Wire Notes Line
-	3600 5850 4950 5850
-Text Notes 14000 9800 0    50   Italic 10
-3. PWR_ON level must be properly fixed, \ne.g. adding a 100k pull-up to V_BCKP\n\nSee: \nSARA-G3 and SARA-U2 series \nSystem Integration Manual\nUBLOX, March 2018\nRev. 27\npg. 175.
 Wire Wire Line
 	5100 2450 9700 2450
 Wire Wire Line
@@ -989,26 +789,6 @@ Entry Wire Line
 	6000 8250 5900 8350
 Wire Wire Line
 	6000 8250 7300 8250
-Text Label 4550 10600 0    50   ~ 10
-VSIM
-Text Label 4550 10900 0    50   ~ 10
-SIM_RST
-Text Label 4550 10800 0    50   ~ 10
-SIM_CLK
-Text Label 4550 11000 0    50   ~ 10
-SIM_DET
-Wire Wire Line
-	4500 10600 5800 10600
-Wire Wire Line
-	4500 10700 5800 10700
-Wire Wire Line
-	4500 10800 5800 10800
-Wire Wire Line
-	4500 10900 5800 10900
-Wire Wire Line
-	4500 11000 5800 11000
-Wire Notes Line width 20 style solid
-	3750 10550 3750 11050
 Wire Wire Line
 	6950 7800 7250 7800
 Wire Wire Line
@@ -1053,20 +833,6 @@ Wire Wire Line
 Connection ~ 12550 6500
 Wire Wire Line
 	12550 6500 13000 6500
-$Comp
-L power:1V8 #PWR?
-U 1 1 5C6D2271
-P 10000 2700
-AR Path="/5C6D2271" Ref="#PWR?"  Part="1" 
-AR Path="/5BF67117/5C6D2271" Ref="#PWR?"  Part="1" 
-AR Path="/5FB33D69/5C6D2271" Ref="#PWR099"  Part="1" 
-F 0 "#PWR099" H 10000 2650 20  0001 C CNN
-F 1 "1V8" H 10000 2850 50  0000 C CNN
-F 2 "" H 10000 2700 60  0000 C CNN
-F 3 "" H 10000 2700 60  0000 C CNN
-	1    10000 2700
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	5800 7100 5900 7000
 Entry Wire Line
@@ -1106,8 +872,6 @@ Text Label 4050 7300 0    50   ~ 10
 SIM_IO
 Text Label 2650 7300 2    50   ~ 10
 VSIM
-Text Label 4550 10700 0    50   ~ 10
-SIM_IO
 Wire Wire Line
 	4050 7600 5800 7600
 Wire Wire Line
@@ -1121,21 +885,6 @@ M2M
 Wire Notes Line width 20 style solid
 	2000 7200 2000 7800
 $Comp
-L power:3V8 #Pwr?
-U 1 1 5C7270D8
-P 6700 3000
-AR Path="/5BF6704F/5C7270D8" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C7270D8" Ref="#Pwr?"  Part="1" 
-AR Path="/5C7270D8" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C7270D8" Ref="#Pwr02"  Part="1" 
-F 0 "#Pwr02" H 6700 3200 30  0001 C CNN
-F 1 "3V8" H 6700 3150 50  0000 C CNN
-F 2 "" H 6700 3000 50  0001 C CNN
-F 3 "" H 6700 3000 50  0001 C CNN
-	1    6700 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5C727E4B
 P 6700 3400
@@ -1148,21 +897,6 @@ F 1 "GND" H 6700 3300 30  0001 C CNN
 F 2 "" H 6700 3400 60  0000 C CNN
 F 3 "" H 6700 3400 60  0000 C CNN
 	1    6700 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5C7A81E4
-P 13450 3400
-AR Path="/5BF6704F/5C7A81E4" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5C7A81E4" Ref="#Pwr?"  Part="1" 
-AR Path="/5C7A81E4" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5C7A81E4" Ref="#Pwr010"  Part="1" 
-F 0 "#Pwr010" H 13450 3600 30  0001 C CNN
-F 1 "3V8" H 13450 3550 50  0000 C CNN
-F 2 "" H 13450 3400 50  0001 C CNN
-F 3 "" H 13450 3400 50  0001 C CNN
-	1    13450 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1204,8 +938,6 @@ F 3 "" H 10550 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 3250 10000 3200
-Wire Wire Line
 	10000 3250 10000 3300
 Connection ~ 10000 3250
 Wire Wire Line
@@ -1213,8 +945,6 @@ Wire Wire Line
 Wire Wire Line
 	10000 3250 10550 3250
 NoConn ~ 11500 5800
-Wire Wire Line
-	9400 3000 9400 3300
 $Comp
 L SIMchip:Full_M2M_Quad_SIM U?
 U 1 1 5C79C364
@@ -1594,31 +1324,11 @@ F 12 "SOT23-3" H 13350 4600 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_Smd0603:0R_0603 R14
-U 1 1 5CCE8E37
-P 10000 2950
-F 0 "R14" H 10068 2996 50  0000 L CNN
-F 1 "0R_0603" H 10068 2905 50  0000 L CNN
-F 2 "Resistor_Smd_0603:0R_0603" H 10000 2950 60  0001 C CNN
-F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 10000 2950 60  0001 C CNN
-F 4 "ROYAL OHM" H 10000 2950 50  0001 C CNN "Manufacturer"
-F 5 "0603SAJ0000T5E" H 10000 2950 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 10000 2950 50  0001 C CNN "Supplier"
-F 7 "SMD0603-0R" H 10000 2950 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/" H 10000 2950 50  0001 C CNN "URL"
-F 9 "0,03966" H 10000 2950 50  0001 C CNN "Price@1pc"
-F 10 "0,00967" H 10000 2950 50  0001 C CNN "Price@1000pcs"
-F 11 "-basic,+full,-minipcie" H 10000 2950 50  0001 C CNN "Variant"
-F 12 "0603" H 10000 2950 50  0001 C CNN "Package"
-	1    10000 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Resistors_Smd0402:10k_0402 R11
 U 1 1 5CD5A160
 P 6750 4850
 F 0 "R11" V 6545 4850 50  0000 C CNN
-F 1 "10k_0402" V 6636 4850 50  0000 C CNN
+F 1 "10k" V 6636 4850 50  0000 C CNN
 F 2 "Resistor_Smd_0402:10k_0402" H 7500 4350 300 0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 7500 4350 300 0001 C CNN
 F 4 "ROYAL OHM" H 6750 4850 50  0001 C CNN "Manufacturer"
@@ -1638,7 +1348,7 @@ L Resistors_Smd0402:10k_0402 R12
 U 1 1 5CD5AAA8
 P 6750 5250
 F 0 "R12" V 6545 5250 50  0000 C CNN
-F 1 "10k_0402" V 6636 5250 50  0000 C CNN
+F 1 "10k" V 6636 5250 50  0000 C CNN
 F 2 "Resistor_Smd_0402:10k_0402" H 7500 4750 300 0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 7500 4750 300 0001 C CNN
 F 4 "ROYAL OHM" H 6750 5250 50  0001 C CNN "Manufacturer"
@@ -1698,7 +1408,7 @@ L Resistors_Smd0402:100k_0402 R13
 U 1 1 5CD213A8
 P 6750 5850
 F 0 "R13" V 6545 5850 50  0000 C CNN
-F 1 "100k_0402" V 6636 5850 50  0000 C CNN
+F 1 "100k" V 6636 5850 50  0000 C CNN
 F 2 "Resistor_Smd_0402:100k_0402" H 7350 5250 300 0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 7350 5250 300 0001 C CNN
 F 4 "YAGEO" H 6750 5850 50  0001 C CNN "Manufacturer"
@@ -1733,10 +1443,6 @@ F 12 "0402" H 12950 4950 50  0001 C CNN "Package"
 	1    12950 4950
 	-1   0    0    -1  
 $EndComp
-Text Notes 4450 1550 0    100  Italic 20
-Components C62, C42-C45, C46, C100-C103, Con1, D4-D7, R103 are fitted in variants: full, minipcie.
-Text Notes 4700 1800 0    100  Italic 20
-Components SP1, Ant1, C50, D8, L5, R16, R17, R18, R19, R20, R21, R38, Q2 are fitted in variant: full.
 $Comp
 L Resistors_Smd0402:470R_0402 R17
 U 1 1 5DD6A2A2
@@ -1777,22 +1483,6 @@ F 11 "WP" H 6700 3200 50  0001 C CNN "Developer"
 F 12 "THT_8mmx8mm" H 6700 3200 50  0001 C CNN "Package"
 F 13 "-basic,+full,+minipcie" H 6700 3200 50  0001 C CNN "Variant"
 	1    6700 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L UBlox:Sara_U270 SP?
-U 1 1 5C4ABAA8
-P 9400 6050
-AR Path="/5BF6704F/5C4ABAA8" Ref="SP?"  Part="1" 
-AR Path="/5BF67117/5C4ABAA8" Ref="SP?"  Part="1" 
-AR Path="/5FB33D69/5C4ABAA8" Ref="SP1"  Part="1" 
-F 0 "SP1" H 11250 8750 50  0000 C CNN
-F 1 "Sara_U270" H 11100 8650 50  0000 C CNN
-F 2 "UBlox:Sara_U270" H 8750 5750 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Modem_GSM/UBlox/Components_Documentation/Sara_U2_ATS-19B-59-C3-R0.pdf" H 8750 5750 50  0001 C CNN
-F 4 "-basic,+full,-minipcie" H 9400 6050 50  0001 C CNN "Variant"
-F 5 "Sara_U270" H 9400 6050 50  0001 C CNN "Package"
-	1    9400 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2357,42 +2047,9 @@ $EndComp
 Wire Wire Line
 	11050 8800 11050 8900
 Text HLabel 3750 2200 0    50   Input ~ 0
-POWER_3V8
-$Comp
-L power:3V8 #Pwr?
-U 1 1 5E3D2B63
-P 3850 2200
-AR Path="/5BF6704F/5E3D2B63" Ref="#Pwr?"  Part="1" 
-AR Path="/5BF67117/5E3D2B63" Ref="#Pwr?"  Part="1" 
-AR Path="/5E3D2B63" Ref="#Pwr?"  Part="1" 
-AR Path="/5FB33D69/5E3D2B63" Ref="#Pwr01"  Part="1" 
-F 0 "#Pwr01" H 3850 2400 30  0001 C CNN
-F 1 "3V8" V 3850 2400 50  0000 C CNN
-F 2 "" H 3850 2200 50  0001 C CNN
-F 3 "" H 3850 2200 50  0001 C CNN
-	1    3850 2200
-	0    1    1    0   
-$EndComp
+MODEM_POWER_IN
 Wire Wire Line
 	3850 2200 3750 2200
-Text HLabel 3750 2300 0    50   Input ~ 0
-POWER_1V8
-Wire Wire Line
-	3850 2300 3750 2300
-$Comp
-L power:1V8 #PWR?
-U 1 1 5E3E1A09
-P 3850 2300
-AR Path="/5E3E1A09" Ref="#PWR?"  Part="1" 
-AR Path="/5BF67117/5E3E1A09" Ref="#PWR?"  Part="1" 
-AR Path="/5FB33D69/5E3E1A09" Ref="#PWR048"  Part="1" 
-F 0 "#PWR048" H 3850 2250 20  0001 C CNN
-F 1 "1V8" V 3850 2500 50  0000 C CNN
-F 2 "" H 3850 2300 60  0000 C CNN
-F 3 "" H 3850 2300 60  0000 C CNN
-	1    3850 2300
-	0    1    1    0   
-$EndComp
 $Comp
 L SimCard_Holders:SIM8050-6-0-14-01-A Con1
 U 1 1 5FB61686
@@ -2422,6 +2079,121 @@ Wire Wire Line
 Wire Wire Line
 	2700 9250 2600 9250
 NoConn ~ 2700 9350
+$Comp
+L UBlox:Sara_U270 SP?
+U 1 1 5C4ABAA8
+P 9400 6050
+AR Path="/5BF6704F/5C4ABAA8" Ref="SP?"  Part="1" 
+AR Path="/5BF67117/5C4ABAA8" Ref="SP?"  Part="1" 
+AR Path="/5FB33D69/5C4ABAA8" Ref="Modem1"  Part="1" 
+F 0 "Modem1" H 11100 8750 50  0000 C CNN
+F 1 "Sara_U270" H 11100 8650 50  0000 C CNN
+F 2 "UBlox:Sara_U270" H 8750 5750 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Modem_GSM/UBlox/Components_Documentation/Sara_U2_ATS-19B-59-C3-R0.pdf" H 8750 5750 50  0001 C CNN
+F 4 "-basic,+full,-minipcie" H 9400 6050 50  0001 C CNN "Variant"
+F 5 "Sara_U270" H 9400 6050 50  0001 C CNN "Package"
+	1    9400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 7100 7300 7100
+Wire Wire Line
+	7100 7000 7300 7000
+NoConn ~ 11500 4000
+NoConn ~ 11500 3900
+NoConn ~ 11500 3800
+NoConn ~ 11500 3700
+NoConn ~ 11500 3600
+Text HLabel 3750 2350 0    50   Input ~ 0
+MODEM_PWR_GND
+Wire Wire Line
+	3850 2350 3750 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5FBD7DD0
+P 3850 2350
+AR Path="/5BF6704F/5FBD7DD0" Ref="#PWR?"  Part="1" 
+AR Path="/5BF67117/5FBD7DD0" Ref="#PWR?"  Part="1" 
+AR Path="/5FBD7DD0" Ref="#PWR?"  Part="1" 
+AR Path="/5FB33D69/5FBD7DD0" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 3850 2450 30  0001 C CNN
+F 1 "GND" H 3850 2250 30  0001 C CNN
+F 2 "" H 3850 2350 60  0000 C CNN
+F 3 "" H 3850 2350 60  0000 C CNN
+	1    3850 2350
+	0    1    1    0   
+$EndComp
+Text Label 3850 2200 0    50   ~ 0
+4V0
+Text Label 9400 2900 0    50   ~ 0
+4V0
+Text Label 9100 2900 0    50   ~ 0
+4V0
+Text Label 8800 2900 0    50   ~ 0
+4V0
+Text Label 8400 2900 0    50   ~ 0
+4V0
+Text Label 8000 2900 0    50   ~ 0
+4V0
+Text Label 7600 2900 0    50   ~ 0
+4V0
+Text Label 7150 2900 0    50   ~ 0
+4V0
+Text Label 6700 2900 0    50   ~ 0
+4V0
+Wire Wire Line
+	9400 2900 9400 3300
+Wire Wire Line
+	9100 2900 9100 3300
+Wire Wire Line
+	8800 2900 8800 3300
+Wire Wire Line
+	8400 3000 8400 2900
+Wire Wire Line
+	8000 3000 8000 2900
+Wire Wire Line
+	7600 3000 7600 2900
+Wire Wire Line
+	7150 3000 7150 2900
+Wire Wire Line
+	6700 3000 6700 2900
+Text Label 13450 3300 0    50   ~ 0
+4V0
+Wire Wire Line
+	13450 3400 13450 3300
+Text Label 3950 8200 0    50   ~ 0
+1V8
+Wire Wire Line
+	3950 8200 3950 8300
+Text Label 10000 2900 0    50   ~ 0
+1V8
+Wire Wire Line
+	10000 2900 10000 3250
+Text HLabel 14250 2200 2    50   Output ~ 0
+POWER_OUT_1V8
+Wire Wire Line
+	14150 2200 14250 2200
+Text HLabel 14250 2350 2    50   Input ~ 0
+POWER_OUT_GND
+Wire Wire Line
+	14150 2350 14250 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5FC3FDB2
+P 14150 2350
+AR Path="/5BF6704F/5FC3FDB2" Ref="#PWR?"  Part="1" 
+AR Path="/5BF67117/5FC3FDB2" Ref="#PWR?"  Part="1" 
+AR Path="/5FC3FDB2" Ref="#PWR?"  Part="1" 
+AR Path="/5FB33D69/5FC3FDB2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14150 2450 30  0001 C CNN
+F 1 "GND" H 14150 2250 30  0001 C CNN
+F 2 "" H 14150 2350 60  0000 C CNN
+F 3 "" H 14150 2350 60  0000 C CNN
+	1    14150 2350
+	0    -1   -1   0   
+$EndComp
+Text Label 14150 2200 2    50   ~ 0
+1V8
 Wire Bus Line
-	5900 6550 5900 10900
+	5900 6550 5900 9350
 $EndSCHEMATC
