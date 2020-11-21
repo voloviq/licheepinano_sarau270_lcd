@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 6
-Title "EM205 Communication Measurements Module (KBDE0232)"
-Date "2019-11-07"
-Rev "3.0"
-Comp "EMAR - Samoraj i spółka - spółka jawna"
-Comment1 "Alternatywna płyta dla modułów komunikacji i pomiarowych (tzw. tył bileterki)"
-Comment2 "Autor: Wiktor Porakowski"
+Sheet 4 8
+Title "USB(4) HUB with Ethernet"
+Date "2020-11-21"
+Rev "V1.0"
+Comp "Embedded System Labs"
+Comment1 ""
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -36,23 +36,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 9650 6600 9700
 Text HLabel 6600 4850 0    50   BiDi ~ 10
-USB_HUB_COMPUTER_D+
+USB_HUB_IN_P
 Text HLabel 6600 4950 0    50   BiDi ~ 10
-USB_HUB_COMPUTER_D-
-$Comp
-L power:3V3 #PWR?
-U 1 1 5C38F1B9
-P 4550 2500
-AR Path="/5C38F1B9" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C38F1B9" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C38F1B9" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 4550 2600 40  0001 C CNN
-F 1 "3V3" V 4550 2750 100 0000 C CNB
-F 2 "" H 4550 2500 60  0000 C CNN
-F 3 "" H 4550 2500 60  0000 C CNN
-	1    4550 2500
-	0    -1   -1   0   
-$EndComp
+USB_HUB_IN_N
 Text Notes 4100 1450 0    600  ~ 120
 USB Hub Controller
 $Comp
@@ -97,30 +83,22 @@ F 3 "" H 9750 4950 60  0000 C CNN
 	1    9750 4950
 	0    -1   1    0   
 $EndComp
-Text Notes 11000 3800 0    100  Italic 20
-Peripheral 2. USB/Ethernet Connector
-Text Notes 11000 4100 0    100  Italic 20
-Peripheral 3. EMAR Board/Terminal (Removable Port)
-Text Notes 11000 4400 0    100  Italic 20
-Peripheral 4. NXP (Removable Port)
-Text Notes 11000 4700 0    100  Italic 20
-Peripheral 5. Modem
 Text HLabel 9050 6250 2    50   BiDi ~ 10
-USB_MODEM_D-
+USB_D5_OUT_N
 Text HLabel 9050 6150 2    50   BiDi ~ 10
-USB_MODEM_D+
+USB_D5_OUT_P
 Text HLabel 9050 5550 2    50   BiDi ~ 10
-USB_EMAR_BOARD_TERMINAL_D+
+USB_D3_OUT_P
 Text HLabel 9050 5650 2    50   BiDi ~ 10
-USB_EMAR_BOARD_TERMINAL_D-
+USB_D3_OUT_N
 Text HLabel 9050 5850 2    50   BiDi ~ 10
-USB_NXP_D+
+USB_D4_OUT_P
 Text HLabel 9050 5950 2    50   BiDi ~ 10
-USB_NXP_D-
+USB_D4_OUT_N
 Text HLabel 13200 5250 2    50   BiDi ~ 10
-USB_EXTERNAL_D+
+USB_D2_OUT_P
 Text HLabel 13200 5500 2    50   BiDi ~ 10
-USB_EXTERNAL_D-
+USB_D2_OUT_N
 Wire Wire Line
 	9050 2500 9150 2500
 $Comp
@@ -302,20 +280,6 @@ Wire Wire Line
 Connection ~ 9150 2600
 Wire Wire Line
 	9150 2600 9150 2700
-$Comp
-L power:3V3 #PWR?
-U 1 1 5C4AE0EB
-P 12250 2500
-AR Path="/5C4AE0EB" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C4AE0EB" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C4AE0EB" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 12250 2600 40  0001 C CNN
-F 1 "3V3" V 12250 2750 100 0000 C CNB
-F 2 "" H 12250 2500 60  0000 C CNN
-F 3 "" H 12250 2500 60  0000 C CNN
-	1    12250 2500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	12250 2500 12200 2500
 Wire Wire Line
@@ -514,20 +478,6 @@ F 3 "" H 6250 4200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	7050 3800 6900 3800
-$Comp
-L power:3V3 #PWR?
-U 1 1 5C58104F
-P 9750 4850
-AR Path="/5C58104F" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C58104F" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C58104F" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 9750 4950 40  0001 C CNN
-F 1 "3V3" V 9750 5050 70  0000 C CIB
-F 2 "" H 9750 4850 60  0000 C CNN
-F 3 "" H 9750 4850 60  0000 C CNN
-	1    9750 4850
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	9750 4850 9050 4850
 NoConn ~ 7050 5250
@@ -570,20 +520,6 @@ Wire Wire Line
 Wire Wire Line
 	7050 7750 6850 7750
 $Comp
-L power:3V3 #PWR?
-U 1 1 5C5A45AB
-P 6350 7750
-AR Path="/5C5A45AB" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C5A45AB" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C5A45AB" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 6350 7850 40  0001 C CNN
-F 1 "3V3" V 6350 7950 70  0000 C CIB
-F 2 "" H 6350 7750 60  0000 C CNN
-F 3 "" H 6350 7750 60  0000 C CNN
-	1    6350 7750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5C5B0A3F
 P 7000 8150
@@ -596,20 +532,6 @@ F 2 "" H 7000 8150 60  0000 C CNN
 F 3 "" H 7000 8150 60  0000 C CNN
 	1    7000 8150
 	0    1    1    0   
-$EndComp
-$Comp
-L power:3V3 #PWR?
-U 1 1 5C5B0A94
-P 7050 8250
-AR Path="/5C5B0A94" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C5B0A94" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C5B0A94" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 7050 8350 40  0001 C CNN
-F 1 "3V3" V 7050 8450 70  0000 C CIB
-F 2 "" H 7050 8250 60  0000 C CNN
-F 3 "" H 7050 8250 60  0000 C CNN
-	1    7050 8250
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7000 8150 7050 8150
@@ -635,20 +557,6 @@ F 3 "" H 9050 9100 60  0000 C CNN
 	1    9050 9100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:3V3 #PWR?
-U 1 1 5C5E94FB
-P 11400 8050
-AR Path="/5C5E94FB" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C5E94FB" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C5E94FB" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 11400 8150 40  0001 C CNN
-F 1 "3V3" V 11400 8250 70  0000 C CIB
-F 2 "" H 11400 8050 60  0000 C CNN
-F 3 "" H 11400 8050 60  0000 C CNN
-	1    11400 8050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9050 8050 10050 8050
 Wire Wire Line
@@ -661,45 +569,17 @@ Wire Wire Line
 	10550 8050 10450 8050
 Wire Wire Line
 	10450 8150 10550 8150
-$Comp
-L power:3V3 #PWR?
-U 1 1 5C61A7BC
-P 11400 8150
-AR Path="/5C61A7BC" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C61A7BC" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C61A7BC" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 11400 8250 40  0001 C CNN
-F 1 "3V3" V 11400 8350 70  0000 C CIB
-F 2 "" H 11400 8150 60  0000 C CNN
-F 3 "" H 11400 8150 60  0000 C CNN
-	1    11400 8150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11400 8150 11050 8150
 Wire Wire Line
 	10550 8250 10450 8250
-$Comp
-L power:3V3 #PWR?
-U 1 1 5C620DCC
-P 11400 8250
-AR Path="/5C620DCC" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C620DCC" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C620DCC" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 11400 8350 40  0001 C CNN
-F 1 "3V3" V 11400 8450 70  0000 C CIB
-F 2 "" H 11400 8250 60  0000 C CNN
-F 3 "" H 11400 8250 60  0000 C CNN
-	1    11400 8250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11400 8250 11050 8250
-Text Notes 11750 8100 0    50   Italic 10
+Text Notes 11600 8050 0    50   Italic 10
 RED
-Text Notes 11750 8200 0    50   Italic 10
+Text Notes 11600 8150 0    50   Italic 10
 GREEN
-Text Notes 11750 8300 0    50   Italic 10
+Text Notes 11600 8250 0    50   Italic 10
 YELLOW
 Text HLabel 9050 7600 2    50   Output ~ 10
 ETHERNET_TXP
@@ -711,10 +591,6 @@ Text HLabel 9050 7200 2    50   Input ~ 10
 ETHERNET_RXP
 Wire Wire Line
 	9250 4950 9050 4950
-Text Notes 12700 9750 0    100  Italic 20
-enabled:\nTX may be swapped internally with RX.
-Text Notes 12700 9400 0    100  Italic 20
-AUTO-MDIX\n-------------------
 Text HLabel 12300 2250 2    50   Output ~ 10
 VDD_PHY
 Wire Wire Line
@@ -731,20 +607,6 @@ Wire Wire Line
 	9550 5250 9050 5250
 Wire Wire Line
 	10050 5250 10950 5250
-$Comp
-L power:VBUS #PWR?
-U 1 1 5C67330D
-P 12650 5750
-AR Path="/5C67330D" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C67330D" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C67330D" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 12650 5900 30  0001 C CNN
-F 1 "VBUS" H 12650 5900 50  0000 C CNN
-F 2 "" H 12650 5750 50  0001 C CNN
-F 3 "" H 12650 5750 50  0001 C CNN
-	1    12650 5750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C677095
@@ -773,26 +635,10 @@ F 3 "" H 11800 6600 60  0000 C CNN
 	1    11800 6600
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:VBUS #PWR?
-U 1 1 5C67ECF4
-P 11800 6200
-AR Path="/5C67ECF4" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C67ECF4" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C67ECF4" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 11800 6350 30  0001 C CNN
-F 1 "VBUS" H 11800 6350 50  0000 C CNN
-F 2 "" H 11800 6200 50  0001 C CNN
-F 3 "" H 11800 6200 50  0001 C CNN
-	1    11800 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 4850 7050 4850
 Wire Wire Line
 	6600 4950 7050 4950
-Text Notes 1300 4950 0    100  Italic 20
-USB Computer ESD protection in "USB_Jumper" sheet.
 $Comp
 L power:GND #PWR?
 U 1 1 5C6963B0
@@ -929,7 +775,7 @@ L Capacitors_Smd0402:100nF_0402 C5
 U 1 1 5CCB02DD
 P 5550 2800
 F 0 "C5" H 5550 2550 50  0000 L CNN
-F 1 "100nF_0402" V 5400 2600 50  0000 L CNN
+F 1 "100nF/50V" V 5400 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 5550 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 5550 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 5550 2800 50  0001 C CNN "Manufacturer"
@@ -950,7 +796,7 @@ L Capacitors_Smd0402:100nF_0402 C6
 U 1 1 5CCB0839
 P 5900 2800
 F 0 "C6" H 5900 2550 50  0000 L CNN
-F 1 "100nF_0402" V 5750 2600 50  0000 L CNN
+F 1 "100nF/50V" V 5750 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 5900 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 5900 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 5900 2800 50  0001 C CNN "Manufacturer"
@@ -971,7 +817,7 @@ L Capacitors_Smd0402:100nF_0402 C8
 U 1 1 5CCB0FFD
 P 6250 2800
 F 0 "C8" H 6250 2550 50  0000 L CNN
-F 1 "100nF_0402" V 6100 2600 50  0000 L CNN
+F 1 "100nF/50V" V 6100 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 6250 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 6250 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 6250 2800 50  0001 C CNN "Manufacturer"
@@ -992,7 +838,7 @@ L Capacitors_Smd0402:100nF_0402 C11
 U 1 1 5CCB16C2
 P 6600 2800
 F 0 "C11" H 6600 2550 50  0000 L CNN
-F 1 "100nF_0402" V 6450 2600 50  0000 L CNN
+F 1 "100nF/50V" V 6450 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 6600 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 6600 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 6600 2800 50  0001 C CNN "Manufacturer"
@@ -1013,7 +859,7 @@ L Capacitors_Smd0402:100nF_0402 C2
 U 1 1 5CCAE943
 P 5200 2800
 F 0 "C2" H 5200 2550 50  0000 L CNN
-F 1 "100nF_0402" V 5050 2600 50  0000 L CNN
+F 1 "100nF/50V" V 5050 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 5200 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 5200 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 5200 2800 50  0001 C CNN "Manufacturer"
@@ -1034,7 +880,7 @@ L Capacitors_Smd0402:100nF_0402 C9
 U 1 1 5CCC2F18
 P 6250 3450
 F 0 "C9" H 6250 3200 50  0000 L CNN
-F 1 "100nF_0402" V 6100 3250 50  0000 L CNN
+F 1 "100nF/50V" V 6100 3250 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 6250 3450 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 6250 3450 50  0001 C CNN
 F 4 "SAMSUNG" H 6250 3450 50  0001 C CNN "Manufacturer"
@@ -1055,7 +901,7 @@ L Capacitors_Smd0402:100nF_0402 C12
 U 1 1 5CCC324C
 P 6600 3450
 F 0 "C12" H 6600 3200 50  0000 L CNN
-F 1 "100nF_0402" V 6450 3250 50  0000 L CNN
+F 1 "100nF/50V" V 6450 3250 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 6600 3450 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 6600 3450 50  0001 C CNN
 F 4 "SAMSUNG" H 6600 3450 50  0001 C CNN "Manufacturer"
@@ -1076,7 +922,7 @@ L Capacitors_Smd0402:100nF_0402 C16
 U 1 1 5CCC7D03
 P 9850 2800
 F 0 "C16" H 9850 2550 50  0000 L CNN
-F 1 "100nF_0402" V 9700 2600 50  0000 L CNN
+F 1 "100nF/50V" V 9700 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 9850 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 9850 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 9850 2800 50  0001 C CNN "Manufacturer"
@@ -1097,7 +943,7 @@ L Capacitors_Smd0402:100nF_0402 C17
 U 1 1 5CCCCDBB
 P 10200 2800
 F 0 "C17" H 10200 2550 50  0000 L CNN
-F 1 "100nF_0402" V 10050 2600 50  0000 L CNN
+F 1 "100nF/50V" V 10050 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 10200 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 10200 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 10200 2800 50  0001 C CNN "Manufacturer"
@@ -1118,7 +964,7 @@ L Capacitors_Smd0402:100nF_0402 C18
 U 1 1 5CCCD228
 P 10550 2800
 F 0 "C18" H 10550 2550 50  0000 L CNN
-F 1 "100nF_0402" V 10400 2600 50  0000 L CNN
+F 1 "100nF/50V" V 10400 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 10550 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 10550 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 10550 2800 50  0001 C CNN "Manufacturer"
@@ -1139,7 +985,7 @@ L Capacitors_Smd0402:100nF_0402 C19
 U 1 1 5CCCD499
 P 10900 2800
 F 0 "C19" H 10900 2550 50  0000 L CNN
-F 1 "100nF_0402" V 10750 2600 50  0000 L CNN
+F 1 "100nF/50V" V 10750 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 10900 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 10900 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 10900 2800 50  0001 C CNN "Manufacturer"
@@ -1160,7 +1006,7 @@ L Capacitors_Smd0402:100nF_0402 C20
 U 1 1 5CCCD90A
 P 11250 2800
 F 0 "C20" H 11250 2550 50  0000 L CNN
-F 1 "100nF_0402" V 11100 2600 50  0000 L CNN
+F 1 "100nF/50V" V 11100 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 11250 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 11250 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 11250 2800 50  0001 C CNN "Manufacturer"
@@ -1181,7 +1027,7 @@ L Capacitors_Smd0402:100nF_0402 C15
 U 1 1 5CCCDCAF
 P 9500 2800
 F 0 "C15" H 9500 2550 50  0000 L CNN
-F 1 "100nF_0402" V 9350 2600 50  0000 L CNN
+F 1 "100nF/50V" V 9350 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 9500 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 9500 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 9500 2800 50  0001 C CNN "Manufacturer"
@@ -1202,7 +1048,7 @@ L Capacitors_Smd0402:100nF_0402 C21
 U 1 1 5CCCE8AE
 P 11600 2800
 F 0 "C21" H 11600 2550 50  0000 L CNN
-F 1 "100nF_0402" V 11450 2600 50  0000 L CNN
+F 1 "100nF/50V" V 11450 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 11600 2800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 11600 2800 50  0001 C CNN
 F 4 "SAMSUNG" H 11600 2800 50  0001 C CNN "Manufacturer"
@@ -1222,8 +1068,8 @@ $Comp
 L Capacitors_Smd0402:100nF_0402 C13
 U 1 1 5CCE2DDD
 P 6600 4500
-F 0 "C13" H 6600 4400 50  0000 L CNN
-F 1 "100nF_0402" V 6450 4300 50  0000 L CNN
+F 0 "C13" H 6350 4600 50  0000 L CNN
+F 1 "100nF/50V" H 6150 4400 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 6600 4500 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 6600 4500 50  0001 C CNN
 F 4 "SAMSUNG" H 6600 4500 50  0001 C CNN "Manufacturer"
@@ -1243,8 +1089,8 @@ $Comp
 L Capacitors_Smd0402:100nF_0402 C14
 U 1 1 5CCE35F3
 P 6600 8800
-F 0 "C14" H 6600 8900 50  0000 L CNN
-F 1 "100nF_0402" V 6450 8550 50  0000 L CNN
+F 0 "C14" H 6400 8900 50  0000 L CNN
+F 1 "100nF/50V" H 6150 8700 50  0000 L CNN
 F 2 "Capacitors_Smd_0402:100nF_0402" H 6600 8800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Vishay Capacitors.pdf" H 6600 8800 50  0001 C CNN
 F 4 "SAMSUNG" H 6600 8800 50  0001 C CNN "Manufacturer"
@@ -1268,7 +1114,7 @@ AR Path="/5BF66FFE/5CD69239" Ref="C?"  Part="1"
 AR Path="/5BF670C0/5CD69239" Ref="C?"  Part="1" 
 AR Path="/5FB1924B/5CD69239" Ref="C22"  Part="1" 
 F 0 "C22" H 11931 6446 50  0000 L CNN
-F 1 "100nF_0603" H 11931 6355 50  0000 L CNN
+F 1 "100nF/50V" H 11931 6355 50  0000 L CNN
 F 2 "Capacitors_Smd_0603:100nF_0603" H 11800 6400 60  0001 C CNN
 F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 11800 6400 60  0001 C CNN
 F 4 "SAMSUNG" H 11800 6400 50  0001 C CNN "Manufacturer"
@@ -1287,8 +1133,8 @@ $Comp
 L Capacitors_Smd0603:1uF_0603 C10
 U 1 1 5CDD38FB
 P 6250 4000
-F 0 "C10" H 6250 4100 50  0000 L CNN
-F 1 "1uF_0603" V 6100 3900 50  0000 L CNN
+F 0 "C10" H 6050 4100 50  0000 L CNN
+F 1 "1uF/6V3" H 5900 3900 50  0000 L CNN
 F 2 "Capacitors_Smd_0603:1uF_0603" H 6100 4200 60  0001 C CNN
 F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 6100 4200 60  0001 C CNN
 F 4 "SAMSUNG" H 6250 4000 50  0001 C CNN "Manufacturer"
@@ -1308,7 +1154,7 @@ L Capacitors_Smd0402:30pF_0402 C3
 U 1 1 5CE0478D
 P 5450 9100
 F 0 "C3" V 5400 9200 50  0000 C CNN
-F 1 "30pF_0402" V 5273 9100 50  0000 C CNN
+F 1 "30pF/50V" V 5273 9100 50  0000 C CNN
 F 2 "Capacitors_Smd_0402:30pF_0402" H 5650 8800 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Kemet Capacitors.pdf" H 5650 8800 50  0001 C CNN
 F 4 "KEMET" H 5450 9100 50  0001 C CNN "Manufacturer"
@@ -1329,7 +1175,7 @@ L Capacitors_Smd0402:30pF_0402 C4
 U 1 1 5CE05B59
 P 5450 9700
 F 0 "C4" V 5400 9600 50  0000 C CNN
-F 1 "30pF_0402" V 5600 9700 50  0000 C CNN
+F 1 "30pF/50V" V 5600 9700 50  0000 C CNN
 F 2 "Capacitors_Smd_0402:30pF_0402" H 5650 9400 50  0001 C CNN
 F 3 "Capacitors/Smd_0402/Components_Documentation/Kemet Capacitors.pdf" H 5650 9400 50  0001 C CNN
 F 4 "KEMET" H 5450 9700 50  0001 C CNN "Manufacturer"
@@ -1350,7 +1196,7 @@ L Capacitors_Smd0603:4_7uF_0603 C1
 U 1 1 5CE1F537
 P 4850 2800
 F 0 "C1" H 4850 2550 50  0000 L CNN
-F 1 "4_7uF_0603" V 4700 2600 50  0000 L CNN
+F 1 "4.7uF/6V3" V 4700 2600 50  0000 L CNN
 F 2 "Capacitors_Smd_0603:4_7uF_0603" H 4850 2800 60  0001 C CNN
 F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 4850 2800 60  0001 C CNN
 F 4 "SAMSUNG" H 4850 2800 50  0001 C CNN "Manufacturer"
@@ -1372,7 +1218,7 @@ L Capacitors_Smd0603:4_7uF_0603 C7
 U 1 1 5CE24731
 P 5900 3450
 F 0 "C7" H 5900 3200 50  0000 L CNN
-F 1 "4_7uF_0603" V 5750 3250 50  0000 L CNN
+F 1 "4.7uF/6V3" V 5750 3250 50  0000 L CNN
 F 2 "Capacitors_Smd_0603:4_7uF_0603" H 5900 3450 60  0001 C CNN
 F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 5900 3450 60  0001 C CNN
 F 4 "SAMSUNG" H 5900 3450 50  0001 C CNN "Manufacturer"
@@ -1520,7 +1366,7 @@ L Resistors_Smd0603:0R_0603 R5
 U 1 1 5CCFFEC5
 P 9800 5250
 F 0 "R5" V 9700 5250 50  0000 C CNN
-F 1 "0R_0603" V 9750 5600 50  0000 C CNN
+F 1 "0R" V 9750 5600 50  0000 C CNN
 F 2 "Resistor_Smd_0603:0R_0603" H 9800 5250 60  0001 C CNN
 F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9800 5250 60  0001 C CNN
 F 4 "ROYAL OHM" H 9800 5250 50  0001 C CNN "Manufacturer"
@@ -1540,7 +1386,7 @@ L Resistors_Smd0603:0R_0603 R6
 U 1 1 5CD00B92
 P 9800 5350
 F 0 "R6" V 9700 5350 50  0000 C CNN
-F 1 "0R_0603" V 9750 5700 50  0000 C CNN
+F 1 "0R" V 9750 5700 50  0000 C CNN
 F 2 "Resistor_Smd_0603:0R_0603" H 9800 5350 60  0001 C CNN
 F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9800 5350 60  0001 C CNN
 F 4 "ROYAL OHM" H 9800 5350 50  0001 C CNN "Manufacturer"
@@ -1560,7 +1406,7 @@ L Resistors_Smd0402:10k_0402 R2
 U 1 1 5CD58158
 P 6600 7750
 F 0 "R2" V 6395 7750 50  0000 C CNN
-F 1 "10k_0402" V 6486 7750 50  0000 C CNN
+F 1 "10k" V 6486 7750 50  0000 C CNN
 F 2 "Resistor_Smd_0402:10k_0402" H 7350 7250 300 0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 7350 7250 300 0001 C CNN
 F 4 "ROYAL OHM" H 6600 7750 50  0001 C CNN "Manufacturer"
@@ -1580,7 +1426,7 @@ L Resistors_Smd0402:12k4_0402_1% R1
 U 1 1 5CD8496C
 P 6600 7150
 F 0 "R1" V 6395 7150 50  0000 C CNN
-F 1 "12k4_0402_1%" V 6486 7150 50  0000 C CNN
+F 1 "12k/1%" V 6486 7150 50  0000 C CNN
 F 2 "Resistor_Smd_0402:12k4_0402" H 6900 6700 50  0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/YAGEO 1% Resistors.pdf" H 6900 6700 50  0001 C CNN
 F 4 "Yageo" H 6600 7150 50  0001 C CNN "Manufacturer"
@@ -1601,7 +1447,7 @@ L Resistors_Smd0402:12k_0402_1% R4
 U 1 1 5CD8DBFD
 P 9500 4950
 F 0 "R4" V 9450 4700 50  0000 C CNN
-F 1 "12k_0402_1%" V 9600 4900 50  0000 C CNN
+F 1 "12k/1%" V 9600 4900 50  0000 C CNN
 F 2 "Resistor_Smd_0402:12k_0402" H 9650 4600 600 0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/YAGEO 1% Resistors.pdf" H 9650 4600 600 0001 C CNN
 F 4 "TE Connectivity / Holsworthy" H 9500 4950 50  0001 C CNN "Manufacturer"
@@ -1622,7 +1468,7 @@ L Resistors_Smd0402:1M_0402 R3
 U 1 1 5CD9EC8C
 P 6600 9450
 F 0 "R3" H 6668 9546 50  0000 L CNN
-F 1 "1M_0402" H 6668 9455 50  0000 L CNN
+F 1 "1M" H 6668 9455 50  0000 L CNN
 F 2 "Resistor_Smd_0402:1M_0402" H 6700 9100 50  0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 6700 9100 50  0001 C CNN
 F 4 "ROYAL OHM" H 6600 9450 50  0001 C CNN "Manufacturer"
@@ -1700,16 +1546,12 @@ F 13 "ABM3-25.000MHZ-D2Y-T" H 5950 9400 50  0001 C CNN "Package"
 	1    5950 9400
 	0    -1   -1   0   
 $EndComp
-Text Notes 5550 1650 0    100  Italic 20
-Components from this sheet are fitted in variants: full, minipcie.
-Text Notes 3500 1900 0    100  Italic 20
-Components  C21, C22, C25, C26, C27,C28, C29, C31, C32, C92, C93, U14 are fitted in variants: basic, full, minipcie.
 $Comp
 L Resistors_Smd0402:470R_0402 R7
 U 1 1 5DD6737A
 P 10800 8050
 F 0 "R7" V 10750 7800 50  0000 C CNN
-F 1 "470R_0402" V 10750 8450 50  0000 C CNN
+F 1 "470R" V 10800 8050 50  0000 C CNN
 F 2 "Resistor_Smd_0402:470R_0402" H 11050 7650 50  0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 11050 7650 50  0001 C CNN
 F 4 "0402" H 10800 8050 50  0001 C CNN "Package"
@@ -1730,7 +1572,7 @@ L Resistors_Smd0402:470R_0402 R8
 U 1 1 5DD6825D
 P 10800 8150
 F 0 "R8" V 10750 7900 50  0000 C CNN
-F 1 "470R_0402" V 10750 8550 50  0000 C CNN
+F 1 "470R" V 10800 8150 50  0000 C CNN
 F 2 "Resistor_Smd_0402:470R_0402" H 11050 7750 50  0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 11050 7750 50  0001 C CNN
 F 4 "0402" H 10800 8150 50  0001 C CNN "Package"
@@ -1751,7 +1593,7 @@ L Resistors_Smd0402:470R_0402 R9
 U 1 1 5DD685EA
 P 10800 8250
 F 0 "R9" V 10750 8000 50  0000 C CNN
-F 1 "470R_0402" V 10750 8650 50  0000 C CNN
+F 1 "470R" V 10800 8250 50  0000 C CNN
 F 2 "Resistor_Smd_0402:470R_0402" H 11050 7850 50  0001 C CNN
 F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 11050 7850 50  0001 C CNN
 F 4 "0402" H 10800 8250 50  0001 C CNN "Package"
@@ -1779,41 +1621,13 @@ F 3 "" H 5250 9100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 1850 2250 0    50   Input ~ 0
-POWER_3V3
+POWER_IN_3V3
 Wire Wire Line
 	1950 2250 1850 2250
-Text HLabel 1850 2350 0    50   Input ~ 0
-POWER_VBUS
+Text HLabel 1850 2400 0    50   Input ~ 0
+POWER_IN_VBUS
 Wire Wire Line
-	1950 2350 1850 2350
-$Comp
-L power:3V3 #PWR?
-U 1 1 5E4B87AE
-P 1950 2250
-AR Path="/5E4B87AE" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5E4B87AE" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5E4B87AE" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 1950 2350 40  0001 C CNN
-F 1 "3V3" V 1950 2450 50  0000 C CIN
-F 2 "" H 1950 2250 60  0000 C CNN
-F 3 "" H 1950 2250 60  0000 C CNN
-	1    1950 2250
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:VBUS #PWR?
-U 1 1 5E4C0DAB
-P 1950 2350
-AR Path="/5E4C0DAB" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5E4C0DAB" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5E4C0DAB" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 1950 2500 30  0001 C CNN
-F 1 "VBUS" V 1950 2600 50  0000 C CNN
-F 2 "" H 1950 2350 50  0001 C CNN
-F 3 "" H 1950 2350 50  0001 C CNN
-	1    1950 2350
-	0    1    1    0   
-$EndComp
+	1950 2400 1850 2400
 Wire Wire Line
 	6250 3800 6900 3800
 Wire Wire Line
@@ -1828,4 +1642,51 @@ Connection ~ 6600 9700
 Wire Wire Line
 	5950 9700 5650 9700
 Connection ~ 5950 9700
+Text HLabel 1850 2550 0    50   Input ~ 0
+POWER_IN_GND
+$Comp
+L power:GND #PWR0125
+U 1 1 5FBECE47
+P 2000 2550
+F 0 "#PWR0125" H 2000 2650 30  0001 C CNN
+F 1 "GND" H 2000 2450 30  0001 C CNN
+F 2 "" H 2000 2550 60  0000 C CNN
+F 3 "" H 2000 2550 60  0000 C CNN
+	1    2000 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2550 1850 2550
+Text Label 1950 2250 0    50   ~ 0
+3V3
+Text Label 1950 2400 0    50   ~ 0
+VBUS
+Text Label 4550 2500 2    50   ~ 0
+3V3
+Text Label 9750 4850 0    50   ~ 0
+3V3
+Text Label 11400 8050 0    50   ~ 0
+3V3
+Text Label 11400 8150 0    50   ~ 0
+3V3
+Text Label 11400 8250 0    50   ~ 0
+3V3
+Text Label 12650 5650 0    50   ~ 0
+VBUS
+Wire Wire Line
+	12650 5650 12650 5750
+Text Label 11800 6100 0    50   ~ 0
+VBUS
+Wire Wire Line
+	11800 6100 11800 6200
+Text Label 6250 7750 2    50   ~ 0
+3V3
+Wire Wire Line
+	6350 7750 6250 7750
+Text Label 6950 8250 2    50   ~ 0
+3V3
+Wire Wire Line
+	7050 8250 6950 8250
+Text Label 12250 2500 0    50   ~ 0
+3V3
 $EndSCHEMATC

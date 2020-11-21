@@ -1,0 +1,280 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 7 8
+Title "Logic Level Shifter Module"
+Date "2020-11-21"
+Rev "V1.0"
+Comp "Embedded System Labs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Logic_Voltage_Shifter:TXB0104 U5
+U 1 1 5FC55A00
+P 8100 5800
+F 0 "U5" H 8100 6615 50  0000 C CNN
+F 1 "TXB0104" H 8100 6524 50  0000 C CNN
+F 2 "Logic_Voltage_Shifter:TXB0104_TSSOP14" H 9000 6575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1590656079105" H 9000 6575 50  0001 C CNN
+F 4 "Texas Instruments" H 8100 5800 50  0001 C CNN "Manufacturer"
+F 5 "TXB0104PWR" H 8100 5800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 8100 5800 50  0001 C CNN "Supplier"
+F 7 "595-TXB0104PWR" H 8100 5800 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/Texas-Instruments/TXB0104PWR?qs=oFXvjAmG9EjSF69GpMWq5w%3D%3D" H 8100 5800 50  0001 C CNN "URL"
+F 9 "3,81" H 8100 5800 50  0001 C CNN "Price@1pc"
+F 10 "1,61" H 8100 5800 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 8100 5800 50  0001 C CNN "Developer"
+F 12 "TSSOP-14" H 8100 5800 50  0001 C CNN "Package"
+F 13 "C60708" H 8100 5800 50  0001 C CNN "LCSC Part # (optional)"
+	1    8100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:1uF_0603 C39
+U 1 1 5FC5798E
+P 6350 4950
+F 0 "C39" H 6150 5050 50  0000 L CNN
+F 1 "1uF/6V3" H 6000 4850 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:1uF_0603" H 6200 5150 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 6200 5150 60  0001 C CNN
+F 4 "SAMSUNG" H 6350 4950 50  0001 C CNN "Manufacturer"
+F 5 "CL10B105KO8NNNC" H 6350 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6350 4950 50  0001 C CNN "Supplier"
+F 7 "CL10B105KO8NNNC" H 6350 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b105ko8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 6350 4950 50  0001 C CNN "URL"
+F 9 "0,07530" H 6350 4950 50  0001 C CNN "Price@1pc"
+F 10 "0,03514" H 6350 4950 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 6350 4950 50  0001 C CNN "Package"
+	1    6350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C40
+U 1 1 5FC5815D
+P 7000 4950
+F 0 "C40" H 6850 5050 50  0000 L CNN
+F 1 "100nF/50V" H 6550 4850 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 7000 4950 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 7000 4950 60  0001 C CNN
+F 4 "SAMSUNG" H 7000 4950 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 7000 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 7000 4950 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 7000 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 7000 4950 50  0001 C CNN "URL"
+F 9 "0,04540" H 7000 4950 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 7000 4950 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 7000 4950 50  0001 C CNN "Package"
+	1    7000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 5FC5A8AA
+P 6350 5250
+F 0 "#PWR0136" H 6350 5350 30  0001 C CNN
+F 1 "GND" H 6350 5150 30  0001 C CNN
+F 2 "" H 6350 5250 60  0000 C CNN
+F 3 "" H 6350 5250 60  0000 C CNN
+	1    6350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 5FC5AC1B
+P 7000 5250
+F 0 "#PWR0141" H 7000 5350 30  0001 C CNN
+F 1 "GND" H 7000 5150 30  0001 C CNN
+F 2 "" H 7000 5250 60  0000 C CNN
+F 3 "" H 7000 5250 60  0000 C CNN
+	1    7000 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5250 7000 5150
+Wire Wire Line
+	6350 5250 6350 5150
+$Comp
+L Capacitors_Smd0603:1uF_0603 C41
+U 1 1 5FC5BAE7
+P 9200 4950
+F 0 "C41" H 9331 4996 50  0000 L CNN
+F 1 "1uF/6V3" H 9331 4905 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:1uF_0603" H 9050 5150 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 9050 5150 60  0001 C CNN
+F 4 "SAMSUNG" H 9200 4950 50  0001 C CNN "Manufacturer"
+F 5 "CL10B105KO8NNNC" H 9200 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 9200 4950 50  0001 C CNN "Supplier"
+F 7 "CL10B105KO8NNNC" H 9200 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b105ko8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9200 4950 50  0001 C CNN "URL"
+F 9 "0,07530" H 9200 4950 50  0001 C CNN "Price@1pc"
+F 10 "0,03514" H 9200 4950 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 9200 4950 50  0001 C CNN "Package"
+	1    9200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C42
+U 1 1 5FC5BBBB
+P 9850 4950
+F 0 "C42" H 9981 4996 50  0000 L CNN
+F 1 "100nF/50V" H 9981 4905 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 9850 4950 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 9850 4950 60  0001 C CNN
+F 4 "SAMSUNG" H 9850 4950 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 9850 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 9850 4950 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 9850 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9850 4950 50  0001 C CNN "URL"
+F 9 "0,04540" H 9850 4950 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 9850 4950 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 9850 4950 50  0001 C CNN "Package"
+	1    9850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 5FC5BBC5
+P 9200 5250
+F 0 "#PWR0142" H 9200 5350 30  0001 C CNN
+F 1 "GND" H 9200 5150 30  0001 C CNN
+F 2 "" H 9200 5250 60  0000 C CNN
+F 3 "" H 9200 5250 60  0000 C CNN
+	1    9200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 5FC5BBCF
+P 9850 5250
+F 0 "#PWR0143" H 9850 5350 30  0001 C CNN
+F 1 "GND" H 9850 5150 30  0001 C CNN
+F 2 "" H 9850 5250 60  0000 C CNN
+F 3 "" H 9850 5250 60  0000 C CNN
+	1    9850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 5250 9850 5150
+Wire Wire Line
+	9200 5250 9200 5150
+Wire Wire Line
+	7500 5250 7300 5250
+Wire Wire Line
+	7300 5250 7300 4650
+Wire Wire Line
+	7300 4650 7000 4650
+Wire Wire Line
+	6350 4650 6350 4750
+Wire Wire Line
+	7000 4750 7000 4650
+Connection ~ 7000 4650
+Wire Wire Line
+	7000 4650 6350 4650
+Wire Wire Line
+	8700 5250 8900 5250
+Wire Wire Line
+	8900 5250 8900 4650
+Wire Wire Line
+	8900 4650 9200 4650
+Wire Wire Line
+	9850 4650 9850 4750
+Wire Wire Line
+	9200 4750 9200 4650
+Connection ~ 9200 4650
+Wire Wire Line
+	9200 4650 9850 4650
+$Comp
+L power:GND #PWR0144
+U 1 1 5FC64FC1
+P 7400 6350
+F 0 "#PWR0144" H 7400 6450 30  0001 C CNN
+F 1 "GND" H 7400 6250 30  0001 C CNN
+F 2 "" H 7400 6350 60  0000 C CNN
+F 3 "" H 7400 6350 60  0000 C CNN
+	1    7400 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 6350 7500 6350
+Wire Wire Line
+	8700 6350 8900 6350
+Wire Wire Line
+	8700 6000 8900 6000
+Wire Wire Line
+	8700 5800 8900 5800
+Wire Wire Line
+	8700 5600 8900 5600
+Wire Wire Line
+	8700 5400 8900 5400
+Wire Wire Line
+	9850 4650 10500 4650
+Connection ~ 9850 4650
+Wire Wire Line
+	6350 4650 5850 4650
+Connection ~ 6350 4650
+Text HLabel 10500 4650 2    50   Input ~ 0
+POWER_IN_LOW_SIDE
+Text HLabel 5850 4650 0    50   Input ~ 0
+POWER_IN_HIGH_SIDE
+Text HLabel 10500 4800 2    50   Input ~ 0
+POWER_IN_LOW_SIDE_GND
+$Comp
+L power:GND #PWR0145
+U 1 1 5FC7171F
+P 10400 4800
+F 0 "#PWR0145" H 10400 4900 30  0001 C CNN
+F 1 "GND" H 10400 4700 30  0001 C CNN
+F 2 "" H 10400 4800 60  0000 C CNN
+F 3 "" H 10400 4800 60  0000 C CNN
+	1    10400 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10400 4800 10500 4800
+Text HLabel 5850 4800 0    50   Input ~ 0
+POWER_IN_HIGH_SIDE_GND
+$Comp
+L power:GND #PWR0146
+U 1 1 5FC74855
+P 5950 4800
+F 0 "#PWR0146" H 5950 4900 30  0001 C CNN
+F 1 "GND" H 5950 4700 30  0001 C CNN
+F 2 "" H 5950 4800 60  0000 C CNN
+F 3 "" H 5950 4800 60  0000 C CNN
+	1    5950 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 4800 5850 4800
+Text HLabel 8900 6350 2    50   Input ~ 0
+OE_SIGNAL
+Text HLabel 8900 5400 2    50   Input ~ 0
+SIG1_LOW_PART
+Text HLabel 8900 5600 2    50   Input ~ 0
+SIG2_LOW_PART
+Text HLabel 8900 5800 2    50   Input ~ 0
+SIG3_LOW_PART
+Text HLabel 8900 6000 2    50   Input ~ 0
+SIG4_LOW_PART
+Wire Wire Line
+	7500 5400 7300 5400
+Wire Wire Line
+	7500 5600 7300 5600
+Wire Wire Line
+	7500 5800 7300 5800
+Wire Wire Line
+	7500 6000 7300 6000
+Text HLabel 7300 6000 0    50   Input ~ 0
+SIG4_HIGH_PART
+Text HLabel 7300 5800 0    50   Input ~ 0
+SIG3_HIGH_PART
+Text HLabel 7300 5600 0    50   Input ~ 0
+SIG2_HIGH_PART
+Text HLabel 7300 5400 0    50   Input ~ 0
+SIG1_HIGH_PART
+$EndSCHEMATC

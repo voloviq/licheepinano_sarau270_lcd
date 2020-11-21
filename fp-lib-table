@@ -21,4 +21,6 @@
   (lib (name SIMchip)(type KiCad)(uri ${KISYS3DMOD}/Modem_GSM/Simchip/SIMchip)(options "")(descr ""))
   (lib (name Transistor_Bipolar)(type KiCad)(uri ${KISYS3DMOD}/Transistor/Transistor_Bipolar/Transistor_Bipolar.pretty)(options "")(descr ""))
   (lib (name SimCard_Holders)(type KiCad)(uri ${KISYS3DMOD}/Connectors/SimCard_Holders/SimCard_Holders.pretty)(options "")(descr ""))
+  (lib (name Logic_Voltage_Shifter)(type KiCad)(uri ${KISYS3DMOD}/Logic_Voltage_Shifter/Logic_Voltage_Shifter.pretty)(options "")(descr ""))
+  (lib (name RJ45_Ethernet_Transformer)(type KiCad)(uri ${KISYS3DMOD}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.pretty)(options "")(descr ""))
 )

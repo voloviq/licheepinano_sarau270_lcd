@@ -1,4 +1,4 @@
-935779027364191
+943992242774827
 Ant_Microdis
 MEE04
 
@@ -2323,6 +2323,13 @@ LicheePiNano
 0
 68
 68
+Logic_Voltage_Shifter
+TXB0104_TSSOP14
+Logic Shifter Bi-Directional
+Digital IC
+0
+14
+14
 RF_Connectors
 RF2-03E-T-00-50-G
 
@@ -2330,6 +2337,34 @@ RF2-03E-T-00-50-G
 0
 5
 2
+RJ45_Ethernet_Transformer
+7498011122AR_Eagle_WE-RJ45_rev20a-7498011122AR
+WE-RJ45 LAN TRANSFORMER
+WE-RJ45 LAN TRANSFORMER
+0
+13
+13
+RJ45_Ethernet_Transformer
+7498011122AR_Eagle_WE-RJ45_rev20a-74990101210
+WE-RJ45 LAN TRANSFORMER
+WE-RJ45 LAN TRANSFORMER
+0
+14
+14
+RJ45_Ethernet_Transformer
+LMJ3628844TA753
+
+
+0
+16
+13
+RJ45_Ethernet_Transformer
+RJ-45_LMJ30288115CNL
+
+
+0
+16
+13
 Resistor_Smd_0402
 0R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
