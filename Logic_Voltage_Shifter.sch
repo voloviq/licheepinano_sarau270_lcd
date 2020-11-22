@@ -253,13 +253,13 @@ Wire Wire Line
 	5950 4800 5850 4800
 Text HLabel 8900 6350 2    50   Input ~ 0
 OE_SIGNAL
-Text HLabel 8900 5400 2    50   Input ~ 0
+Text HLabel 8900 5400 2    50   BiDi ~ 0
 SIG1_LOW_PART
-Text HLabel 8900 5600 2    50   Input ~ 0
+Text HLabel 8900 5600 2    50   BiDi ~ 0
 SIG2_LOW_PART
-Text HLabel 8900 5800 2    50   Input ~ 0
+Text HLabel 8900 5800 2    50   BiDi ~ 0
 SIG3_LOW_PART
-Text HLabel 8900 6000 2    50   Input ~ 0
+Text HLabel 8900 6000 2    50   BiDi ~ 0
 SIG4_LOW_PART
 Wire Wire Line
 	7500 5400 7300 5400
@@ -269,12 +269,12 @@ Wire Wire Line
 	7500 5800 7300 5800
 Wire Wire Line
 	7500 6000 7300 6000
-Text HLabel 7300 6000 0    50   Input ~ 0
+Text HLabel 7300 6000 0    50   BiDi ~ 0
 SIG4_HIGH_PART
-Text HLabel 7300 5800 0    50   Input ~ 0
+Text HLabel 7300 5800 0    50   BiDi ~ 0
 SIG3_HIGH_PART
-Text HLabel 7300 5600 0    50   Input ~ 0
+Text HLabel 7300 5600 0    50   BiDi ~ 0
 SIG2_HIGH_PART
-Text HLabel 7300 5400 0    50   Input ~ 0
+Text HLabel 7300 5400 0    50   BiDi ~ 0
 SIG1_HIGH_PART
 $EndSCHEMATC

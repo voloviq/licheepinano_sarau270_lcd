@@ -2075,7 +2075,7 @@ Text HLabel 14250 2200 2    50   Output ~ 0
 POWER_OUT_1V8
 Wire Wire Line
 	14150 2200 14250 2200
-Text HLabel 14250 2350 2    50   Input ~ 0
+Text HLabel 14250 2350 2    50   Output ~ 0
 POWER_OUT_GND
 Wire Wire Line
 	14150 2350 14250 2350
