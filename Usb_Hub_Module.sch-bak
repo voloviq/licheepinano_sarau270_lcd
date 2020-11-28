@@ -458,10 +458,6 @@ F 3 "" H 6600 4700 60  0000 C CNN
 	1    6600 4700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6600 4300 6600 4200
-Wire Wire Line
-	6600 4200 7050 4200
 $Comp
 L power:GND #PWR?
 U 1 1 5C54EC5A
@@ -757,7 +753,6 @@ Wire Wire Line
 	6900 3600 6900 3800
 Wire Wire Line
 	9050 5350 9550 5350
-Connection ~ 6900 3800
 $Comp
 L Capacitors_Smd0402:100nF_0402 C5
 U 1 1 5CCB02DD
@@ -1267,27 +1262,6 @@ F 13 "0805_EMI" H 11250 5350 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Inductors:LCBA-601 L1
-U 1 1 5CCA7426
-P 6600 4000
-F 0 "L1" H 6542 3954 50  0000 R CNN
-F 1 "LCBA-601" H 6542 4045 50  0000 R CNN
-F 2 "Inductors:LCBA-601" H 7350 4650 50  0001 C CNN
-F 3 "Inductors/Components_Documentation/LCBA-201.pdf" H 7350 4650 50  0001 C CNN
-F 4 "	FERROCORE" H 6600 4000 50  0001 C CNN "Manufacturer"
-F 5 "LCBA-601" H 6600 4000 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 6600 4000 50  0001 C CNN "Supplier"
-F 7 "LCBA-601" H 6600 4000 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/lcba-601/ferryty-koraliki/ferrocore/" H 6600 4000 50  0001 C CNN "URL"
-F 9 "0,13593" H 6600 4000 50  0001 C CNN "Price@1pc"
-F 10 "0,09858" H 6600 4000 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 6600 4000 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 6600 4000 50  0001 C CNN "Variant"
-F 13 "0603" H 6600 4000 50  0001 C CNN "Package"
-	1    6600 4000
-	-1   0    0    1   
-$EndComp
-$Comp
 L Inductors:LCBA-601 L3
 U 1 1 5CCAD96C
 P 12000 2500
@@ -1576,8 +1550,6 @@ POWER_IN_VBUS
 Wire Wire Line
 	1950 2400 1850 2400
 Wire Wire Line
-	6250 3800 6900 3800
-Wire Wire Line
 	6600 9100 5950 9100
 Connection ~ 6600 9100
 Wire Wire Line
@@ -1652,4 +1624,36 @@ Wire Wire Line
 	11400 8400 11300 8400
 Wire Wire Line
 	11300 8500 11400 8500
+$Comp
+L Inductors:LCBA-601 L1
+U 1 1 5CCA7426
+P 6600 4000
+F 0 "L1" H 6542 3954 50  0000 R CNN
+F 1 "LCBA-601" H 6542 4045 50  0000 R CNN
+F 2 "Inductors:LCBA-601" H 7350 4650 50  0001 C CNN
+F 3 "Inductors/Components_Documentation/LCBA-201.pdf" H 7350 4650 50  0001 C CNN
+F 4 "	FERROCORE" H 6600 4000 50  0001 C CNN "Manufacturer"
+F 5 "LCBA-601" H 6600 4000 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6600 4000 50  0001 C CNN "Supplier"
+F 7 "LCBA-601" H 6600 4000 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/lcba-601/ferryty-koraliki/ferrocore/" H 6600 4000 50  0001 C CNN "URL"
+F 9 "0,13593" H 6600 4000 50  0001 C CNN "Price@1pc"
+F 10 "0,09858" H 6600 4000 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 6600 4000 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 6600 4000 50  0001 C CNN "Variant"
+F 13 "0603" H 6600 4000 50  0001 C CNN "Package"
+	1    6600 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 4200 6600 4200
+Wire Wire Line
+	6600 4200 6600 4300
+Connection ~ 6600 4200
+Wire Wire Line
+	6900 3800 6600 3800
+Connection ~ 6900 3800
+Wire Wire Line
+	6250 3800 6600 3800
+Connection ~ 6600 3800
 $EndSCHEMATC

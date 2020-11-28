@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 10
+Sheet 5 10
 Title "GPS UBlox Max M8C"
 Date "2020-11-21"
 Rev "V1.0"
@@ -523,26 +523,6 @@ F 12 "0402" H 4350 5050 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_Smd0603:10R_0603_1% R21
-U 1 1 5CD4B0B7
-P 8500 6200
-F 0 "R21" V 8600 6200 50  0000 C CNN
-F 1 "10R/1%" V 8400 6200 50  0000 C CNN
-F 2 "Resistor_Smd_0603:10R_0603" H 8750 5900 50  0001 C CNN
-F 3 "Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf" H 8750 5900 50  0001 C CNN
-F 4 "ROYAL OHM" H 8500 6200 50  0001 C CNN "Manufacturer"
-F 5 "0603SAF100JT5E" H 8500 6200 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 8500 6200 50  0001 C CNN "Supplier"
-F 7 "SMD0603-10R-1%" H 8500 6200 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/smd0603-10r-1%2525/rezystory-smd-0603/royal-ohm/0603saf100jt5e/" H 8500 6200 50  0001 C CNN "URL"
-F 9 "0,06200" H 8500 6200 50  0001 C CNN "Price@1pc"
-F 10 "0,01694" H 8500 6200 50  0001 C CNN "Price@1000pcs"
-F 11 "-basic,+full,-minipcie" H 8500 6200 50  0001 C CNN "Variant"
-F 12 "0603" H 8500 6200 50  0001 C CNN "Package"
-	1    8500 6200
-	0    1    1    0   
-$EndComp
-$Comp
 L Resistors_Smd0402:10k_0402 R19
 U 1 1 5CD565F4
 P 4350 5550
@@ -677,4 +657,23 @@ Text Label 8900 5800 0    50   ~ 0
 1V8
 Text Label 9850 5600 0    50   ~ 0
 1V8
+$Comp
+L Resistors_Smd0402:10R_0402 R21
+U 1 1 5FC68972
+P 8500 6200
+F 0 "R21" V 8400 6200 50  0000 C CNN
+F 1 "10R" V 8500 6200 50  0000 C CNN
+F 2 "Resistor_Smd_0402:10R_0402" H 9000 5750 50  0001 C CNN
+F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 9000 5750 50  0001 C CNN
+F 4 "ROYAL OHM" H 8500 6200 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF100JTCE" H 8500 6200 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 8500 6200 50  0001 C CNN "Supplier"
+F 7 "SMD0402-10R-1%" H 8500 6200 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0402-10r-1%2525/rezystory-smd-0402/royal-ohm/0402wgf100jtce/" H 8500 6200 50  0001 C CNN "URL"
+F 9 "0,03878" H 8500 6200 50  0001 C CNN "Price@1pc"
+F 10 "0,01044" H 8500 6200 50  0001 C CNN "Price@1000pcs"
+F 11 "0402" H 8500 6200 50  0001 C CNN "Package"
+	1    8500 6200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

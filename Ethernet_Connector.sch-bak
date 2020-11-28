@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title "Ethernet Connector Module"
 Date "2020-11-21"
 Rev "V1.0"
@@ -87,165 +87,6 @@ Wire Wire Line
 Wire Wire Line
 	12000 7350 5200 7350
 $Comp
-L Resistors_Smd0603:49R9_0603 R14
-U 1 1 5FC9E5C2
-P 6150 4500
-F 0 "R14" H 6218 4546 50  0000 L CNN
-F 1 "49R9" H 6218 4455 50  0000 L CNN
-F 2 "Resistor_Smd_0603:49R9_0603" H 6150 4500 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf" H 6150 4500 50  0001 C CNN
-F 4 "0603" H 6150 4500 50  0001 C CNN "Package"
-	1    6150 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_Smd0603:49R9_0603 R24
-U 1 1 5FC9F5C2
-P 6800 4500
-F 0 "R24" H 6868 4546 50  0000 L CNN
-F 1 "49R9" H 6868 4455 50  0000 L CNN
-F 2 "Resistor_Smd_0603:49R9_0603" H 6800 4500 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf" H 6800 4500 50  0001 C CNN
-F 4 "0603" H 6800 4500 50  0001 C CNN "Package"
-	1    6800 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_Smd0603:49R9_0603 R25
-U 1 1 5FC9FA7B
-P 7450 4500
-F 0 "R25" H 7518 4546 50  0000 L CNN
-F 1 "49R9" H 7518 4455 50  0000 L CNN
-F 2 "Resistor_Smd_0603:49R9_0603" H 7450 4500 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf" H 7450 4500 50  0001 C CNN
-F 4 "0603" H 7450 4500 50  0001 C CNN "Package"
-	1    7450 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_Smd0603:49R9_0603 R26
-U 1 1 5FC9FAF6
-P 8100 4500
-F 0 "R26" H 8168 4546 50  0000 L CNN
-F 1 "49R9" H 8168 4455 50  0000 L CNN
-F 2 "Resistor_Smd_0603:49R9_0603" H 8100 4500 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf" H 8100 4500 50  0001 C CNN
-F 4 "0603" H 8100 4500 50  0001 C CNN "Package"
-	1    8100 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_Smd0603:10R_0603_1% R27
-U 1 1 5FCA0E68
-P 8750 4500
-F 0 "R27" H 8818 4546 50  0000 L CNN
-F 1 "10R/1%" H 8818 4455 50  0000 L CNN
-F 2 "Resistor_Smd_0603:10R_0603" H 9000 4200 50  0001 C CNN
-F 3 "Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf" H 9000 4200 50  0001 C CNN
-F 4 "ROYAL OHM" H 8750 4500 50  0001 C CNN "Manufacturer"
-F 5 "0603SAF100JT5E" H 8750 4500 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 8750 4500 50  0001 C CNN "Supplier"
-F 7 "SMD0603-10R-1%" H 8750 4500 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/smd0603-10r-1%2525/rezystory-smd-0603/royal-ohm/0603saf100jt5e/" H 8750 4500 50  0001 C CNN "URL"
-F 9 "0,06200" H 8750 4500 50  0001 C CNN "Price@1pc"
-F 10 "0,01694" H 8750 4500 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 8750 4500 50  0001 C CNN "Developer"
-F 12 "0603" H 8750 4500 50  0001 C CNN "Package"
-F 13 "C269702" H 8750 4500 50  0001 C CNN "LCSC Part # (optional)"
-	1    8750 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitors_Smd0603:22nF_0603 C48
-U 1 1 5FCA2016
-P 9050 6150
-F 0 "C48" H 9181 6196 50  0000 L CNN
-F 1 "22nF/50V" H 9181 6105 50  0000 L CNN
-F 2 "Capacitors_Smd_0603:22nF_0603" H 9450 5800 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/6a5ad7ac81542ad65ce1ca82bcd21ffa/vjw1bcbascomseries.pdf" H 9450 5800 50  0001 C CNN
-F 4 "VISHAY" H 9050 6150 50  0001 C CNN "Manufacturer"
-F 5 "VJ0603Y223KXACW1BC" H 9050 6150 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 9050 6150 50  0001 C CNN "Supplier"
-F 7 "VJ0603Y223KXACW1BC" H 9050 6150 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/vj0603y223kxacw1bc/kondensatory-mlcc-smd-0603/vishay/" H 9050 6150 50  0001 C CNN "URL"
-F 9 "0,07876" H 9050 6150 50  0001 C CNN "Price@100pc"
-F 10 "0,03045" H 9050 6150 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 9050 6150 50  0001 C CNN "Developer"
-F 12 "0603" H 9050 6150 50  0001 C CNN "Package"
-F 13 "C194074" H 9050 6150 50  0001 C CNN "LCSC Part # (optional)"
-	1    9050 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitors_Smd0603:22nF_0603 C49
-U 1 1 5FCA3060
-P 9700 6150
-F 0 "C49" H 9569 6104 50  0000 R CNN
-F 1 "22nF/50V" H 9569 6195 50  0000 R CNN
-F 2 "Capacitors_Smd_0603:22nF_0603" H 10100 5800 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/6a5ad7ac81542ad65ce1ca82bcd21ffa/vjw1bcbascomseries.pdf" H 10100 5800 50  0001 C CNN
-F 4 "VISHAY" H 9700 6150 50  0001 C CNN "Manufacturer"
-F 5 "VJ0603Y223KXACW1BC" H 9700 6150 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 9700 6150 50  0001 C CNN "Supplier"
-F 7 "VJ0603Y223KXACW1BC" H 9700 6150 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/vj0603y223kxacw1bc/kondensatory-mlcc-smd-0603/vishay/" H 9700 6150 50  0001 C CNN "URL"
-F 9 "0,07876" H 9700 6150 50  0001 C CNN "Price@100pc"
-F 10 "0,03045" H 9700 6150 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 9700 6150 50  0001 C CNN "Developer"
-F 12 "0603" H 9700 6150 50  0001 C CNN "Package"
-F 13 "C194074" H 9700 6150 50  0001 C CNN "LCSC Part # (optional)"
-	1    9700 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Capacitors_Smd0603:15pF_0603 C44
-U 1 1 5FCA4349
-P 6150 6150
-F 0 "C44" H 6281 6196 50  0000 L CNN
-F 1 "15pF/50V" H 6281 6105 50  0000 L CNN
-F 2 "Capacitors_Smd_0603:15pF_0603" H 6150 6150 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 6150 6150 50  0001 C CNN
-F 4 "0603" H 6150 6150 50  0001 C CNN "Package"
-	1    6150 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitors_Smd0603:15pF_0603 C45
-U 1 1 5FCA51F8
-P 6800 6150
-F 0 "C45" H 6931 6196 50  0000 L CNN
-F 1 "15pF/50V" H 6931 6105 50  0000 L CNN
-F 2 "Capacitors_Smd_0603:15pF_0603" H 6800 6150 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 6800 6150 50  0001 C CNN
-F 4 "0603" H 6800 6150 50  0001 C CNN "Package"
-	1    6800 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitors_Smd0603:15pF_0603 C46
-U 1 1 5FCA5683
-P 7450 6150
-F 0 "C46" H 7581 6196 50  0000 L CNN
-F 1 "15pF/50V" H 7581 6105 50  0000 L CNN
-F 2 "Capacitors_Smd_0603:15pF_0603" H 7450 6150 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 7450 6150 50  0001 C CNN
-F 4 "0603" H 7450 6150 50  0001 C CNN "Package"
-	1    7450 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitors_Smd0603:15pF_0603 C47
-U 1 1 5FCA5778
-P 8100 6150
-F 0 "C47" H 8231 6196 50  0000 L CNN
-F 1 "15pF/50V" H 8231 6105 50  0000 L CNN
-F 2 "Capacitors_Smd_0603:15pF_0603" H 8100 6150 50  0001 C CNN
-F 3 "/home/mw/kicad_library/Schematic/Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 8100 6150 50  0001 C CNN
-F 4 "0603" H 8100 6150 50  0001 C CNN "Package"
-	1    8100 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0148
 U 1 1 5FCA9EDB
 P 6150 6450
@@ -295,8 +136,6 @@ F 3 "" H 8100 6450 60  0000 C CNN
 	1    8100 6450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 6350 8100 6450
 Wire Wire Line
 	6150 5950 6150 5600
 Connection ~ 6150 5600
@@ -438,4 +277,193 @@ F 3 "" H 5300 4300 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5200 4300 5300 4300
+$Comp
+L Capacitors_Smd0402:15pF_0402 C44
+U 1 1 5FC37C16
+P 6150 6150
+F 0 "C44" H 6281 6196 50  0000 L CNN
+F 1 "15pF/50V" H 6281 6105 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:15pF_0402" H 6450 5900 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 6450 5900 50  0001 C CNN
+F 4 "MURATA" H 6150 6150 50  0001 C CNN "Manufacturer"
+F 5 "GRM1555C1H150JA01D" H 6150 6150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6150 6150 50  0001 C CNN "Supplier"
+F 7 "GRM1555C1H150JA01D" H 6150 6150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/grm1555c1h150ja01d/kondensatory-mlcc-smd-0402/murata/" H 6150 6150 50  0001 C CNN "URL"
+F 9 "0,03930" H 6150 6150 50  0001 C CNN "Price@1pc"
+F 10 "0,01366" H 6150 6150 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 6150 6150 50  0001 C CNN "Developer"
+F 12 "0402" H 6150 6150 50  0001 C CNN "Package"
+	1    6150 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 6350 8100 6450
+$Comp
+L Capacitors_Smd0402:15pF_0402 C47
+U 1 1 5FC3B38B
+P 8100 6150
+F 0 "C47" H 8231 6196 50  0000 L CNN
+F 1 "15pF/50V" H 8231 6105 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:15pF_0402" H 8400 5900 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 8400 5900 50  0001 C CNN
+F 4 "MURATA" H 8100 6150 50  0001 C CNN "Manufacturer"
+F 5 "GRM1555C1H150JA01D" H 8100 6150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 8100 6150 50  0001 C CNN "Supplier"
+F 7 "GRM1555C1H150JA01D" H 8100 6150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/grm1555c1h150ja01d/kondensatory-mlcc-smd-0402/murata/" H 8100 6150 50  0001 C CNN "URL"
+F 9 "0,03930" H 8100 6150 50  0001 C CNN "Price@1pc"
+F 10 "0,01366" H 8100 6150 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 8100 6150 50  0001 C CNN "Developer"
+F 12 "0402" H 8100 6150 50  0001 C CNN "Package"
+	1    8100 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0402:15pF_0402 C46
+U 1 1 5FC3C96A
+P 7450 6150
+F 0 "C46" H 7581 6196 50  0000 L CNN
+F 1 "15pF/50V" H 7581 6105 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:15pF_0402" H 7750 5900 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 7750 5900 50  0001 C CNN
+F 4 "MURATA" H 7450 6150 50  0001 C CNN "Manufacturer"
+F 5 "GRM1555C1H150JA01D" H 7450 6150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 7450 6150 50  0001 C CNN "Supplier"
+F 7 "GRM1555C1H150JA01D" H 7450 6150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/grm1555c1h150ja01d/kondensatory-mlcc-smd-0402/murata/" H 7450 6150 50  0001 C CNN "URL"
+F 9 "0,03930" H 7450 6150 50  0001 C CNN "Price@1pc"
+F 10 "0,01366" H 7450 6150 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 7450 6150 50  0001 C CNN "Developer"
+F 12 "0402" H 7450 6150 50  0001 C CNN "Package"
+	1    7450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0402:15pF_0402 C45
+U 1 1 5FC3DEFF
+P 6800 6150
+F 0 "C45" H 6931 6196 50  0000 L CNN
+F 1 "15pF/50V" H 6931 6105 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:15pF_0402" H 7100 5900 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 7100 5900 50  0001 C CNN
+F 4 "MURATA" H 6800 6150 50  0001 C CNN "Manufacturer"
+F 5 "GRM1555C1H150JA01D" H 6800 6150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6800 6150 50  0001 C CNN "Supplier"
+F 7 "GRM1555C1H150JA01D" H 6800 6150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/grm1555c1h150ja01d/kondensatory-mlcc-smd-0402/murata/" H 6800 6150 50  0001 C CNN "URL"
+F 9 "0,03930" H 6800 6150 50  0001 C CNN "Price@1pc"
+F 10 "0,01366" H 6800 6150 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 6800 6150 50  0001 C CNN "Developer"
+F 12 "0402" H 6800 6150 50  0001 C CNN "Package"
+	1    6800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0402:49R9_0402_1% R26
+U 1 1 5FC41AC0
+P 8100 4500
+F 0 "R26" H 8168 4546 50  0000 L CNN
+F 1 "49R9/1%" H 8168 4455 50  0000 L CNN
+F 2 "Resistor_Smd_0402:49R9_0402" H 8550 4050 50  0001 C CNN
+F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Resistors/Smd_0402/Components_Documentation/crcw0402_dbc.pdf" H 8550 4050 50  0001 C CNN
+F 4 "0402" H 8100 4500 50  0001 C CNN "Package"
+	1    8100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0402:49R9_0402_1% R14
+U 1 1 5FC43C49
+P 6150 4500
+F 0 "R14" H 6218 4546 50  0000 L CNN
+F 1 "49R9/1%" H 6218 4455 50  0000 L CNN
+F 2 "Resistor_Smd_0402:49R9_0402" H 6600 4050 50  0001 C CNN
+F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Resistors/Smd_0402/Components_Documentation/crcw0402_dbc.pdf" H 6600 4050 50  0001 C CNN
+F 4 "0402" H 6150 4500 50  0001 C CNN "Package"
+	1    6150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0402:49R9_0402_1% R24
+U 1 1 5FC451EE
+P 6800 4500
+F 0 "R24" H 6868 4546 50  0000 L CNN
+F 1 "49R9/1%" H 6868 4455 50  0000 L CNN
+F 2 "Resistor_Smd_0402:49R9_0402" H 7250 4050 50  0001 C CNN
+F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Resistors/Smd_0402/Components_Documentation/crcw0402_dbc.pdf" H 7250 4050 50  0001 C CNN
+F 4 "0402" H 6800 4500 50  0001 C CNN "Package"
+	1    6800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0402:49R9_0402_1% R25
+U 1 1 5FC4670D
+P 7450 4500
+F 0 "R25" H 7518 4546 50  0000 L CNN
+F 1 "49R9/1%" H 7518 4455 50  0000 L CNN
+F 2 "Resistor_Smd_0402:49R9_0402" H 7900 4050 50  0001 C CNN
+F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Resistors/Smd_0402/Components_Documentation/crcw0402_dbc.pdf" H 7900 4050 50  0001 C CNN
+F 4 "0402" H 7450 4500 50  0001 C CNN "Package"
+	1    7450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0402:10R_0402 R27
+U 1 1 5FC4910A
+P 8750 4500
+F 0 "R27" H 8818 4546 50  0000 L CNN
+F 1 "10R" H 8818 4455 50  0000 L CNN
+F 2 "Resistor_Smd_0402:10R_0402" H 9250 4050 50  0001 C CNN
+F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 9250 4050 50  0001 C CNN
+F 4 "ROYAL OHM" H 8750 4500 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF100JTCE" H 8750 4500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 8750 4500 50  0001 C CNN "Supplier"
+F 7 "SMD0402-10R-1%" H 8750 4500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0402-10r-1%2525/rezystory-smd-0402/royal-ohm/0402wgf100jtce/" H 8750 4500 50  0001 C CNN "URL"
+F 9 "0,03878" H 8750 4500 50  0001 C CNN "Price@1pc"
+F 10 "0,01044" H 8750 4500 50  0001 C CNN "Price@1000pcs"
+F 11 "0402" H 8750 4500 50  0001 C CNN "Package"
+	1    8750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0402:22nF_0402 C49
+U 1 1 5FC5992D
+P 9700 6150
+F 0 "C49" H 9831 6196 50  0000 L CNN
+F 1 "22nF/25V" H 9831 6105 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:22nF_0402" H 9850 6000 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Murata Capacitors.pdf" H 9850 6000 50  0001 C CNN
+F 4 "MURATA" H 9700 6150 50  0001 C CNN "Manufacturer"
+F 5 "GRM155R71E223KA61D" H 9700 6150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 9700 6150 50  0001 C CNN "Supplier"
+F 7 "GRM155R71E223KA61D" H 9700 6150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/grm155r71e223ka61d/kondensatory-mlcc-smd-0402/murata/" H 9700 6150 50  0001 C CNN "URL"
+F 9 "0,04490" H 9700 6150 50  0001 C CNN "Price@1pc"
+F 10 "0,01637" H 9700 6150 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 9700 6150 50  0001 C CNN "Developer"
+F 12 "0402" H 9700 6150 50  0001 C CNN "Package"
+	1    9700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0402:22nF_0402 C48
+U 1 1 5FC5B39A
+P 9050 6150
+F 0 "C48" H 9181 6196 50  0000 L CNN
+F 1 "22nF/25V" H 9181 6105 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:22nF_0402" H 9200 6000 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Murata Capacitors.pdf" H 9200 6000 50  0001 C CNN
+F 4 "MURATA" H 9050 6150 50  0001 C CNN "Manufacturer"
+F 5 "GRM155R71E223KA61D" H 9050 6150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 9050 6150 50  0001 C CNN "Supplier"
+F 7 "GRM155R71E223KA61D" H 9050 6150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/grm155r71e223ka61d/kondensatory-mlcc-smd-0402/murata/" H 9050 6150 50  0001 C CNN "URL"
+F 9 "0,04490" H 9050 6150 50  0001 C CNN "Price@1pc"
+F 10 "0,01637" H 9050 6150 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 9050 6150 50  0001 C CNN "Developer"
+F 12 "0402" H 9050 6150 50  0001 C CNN "Package"
+	1    9050 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
