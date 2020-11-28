@@ -86,6 +86,33 @@ X ~ 2 0 -200 176 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitors_Smd0402_1uF_0402
+#
+DEF Capacitors_Smd0402_1uF_0402 C 0 40 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "Capacitors_Smd0402_1uF_0402" 250 -100 50 H V C CNN
+F2 "" 350 -450 50 H I C CNN
+F3 "" 350 -450 50 H I C CNN
+F4 "SAMSUNG" 0 0 50 H I C CNN "Manufacturer"
+F5 "CL05A105KP5NNNC" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "CL05A105KP5NNNC" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cl05a105kp5nnnc/kondensatory-mlcc-smd-0402/samsung/" 0 0 50 H I C CNN "URL"
+F9 "0,05399" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,02535" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+F12 "0402" 0 0 50000 H I C CNN "Package"
+$FPLIST
+ 1uF_0402
+$ENDFPLIST
+DRAW
+P 3 1 1 12 100 -25 -100 -25 -100 -25 N
+P 3 1 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitors_Smd0402_30pF_0402
 #
 DEF Capacitors_Smd0402_30pF_0402 C 0 40 N N 1 F N
@@ -512,6 +539,25 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Diodes_NSR0530H-D
+#
+DEF Diodes_NSR0530H-D D 0 40 N N 1 F N
+F0 "D" 0 200 50 H V C CNN
+F1 "Diodes_NSR0530H-D" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ NSR0530H-D_SOD323
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -50 50 -50 -50 N
+P 3 1 1 0 -50 50 50 0 -50 -50 f
+P 6 1 1 8 75 25 75 50 50 50 50 -50 25 -50 25 -25 N
+X K 1 200 0 150 L 40 40 1 1 P
+X A 2 -200 0 150 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Diodes_PESD0402-140
 #
 DEF Diodes_PESD0402-140 D 0 40 N N 1 F N
@@ -861,6 +907,63 @@ X PF5/SDC0_D2/DBG_CK/PWM1 9 -1850 -900 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Linear_Regulators_AP2127K-2.8TRG1
+#
+DEF Linear_Regulators_AP2127K-2.8TRG1 U 0 40 Y Y 1 F N
+F0 "U" 0 250 60 H V C CNN
+F1 "Linear_Regulators_AP2127K-2.8TRG1" 0 350 60 H V C CNN
+F2 "" 0 -50 60 H V C CNN
+F3 "" 0 -50 60 H I C CNN
+F4 "Diodes Incorporated" 0 0 50 H I C CNN "Manufacturer"
+F5 "AP2127K-2.8TRG1" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "AP2127K-2.8TRG1" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/ap2127k-2.8trg1/stabilizatory-napiecia-nieregulowane-ldo/diodes-incorporated/" 0 0 50 H I C CNN "URL"
+F9 "0,63462" 0 0 50 H I C CNN "Price@5pcs"
+F10 "0,25838" 0 0 50 H I C CNN "Price@500pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "SOT-23(SOT-23-3)" 0 0 50 H I C CNN "Package"
+F13 "C236686" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ AP2127K-2.8TRG1_SOT23
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 0 N
+X Adj(GND) 1 0 -500 300 U 60 31 1 1 P
+X Vout 2 500 100 300 L 60 39 1 1 P
+X Vin 3 -500 100 300 R 60 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Linear_Regulators_LM317DCYR
+#
+DEF Linear_Regulators_LM317DCYR U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "Linear_Regulators_LM317DCYR" 0 250 50 H V C CNN
+F2 "" 50 -500 50 H I C CNN
+F3 "" 50 -500 50 H I C CNN
+F4 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer"
+F5 "LM317DCYR" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier"
+F7 "595-LM317DCYR" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/ProductDetail/Texas-Instruments/LM317DCYR?qs=YhsVCygOPE0H9jB5Yaa05Q%3D%3D" 0 0 50 H I C CNN "URL"
+F9 "2,24" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,867" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "SOT-223-4" 0 0 50 H I C CNN "Package"
+F13 "C51466" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ LM317DCYR_SOT223
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 1 1 0 f
+X ADJ 1 0 -500 300 U 60 39 1 1 I
+X VOUT 2 500 0 300 L 60 39 1 1 w
+X VIN 3 -500 100 300 R 60 39 1 1 W
+X VOUT 4 500 100 300 L 60 39 1 1 w
+ENDDRAW
+ENDDEF
+#
 # Logic_Voltage_Shifter_TXB0104
 #
 DEF Logic_Voltage_Shifter_TXB0104 U 0 0 Y Y 1 F N
@@ -1177,6 +1280,31 @@ X ~ 2 0 -200 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_Smd0402_1k5_0402
+#
+DEF Resistors_Smd0402_1k5_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistors_Smd0402_1k5_0402" -100 0 50 V V C CNN
+F2 "" 250 -250 300 H I C CNN
+F3 "" 250 -250 300 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0402WGF1501TCE" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0402-1K5-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0402-1k5-1%2525/rezystory-smd-0402/royal-ohm/0402wgf1501tce/" 0 0 50 H I C CNN "URL"
+F9 "0,03878" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,01044" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "0402" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 1k5_0402
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_Smd0402_2k7_0402
 #
 DEF Resistors_Smd0402_2k7_0402 R 0 40 N N 1 F N
@@ -1194,6 +1322,32 @@ F10 "0,02403" 0 0 50 H I C CNN "Price@1000pcs"
 F11 "0402" 0 0 50 H I C CNN "Package"
 $FPLIST
  2k7_0402
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0402_3k3_0402
+#
+DEF Resistors_Smd0402_3k3_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistors_Smd0402_3k3_0402" -100 0 50 V V C CNN
+F2 "" -50 400 50 H I C CNN
+F3 "" -50 400 50 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0402WGF3301TCE" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0402-3K3-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0402-3k3-1%2525/rezystory-smd-0402/royal-ohm/0402wgf3301tce/" 0 0 50 H I C CNN "URL"
+F9 "0,03858" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,01038" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+F12 "0402" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 3k3_0402
 $ENDFPLIST
 DRAW
 S -40 150 40 -150 1 1 0 f
@@ -1868,20 +2022,6 @@ DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 50 0 0 N
 X 3V3 1 0 0 0 U 30 30 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# power_3V8
-#
-DEF power_3V8 Pwr 0 40 N N 1 F P
-F0 "Pwr" 0 200 30 H I C CNN
-F1 "power_3V8" 0 150 30 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 1 1 0 N
-P 2 1 1 0 0 50 0 0 N
-X 3V8 1 0 0 0 U 30 30 1 0 W N
 ENDDRAW
 ENDDEF
 #

@@ -1,4 +1,4 @@
-948828553821282
+1004927343241885
 Ant_Microdis
 MEE04
 
@@ -2330,6 +2330,251 @@ LicheePiNano
 0
 68
 68
+Linear
+1711S12_SOT23
+
+SOT23_5
+0
+5
+5
+Linear
+1755S18_SOT223
+LDO 1V8 Linear Regulator
+LDO Regulator
+0
+4
+3
+Linear
+1755S33_SOT223
+LDO 3V3 Linear Regulator
+LDO Regulator
+0
+4
+3
+Linear
+AP2127K-2.8TRG1_SOT23
+LDO Regulator
+DC_DC_Regulator
+0
+3
+3
+Linear
+AP2210K-5_0TRG1
+
+
+0
+5
+5
+Linear
+APE1117AG-18-HF-SOT89
+APE1117AG-18-HF
+LDO Regulator
+0
+4
+3
+Linear
+APE1117AG-33-HF-SOT89
+APE1117AG-33-HF
+LDO Regulator
+0
+4
+3
+Linear
+APE8800_SOT23
+LDO Regulator
+DC_DC_Regulator
+0
+3
+3
+Linear
+DIO5158XM8
+
+
+0
+16
+9
+Linear
+HT7318_SOT89
+SOT-89-3
+SOT-89-3
+0
+6
+3
+Linear
+HT7333_SOT89
+SOT-89-3
+SOT-89-3
+0
+6
+3
+Linear
+IFX25001TFV50ATMA1_DPAK
+MOS boitier DPACK G-D-S
+CMD DPACK
+0
+6
+3
+Linear
+LD39200PU33R
+DFN6 3*3 MM, 0.95 PITCH; CASE 506AH-01 (see ON Semiconductor 506AH.PDF)
+DFN 0.95
+0
+13
+7
+Linear
+LDL1117S33R_SOT223
+LDO Regulator
+Voltage Regulator
+0
+4
+3
+Linear
+LM217_TO-220_CASE_3Pin_Horizontal
+Lm217_To-220_Horizontal
+Regulator
+0
+4
+3
+Linear
+LM317DCYR_SOT223
+Linear Adjustable Regulator
+LDO Regulator
+0
+4
+4
+Linear
+LM7805_TO-220_CASE_3Pin_Horizontal
+Lm7805_To-220_Horizontal
+Regulator
+0
+4
+3
+Linear
+LM7805_TO-220_CASE_3Pin_Horizontal_Cooling_1
+Lm7805_To-220_Horizontal with cooling
+Regulator
+0
+4
+3
+Linear
+LM7805_TO92
+TO-92 leads
+DC-DC Linear Regulator
+0
+3
+3
+Linear
+LP2951CM-3.3-SOIC8
+SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+13
+9
+Linear
+MC78LC33HT1G
+3V3 LDO Regulator On Semi
+LDO Regulator
+0
+4
+3
+Linear
+MCP1700T-3302E_MB_SOT89
+SOT-89-3
+SOT-89-3
+0
+6
+3
+Linear
+MCP1703T-3302E_SOT23
+MCP1703T-3302E
+DC-DC LDO Linear Regulator
+0
+3
+3
+Linear
+MCP1755S18_Sot23_5
+
+SOT23_5
+0
+5
+5
+Linear
+MCP1755S33_Sot23_5
+
+SOT23_5
+0
+5
+5
+Linear
+MCP1812BT-033_TT
+
+Bipolar Transistor
+0
+3
+3
+Linear
+MCP1825_SOT223
+LDO Regulator
+Voltage Regulator
+0
+4
+4
+Linear
+MCP1826_SOT223
+LDO Regulator
+Voltage Regulator
+0
+4
+4
+Linear
+MCP73833-AMI
+
+
+0
+14
+11
+Linear
+MIC5504-1_8YM5_SOT23-5
+
+SOT23_5
+0
+5
+5
+Linear
+NCP708MU330TAG
+
+
+0
+16
+7
+Linear
+RT9053AZQW
+Low Dropout, 400mA Adjustable Linear Regulator
+LDO IC
+0
+14
+7
+Linear
+RT9069-50GX5-SOT23-5
+
+SOT23_5
+0
+5
+5
+Linear
+TC1014_15_1185_SOT_23_5PIN
+LDO Regulator
+DC_DC_Regulator
+0
+5
+5
+Linear
+TCR2EF28
+
+SOT23_5
+0
+5
+5
 Logic_Voltage_Shifter
 TXB0104_TSSOP14
 Logic Shifter Bi-Directional

@@ -111,10 +111,10 @@ NoConn ~ 9600 5250
 NoConn ~ 9600 5350
 NoConn ~ 9600 5450
 $Comp
-L Capacitors_Smd0603:100nF_0603 C?
+L Capacitors_Smd0603:100nF_0603 C52
 U 1 1 5C7B378F
 P 7250 6050
-F 0 "C?" H 7300 6150 50  0000 L CNN
+F 0 "C52" H 7300 6150 50  0000 L CNN
 F 1 "100nF/16V" H 7300 5950 50  0000 L CNN
 F 2 "Capacitors_Smd_0603:100nF_0603" H 7250 6050 60  0001 C CNN
 F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 7381 5959 60  0001 L CNN
@@ -122,10 +122,10 @@ F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 7381 5959 60  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_Smd0603:10uF_0603 C?
+L Capacitors_Smd0603:10uF_0603 C51
 U 1 1 5C7B4149
 P 6950 6050
-F 0 "C?" H 6750 6150 50  0000 L CNN
+F 0 "C51" H 6750 6150 50  0000 L CNN
 F 1 "10uF/16V" H 6550 5950 50  0000 L CNN
 F 2 "Capacitors_Smd_0805:10uF_0805" H 6950 6050 60  0001 C CNN
 F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 7081 5959 60  0001 L CNN
@@ -191,10 +191,10 @@ F 3 "" H 8750 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WiFi_Module:LILY-W132 U?
+L WiFi_Module:LILY-W132 U3
 U 1 1 5C7CDA18
 P 8750 5400
-F 0 "U?" H 9150 4300 50  0000 C CNN
+F 0 "U3" H 9150 4300 50  0000 C CNN
 F 1 "LILY-W132" H 9150 4200 50  0000 C CNN
 F 2 "UBlox_WiFi_Module:LILY_W132" H 8200 6050 50  0001 C CNN
 F 3 "/home/mw/kicad_library/Schematic/WiFi_Module/Components_Documentation/LILY-W1_DataSheet_(UBX-15000203).pdf" H 8200 6050 50  0001 C CNN

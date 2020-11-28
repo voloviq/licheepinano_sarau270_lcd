@@ -24,4 +24,6 @@
   (lib (name Logic_Voltage_Shifter)(type KiCad)(uri ${KISYS3DMOD}/Logic_Voltage_Shifter/Logic_Voltage_Shifter.pretty)(options "")(descr ""))
   (lib (name RJ45_Ethernet_Transformer)(type KiCad)(uri ${KISYS3DMOD}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.pretty)(options "")(descr ""))
   (lib (name UBlox_WiFi_Module)(type KiCad)(uri ${KISYS3DMOD}/WiFi_Module/UBlox/UBlox_WiFi_Module.pretty)(options "")(descr ""))
+  (lib (name Linear)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Linear/Linear.pretty)(options "")(descr ""))
+  (lib (name Capacitors_Smd_0805)(type KiCad)(uri ${KISYS3DMOD}/Capacitors/Smd_0805/Capacitors_Smd_0805.pretty)(options "")(descr ""))
 )
