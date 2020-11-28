@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 8
+Sheet 5 10
 Title "Sara U270 3G Modem"
 Date "2020-11-21"
 Rev "V1.0"

@@ -23,4 +23,5 @@
   (lib (name SimCard_Holders)(type KiCad)(uri ${KISYS3DMOD}/Connectors/SimCard_Holders/SimCard_Holders.pretty)(options "")(descr ""))
   (lib (name Logic_Voltage_Shifter)(type KiCad)(uri ${KISYS3DMOD}/Logic_Voltage_Shifter/Logic_Voltage_Shifter.pretty)(options "")(descr ""))
   (lib (name RJ45_Ethernet_Transformer)(type KiCad)(uri ${KISYS3DMOD}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.pretty)(options "")(descr ""))
+  (lib (name UBlox_WiFi_Module)(type KiCad)(uri ${KISYS3DMOD}/WiFi_Module/UBlox/UBlox_WiFi_Module.pretty)(options "")(descr ""))
 )

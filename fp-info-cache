@@ -1,4 +1,4 @@
-947225842331621
+948828553821282
 Ant_Microdis
 MEE04
 
@@ -4136,3 +4136,10 @@ GPS Module
 0
 18
 18
+UBlox_WiFi_Module
+LILY_W132
+
+Buzzer
+0
+37
+26
