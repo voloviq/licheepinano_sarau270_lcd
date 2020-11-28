@@ -907,19 +907,24 @@ ENDDEF
 #
 # RJ45_Ethernet_Transformer_WE-RJ45_7498011122AR
 #
-DEF RJ45_Ethernet_Transformer_WE-RJ45_7498011122AR T 0 40 Y Y 1 L N
+DEF RJ45_Ethernet_Transformer_WE-RJ45_7498011122AR T 0 40 Y Y 1 F N
 F0 "T" 0 600 45 H V L BNN
 F1 "RJ45_Ethernet_Transformer_WE-RJ45_7498011122AR" -200 -800 45 H V L BNN
 F2 "7498011122AR_Eagle_WE-RJ45_rev20a_7498011122AR" 30 150 20 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "Wurth" 0 0 50 H I C CNN "Manufacturer"
+F5 "7498011122AR" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier"
+F7 "710-7498011122AR" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/ProductDetail/Wurth-Elektronik/7498011122AR?qs=GBLSl2AkiruAAlB45OgRtA%3D%3D" 0 0 50 H I C CNN "URL"
+F9 "40" 0 0 50 H I C CNN "Price@1pc"
+F10 "27,98" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "SMD/SMT" 0 0 50 H I C CNN "Package"
 $FPLIST
- *7498011122AR*
+ WE-RJ45_7498011122AR
 $ENDFPLIST
 DRAW
-T 0 191 213 27 0 1 0 LED1_Y+ Normal 0 C C
-T 0 191 113 27 0 1 0 LED1_Y- Normal 0 C C
-T 0 191 13 27 0 1 0 LED2_G+ Normal 0 C C
-T 0 191 -86 27 0 1 0 LED2_G- Normal 0 C C
 P 2 1 0 0 -300 -450 -300 -600 N
 P 2 1 0 0 -300 -400 -300 500 N
 P 2 1 0 0 -300 500 250 500 N
