@@ -216,175 +216,175 @@ Text Label 7300 8050 2    50   ~ 10
 SIM_IO
 Text Label 7300 8150 2    50   ~ 10
 SIM_RST
-Text Label 3950 9450 0    50   ~ 10
+Text Label 3950 8450 0    50   ~ 10
 VSIM
-Text Label 3950 9350 0    50   ~ 10
+Text Label 3950 8350 0    50   ~ 10
 SIM_RST
-Text Label 2600 9450 2    50   ~ 10
+Text Label 2600 8450 2    50   ~ 10
 SIM_IO
-Text Label 3950 9250 0    50   ~ 10
+Text Label 3950 8250 0    50   ~ 10
 SIM_CLK
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABB5E
-P 4500 10200
+P 4500 9200
 AR Path="/5BF6704F/5C4ABB5E" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABB5E" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABB5E" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABB5E" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 4500 10300 30  0001 C CNN
-F 1 "GND" H 4500 10100 30  0001 C CNN
-F 2 "" H 4500 10200 60  0000 C CNN
-F 3 "" H 4500 10200 60  0000 C CNN
-	1    4500 10200
+F 0 "#PWR051" H 4500 9300 30  0001 C CNN
+F 1 "GND" H 4500 9100 30  0001 C CNN
+F 2 "" H 4500 9200 60  0000 C CNN
+F 3 "" H 4500 9200 60  0000 C CNN
+	1    4500 9200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABB64
-P 2600 9250
+P 2600 8250
 AR Path="/5BF6704F/5C4ABB64" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABB64" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABB64" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABB64" Ref="#PWR047"  Part="1" 
-F 0 "#PWR047" H 2600 9350 30  0001 C CNN
-F 1 "GND" H 2600 9150 30  0001 C CNN
-F 2 "" H 2600 9250 60  0000 C CNN
-F 3 "" H 2600 9250 60  0000 C CNN
-	1    2600 9250
+F 0 "#PWR047" H 2600 8350 30  0001 C CNN
+F 1 "GND" H 2600 8150 30  0001 C CNN
+F 2 "" H 2600 8250 60  0000 C CNN
+F 3 "" H 2600 8250 60  0000 C CNN
+	1    2600 8250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABB80
-P 4800 10200
+P 4800 9200
 AR Path="/5BF6704F/5C4ABB80" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABB80" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABB80" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABB80" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 4800 10300 30  0001 C CNN
-F 1 "GND" H 4800 10100 30  0001 C CNN
-F 2 "" H 4800 10200 60  0000 C CNN
-F 3 "" H 4800 10200 60  0000 C CNN
-	1    4800 10200
+F 0 "#PWR053" H 4800 9300 30  0001 C CNN
+F 1 "GND" H 4800 9100 30  0001 C CNN
+F 2 "" H 4800 9200 60  0000 C CNN
+F 3 "" H 4800 9200 60  0000 C CNN
+	1    4800 9200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABB86
-P 5100 10200
+P 5100 9200
 AR Path="/5BF6704F/5C4ABB86" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABB86" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABB86" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABB86" Ref="#PWR055"  Part="1" 
-F 0 "#PWR055" H 5100 10300 30  0001 C CNN
-F 1 "GND" H 5100 10100 30  0001 C CNN
-F 2 "" H 5100 10200 60  0000 C CNN
-F 3 "" H 5100 10200 60  0000 C CNN
-	1    5100 10200
+F 0 "#PWR055" H 5100 9300 30  0001 C CNN
+F 1 "GND" H 5100 9100 30  0001 C CNN
+F 2 "" H 5100 9200 60  0000 C CNN
+F 3 "" H 5100 9200 60  0000 C CNN
+	1    5100 9200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABB8C
-P 5400 10200
+P 5400 9200
 AR Path="/5BF6704F/5C4ABB8C" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABB8C" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABB8C" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABB8C" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 5400 10300 30  0001 C CNN
-F 1 "GND" H 5400 10100 30  0001 C CNN
-F 2 "" H 5400 10200 60  0000 C CNN
-F 3 "" H 5400 10200 60  0000 C CNN
-	1    5400 10200
+F 0 "#PWR057" H 5400 9300 30  0001 C CNN
+F 1 "GND" H 5400 9100 30  0001 C CNN
+F 2 "" H 5400 9200 60  0000 C CNN
+F 3 "" H 5400 9200 60  0000 C CNN
+	1    5400 9200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 9450 4500 9450
+	3900 8450 4500 8450
 Wire Wire Line
-	3900 9350 4800 9350
+	3900 8350 4800 8350
 Wire Wire Line
-	3900 9250 5100 9250
+	3900 8250 5100 8250
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABB9D
-P 4500 8350
+P 4500 7350
 AR Path="/5BF6704F/5C4ABB9D" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABB9D" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABB9D" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABB9D" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 4500 8450 30  0001 C CNN
-F 1 "GND" H 4500 8250 30  0001 C CNN
-F 2 "" H 4500 8350 60  0000 C CNN
-F 3 "" H 4500 8350 60  0000 C CNN
-	1    4500 8350
+F 0 "#PWR050" H 4500 7450 30  0001 C CNN
+F 1 "GND" H 4500 7250 30  0001 C CNN
+F 2 "" H 4500 7350 60  0000 C CNN
+F 3 "" H 4500 7350 60  0000 C CNN
+	1    4500 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABBB8
-P 4800 8350
+P 4800 7350
 AR Path="/5BF6704F/5C4ABBB8" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABBB8" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABBB8" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABBB8" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 4800 8450 30  0001 C CNN
-F 1 "GND" H 4800 8250 30  0001 C CNN
-F 2 "" H 4800 8350 60  0000 C CNN
-F 3 "" H 4800 8350 60  0000 C CNN
-	1    4800 8350
+F 0 "#PWR052" H 4800 7450 30  0001 C CNN
+F 1 "GND" H 4800 7250 30  0001 C CNN
+F 2 "" H 4800 7350 60  0000 C CNN
+F 3 "" H 4800 7350 60  0000 C CNN
+	1    4800 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABBBE
-P 5100 8350
+P 5100 7350
 AR Path="/5BF6704F/5C4ABBBE" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABBBE" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABBBE" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABBBE" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 5100 8450 30  0001 C CNN
-F 1 "GND" H 5100 8250 30  0001 C CNN
-F 2 "" H 5100 8350 60  0000 C CNN
-F 3 "" H 5100 8350 60  0000 C CNN
-	1    5100 8350
+F 0 "#PWR054" H 5100 7450 30  0001 C CNN
+F 1 "GND" H 5100 7250 30  0001 C CNN
+F 2 "" H 5100 7350 60  0000 C CNN
+F 3 "" H 5100 7350 60  0000 C CNN
+	1    5100 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C4ABBC4
-P 5400 8350
+P 5400 7350
 AR Path="/5BF6704F/5C4ABBC4" Ref="#PWR?"  Part="1" 
 AR Path="/5BF67117/5C4ABBC4" Ref="#PWR?"  Part="1" 
 AR Path="/5C4ABBC4" Ref="#PWR?"  Part="1" 
 AR Path="/5FB33D69/5C4ABBC4" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 5400 8450 30  0001 C CNN
-F 1 "GND" H 5400 8250 30  0001 C CNN
-F 2 "" H 5400 8350 60  0000 C CNN
-F 3 "" H 5400 8350 60  0000 C CNN
-	1    5400 8350
+F 0 "#PWR056" H 5400 7450 30  0001 C CNN
+F 1 "GND" H 5400 7250 30  0001 C CNN
+F 2 "" H 5400 7350 60  0000 C CNN
+F 3 "" H 5400 7350 60  0000 C CNN
+	1    5400 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 9700 4500 9450
-Connection ~ 4500 9450
+	4500 8700 4500 8450
+Connection ~ 4500 8450
 Wire Wire Line
-	4800 8750 4800 9350
+	4800 7750 4800 8350
 Wire Wire Line
-	5100 9700 5100 9250
+	5100 8700 5100 8250
 Wire Wire Line
-	5400 9700 5400 9000
+	5400 8700 5400 8000
 Wire Wire Line
-	4500 8750 4500 9450
-Connection ~ 4800 9350
+	4500 7750 4500 8450
+Connection ~ 4800 8350
 Wire Wire Line
-	4800 9350 4800 9700
-Connection ~ 5100 9250
+	4800 8350 4800 8700
+Connection ~ 5100 8250
 Wire Wire Line
-	5100 9250 5100 8750
-Connection ~ 5400 9000
+	5100 8250 5100 7750
+Connection ~ 5400 8000
 Wire Wire Line
-	5400 9000 5400 8750
+	5400 8000 5400 7750
 Entry Wire Line
 	5900 8250 6000 8150
 Entry Wire Line
@@ -392,13 +392,13 @@ Entry Wire Line
 Entry Wire Line
 	5900 8050 6000 7950
 Entry Wire Line
-	5800 9450 5900 9350
+	5800 8450 5900 8350
 Entry Wire Line
-	5800 9000 5900 8900
+	5800 8000 5900 7900
 Entry Wire Line
-	5800 9250 5900 9150
+	5800 8250 5900 8150
 Entry Wire Line
-	5800 9350 5900 9250
+	5800 8350 5900 8250
 Entry Wire Line
 	5900 6550 6000 6450
 Text HLabel 3750 6250 0    50   BiDi ~ 10
@@ -739,25 +739,25 @@ MODEM 3G GSM
 Text Label 7300 8250 2    50   ~ 10
 SIM_DET
 Wire Wire Line
-	5400 9000 5800 9000
+	5400 8000 5800 8000
 Wire Wire Line
-	5100 9250 5800 9250
+	5100 8250 5800 8250
 Wire Wire Line
-	4800 9350 5800 9350
+	4800 8350 5800 8350
 Wire Wire Line
-	4500 9450 5800 9450
+	4500 8450 5800 8450
 Wire Wire Line
 	7100 7600 7250 7600
 Text HLabel 6400 5950 0    50   Input ~ 10
 MODEM_PWR_ON
 Wire Wire Line
-	3950 8900 5800 8900
+	3950 7900 5800 7900
 Entry Wire Line
-	5800 8900 5900 8800
-Text Label 3950 8900 0    50   ~ 10
+	5800 7900 5900 7800
+Text Label 3950 7900 0    50   ~ 10
 SIM_DET
 Wire Wire Line
-	3950 8800 3950 8900
+	3950 7800 3950 7900
 Wire Wire Line
 	5100 2450 9700 2450
 Wire Wire Line
@@ -813,10 +813,6 @@ Wire Wire Line
 Connection ~ 12550 6500
 Wire Wire Line
 	12550 6500 13000 6500
-Text Notes 1900 9400 2    200  ~ 40
-SIM
-Wire Notes Line width 20 style solid
-	2000 9000 2000 9600
 $Comp
 L power:GND #PWR?
 U 1 1 5C727E4B
@@ -982,85 +978,85 @@ $EndComp
 $Comp
 L Capacitors_Smd0402:47pF_0402 C23
 U 1 1 5CE0C3F0
-P 4500 8550
-F 0 "C23" H 4400 8800 50  0000 L CNN
-F 1 "47pF/50V" V 4350 8350 50  0000 L CNN
-F 2 "Capacitors_Smd_0402:47pF_0402" H 4550 8300 50  0001 C CNN
-F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 4550 8300 50  0001 C CNN
-F 4 "WALSIN" H 4500 8550 50  0001 C CNN "Manufacturer"
-F 5 "0402N470J500CT" H 4500 8550 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 4500 8550 50  0001 C CNN "Supplier"
-F 7 "0402N470J500CT" H 4500 8550 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 4500 8550 50  0001 C CNN "URL"
-F 9 "0,03400" H 4500 8550 50  0001 C CNN "Price@1pc"
-F 10 "0,01107" H 4500 8550 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 4500 8550 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 4500 8550 50  0001 C CNN "Variant"
-F 13 "0402" H 4500 8550 50  0001 C CNN "Package"
-	1    4500 8550
+P 4500 7550
+F 0 "C23" H 4400 7800 50  0000 L CNN
+F 1 "47pF/50V" V 4350 7350 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:47pF_0402" H 4550 7300 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 4550 7300 50  0001 C CNN
+F 4 "WALSIN" H 4500 7550 50  0001 C CNN "Manufacturer"
+F 5 "0402N470J500CT" H 4500 7550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 4500 7550 50  0001 C CNN "Supplier"
+F 7 "0402N470J500CT" H 4500 7550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 4500 7550 50  0001 C CNN "URL"
+F 9 "0,03400" H 4500 7550 50  0001 C CNN "Price@1pc"
+F 10 "0,01107" H 4500 7550 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 4500 7550 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 4500 7550 50  0001 C CNN "Variant"
+F 13 "0402" H 4500 7550 50  0001 C CNN "Package"
+	1    4500 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Capacitors_Smd0402:47pF_0402 C24
 U 1 1 5CE0E38D
-P 4800 8550
-F 0 "C24" H 4700 8800 50  0000 L CNN
-F 1 "47pF/50V" V 4650 8350 50  0000 L CNN
-F 2 "Capacitors_Smd_0402:47pF_0402" H 4850 8300 50  0001 C CNN
-F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 4850 8300 50  0001 C CNN
-F 4 "WALSIN" H 4800 8550 50  0001 C CNN "Manufacturer"
-F 5 "0402N470J500CT" H 4800 8550 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 4800 8550 50  0001 C CNN "Supplier"
-F 7 "0402N470J500CT" H 4800 8550 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 4800 8550 50  0001 C CNN "URL"
-F 9 "0,03400" H 4800 8550 50  0001 C CNN "Price@1pc"
-F 10 "0,01107" H 4800 8550 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 4800 8550 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 4800 8550 50  0001 C CNN "Variant"
-F 13 "0402" H 4800 8550 50  0001 C CNN "Package"
-	1    4800 8550
+P 4800 7550
+F 0 "C24" H 4700 7800 50  0000 L CNN
+F 1 "47pF/50V" V 4650 7350 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:47pF_0402" H 4850 7300 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 4850 7300 50  0001 C CNN
+F 4 "WALSIN" H 4800 7550 50  0001 C CNN "Manufacturer"
+F 5 "0402N470J500CT" H 4800 7550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 4800 7550 50  0001 C CNN "Supplier"
+F 7 "0402N470J500CT" H 4800 7550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 4800 7550 50  0001 C CNN "URL"
+F 9 "0,03400" H 4800 7550 50  0001 C CNN "Price@1pc"
+F 10 "0,01107" H 4800 7550 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 4800 7550 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 4800 7550 50  0001 C CNN "Variant"
+F 13 "0402" H 4800 7550 50  0001 C CNN "Package"
+	1    4800 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Capacitors_Smd0402:47pF_0402 C25
 U 1 1 5CE0E728
-P 5100 8550
-F 0 "C25" H 5000 8800 50  0000 L CNN
-F 1 "47pF/50V" V 4950 8350 50  0000 L CNN
-F 2 "Capacitors_Smd_0402:47pF_0402" H 5150 8300 50  0001 C CNN
-F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 5150 8300 50  0001 C CNN
-F 4 "WALSIN" H 5100 8550 50  0001 C CNN "Manufacturer"
-F 5 "0402N470J500CT" H 5100 8550 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 5100 8550 50  0001 C CNN "Supplier"
-F 7 "0402N470J500CT" H 5100 8550 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 5100 8550 50  0001 C CNN "URL"
-F 9 "0,03400" H 5100 8550 50  0001 C CNN "Price@1pc"
-F 10 "0,01107" H 5100 8550 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 5100 8550 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 5100 8550 50  0001 C CNN "Variant"
-F 13 "0402" H 5100 8550 50  0001 C CNN "Package"
-	1    5100 8550
+P 5100 7550
+F 0 "C25" H 5000 7800 50  0000 L CNN
+F 1 "47pF/50V" V 4950 7350 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:47pF_0402" H 5150 7300 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 5150 7300 50  0001 C CNN
+F 4 "WALSIN" H 5100 7550 50  0001 C CNN "Manufacturer"
+F 5 "0402N470J500CT" H 5100 7550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5100 7550 50  0001 C CNN "Supplier"
+F 7 "0402N470J500CT" H 5100 7550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 5100 7550 50  0001 C CNN "URL"
+F 9 "0,03400" H 5100 7550 50  0001 C CNN "Price@1pc"
+F 10 "0,01107" H 5100 7550 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 5100 7550 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 5100 7550 50  0001 C CNN "Variant"
+F 13 "0402" H 5100 7550 50  0001 C CNN "Package"
+	1    5100 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Capacitors_Smd0402:47pF_0402 C26
 U 1 1 5CE0EC05
-P 5400 8550
-F 0 "C26" H 5300 8800 50  0000 L CNN
-F 1 "47pF/50V" V 5250 8350 50  0000 L CNN
-F 2 "Capacitors_Smd_0402:47pF_0402" H 5450 8300 50  0001 C CNN
-F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 5450 8300 50  0001 C CNN
-F 4 "WALSIN" H 5400 8550 50  0001 C CNN "Manufacturer"
-F 5 "0402N470J500CT" H 5400 8550 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 5400 8550 50  0001 C CNN "Supplier"
-F 7 "0402N470J500CT" H 5400 8550 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 5400 8550 50  0001 C CNN "URL"
-F 9 "0,03400" H 5400 8550 50  0001 C CNN "Price@1pc"
-F 10 "0,01107" H 5400 8550 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 5400 8550 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 5400 8550 50  0001 C CNN "Variant"
-F 13 "0402" H 5400 8550 50  0001 C CNN "Package"
-	1    5400 8550
+P 5400 7550
+F 0 "C26" H 5300 7800 50  0000 L CNN
+F 1 "47pF/50V" V 5250 7350 50  0000 L CNN
+F 2 "Capacitors_Smd_0402:47pF_0402" H 5450 7300 50  0001 C CNN
+F 3 "Capacitors/Smd_0402/Components_Documentation/Walsin Capacitors.pdf" H 5450 7300 50  0001 C CNN
+F 4 "WALSIN" H 5400 7550 50  0001 C CNN "Manufacturer"
+F 5 "0402N470J500CT" H 5400 7550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5400 7550 50  0001 C CNN "Supplier"
+F 7 "0402N470J500CT" H 5400 7550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/0402n470j500ct/kondensatory-mlcc-smd-0402/walsin/" H 5400 7550 50  0001 C CNN "URL"
+F 9 "0,03400" H 5400 7550 50  0001 C CNN "Price@1pc"
+F 10 "0,01107" H 5400 7550 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 5400 7550 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 5400 7550 50  0001 C CNN "Variant"
+F 13 "0402" H 5400 7550 50  0001 C CNN "Package"
+	1    5400 7550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1108,85 +1104,85 @@ $EndComp
 $Comp
 L Diodes:PESD0402-140 D4
 U 1 1 5CF0068C
-P 4500 9950
-F 0 "D4" V 4900 9900 50  0000 L CNN
-F 1 "PESD0402-140" H 4200 9850 50  0000 L CNN
-F 2 "Diodes:PESD0402-140" H 4500 9950 50  0001 C CNN
-F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 4500 9950 50  0001 C CNN
-F 4 "Littelfuse" H 4500 9950 50  0001 C CNN "Manufacturer"
-F 5 "PESD0402-140" H 4500 9950 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 4500 9950 50  0001 C CNN "Supplier"
-F 7 "650-PESD0402-140" H 4500 9950 50  0001 C CNN "Supplier Part Number"
-F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 4500 9950 50  0001 C CNN "URL"
-F 9 "2,00" H 4500 9950 50  0001 C CNN "Price@1pc"
-F 10 "0,544" H 4500 9950 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 4500 9950 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 4500 9950 50  0001 C CNN "Variant"
-F 13 "0402" H 4500 9950 50  0001 C CNN "Package"
-	1    4500 9950
+P 4500 8950
+F 0 "D4" V 4900 8900 50  0000 L CNN
+F 1 "PESD0402-140" H 4200 8850 50  0000 L CNN
+F 2 "Diodes:PESD0402-140" H 4500 8950 50  0001 C CNN
+F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 4500 8950 50  0001 C CNN
+F 4 "Littelfuse" H 4500 8950 50  0001 C CNN "Manufacturer"
+F 5 "PESD0402-140" H 4500 8950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 4500 8950 50  0001 C CNN "Supplier"
+F 7 "650-PESD0402-140" H 4500 8950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 4500 8950 50  0001 C CNN "URL"
+F 9 "2,00" H 4500 8950 50  0001 C CNN "Price@1pc"
+F 10 "0,544" H 4500 8950 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 4500 8950 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 4500 8950 50  0001 C CNN "Variant"
+F 13 "0402" H 4500 8950 50  0001 C CNN "Package"
+	1    4500 8950
 	0    1    1    0   
 $EndComp
 $Comp
 L Diodes:PESD0402-140 D5
 U 1 1 5CF02565
-P 4800 9950
-F 0 "D5" V 5200 9900 50  0000 L CNN
-F 1 "PESD0402-140" H 4500 9850 50  0000 L CNN
-F 2 "Diodes:PESD0402-140" H 4800 9950 50  0001 C CNN
-F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 4800 9950 50  0001 C CNN
-F 4 "Littelfuse" H 4800 9950 50  0001 C CNN "Manufacturer"
-F 5 "PESD0402-140" H 4800 9950 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 4800 9950 50  0001 C CNN "Supplier"
-F 7 "650-PESD0402-140" H 4800 9950 50  0001 C CNN "Supplier Part Number"
-F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 4800 9950 50  0001 C CNN "URL"
-F 9 "2,00" H 4800 9950 50  0001 C CNN "Price@1pc"
-F 10 "0,544" H 4800 9950 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 4800 9950 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 4800 9950 50  0001 C CNN "Variant"
-F 13 "0402" H 4800 9950 50  0001 C CNN "Package"
-	1    4800 9950
+P 4800 8950
+F 0 "D5" V 5200 8900 50  0000 L CNN
+F 1 "PESD0402-140" H 4500 8850 50  0000 L CNN
+F 2 "Diodes:PESD0402-140" H 4800 8950 50  0001 C CNN
+F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 4800 8950 50  0001 C CNN
+F 4 "Littelfuse" H 4800 8950 50  0001 C CNN "Manufacturer"
+F 5 "PESD0402-140" H 4800 8950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 4800 8950 50  0001 C CNN "Supplier"
+F 7 "650-PESD0402-140" H 4800 8950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 4800 8950 50  0001 C CNN "URL"
+F 9 "2,00" H 4800 8950 50  0001 C CNN "Price@1pc"
+F 10 "0,544" H 4800 8950 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 4800 8950 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 4800 8950 50  0001 C CNN "Variant"
+F 13 "0402" H 4800 8950 50  0001 C CNN "Package"
+	1    4800 8950
 	0    1    1    0   
 $EndComp
 $Comp
 L Diodes:PESD0402-140 D6
 U 1 1 5CF0286E
-P 5100 9950
-F 0 "D6" V 5500 9900 50  0000 L CNN
-F 1 "PESD0402-140" H 4800 9850 50  0000 L CNN
-F 2 "Diodes:PESD0402-140" H 5100 9950 50  0001 C CNN
-F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 5100 9950 50  0001 C CNN
-F 4 "Littelfuse" H 5100 9950 50  0001 C CNN "Manufacturer"
-F 5 "PESD0402-140" H 5100 9950 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 5100 9950 50  0001 C CNN "Supplier"
-F 7 "650-PESD0402-140" H 5100 9950 50  0001 C CNN "Supplier Part Number"
-F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 5100 9950 50  0001 C CNN "URL"
-F 9 "2,00" H 5100 9950 50  0001 C CNN "Price@1pc"
-F 10 "0,544" H 5100 9950 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 5100 9950 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 5100 9950 50  0001 C CNN "Variant"
-F 13 "0402" H 5100 9950 50  0001 C CNN "Package"
-	1    5100 9950
+P 5100 8950
+F 0 "D6" V 5500 8900 50  0000 L CNN
+F 1 "PESD0402-140" H 4800 8850 50  0000 L CNN
+F 2 "Diodes:PESD0402-140" H 5100 8950 50  0001 C CNN
+F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 5100 8950 50  0001 C CNN
+F 4 "Littelfuse" H 5100 8950 50  0001 C CNN "Manufacturer"
+F 5 "PESD0402-140" H 5100 8950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 5100 8950 50  0001 C CNN "Supplier"
+F 7 "650-PESD0402-140" H 5100 8950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 5100 8950 50  0001 C CNN "URL"
+F 9 "2,00" H 5100 8950 50  0001 C CNN "Price@1pc"
+F 10 "0,544" H 5100 8950 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 5100 8950 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 5100 8950 50  0001 C CNN "Variant"
+F 13 "0402" H 5100 8950 50  0001 C CNN "Package"
+	1    5100 8950
 	0    1    1    0   
 $EndComp
 $Comp
 L Diodes:PESD0402-140 D7
 U 1 1 5CF02CEB
-P 5400 9950
-F 0 "D7" V 5800 9900 50  0000 L CNN
-F 1 "PESD0402-140" H 5100 9850 50  0000 L CNN
-F 2 "Diodes:PESD0402-140" H 5400 9950 50  0001 C CNN
-F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 5400 9950 50  0001 C CNN
-F 4 "Littelfuse" H 5400 9950 50  0001 C CNN "Manufacturer"
-F 5 "PESD0402-140" H 5400 9950 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 5400 9950 50  0001 C CNN "Supplier"
-F 7 "650-PESD0402-140" H 5400 9950 50  0001 C CNN "Supplier Part Number"
-F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 5400 9950 50  0001 C CNN "URL"
-F 9 "2,00" H 5400 9950 50  0001 C CNN "Price@1pc"
-F 10 "0,544" H 5400 9950 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 5400 9950 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 5400 9950 50  0001 C CNN "Variant"
-F 13 "0402" H 5400 9950 50  0001 C CNN "Package"
-	1    5400 9950
+P 5400 8950
+F 0 "D7" V 5800 8900 50  0000 L CNN
+F 1 "PESD0402-140" H 5100 8850 50  0000 L CNN
+F 2 "Diodes:PESD0402-140" H 5400 8950 50  0001 C CNN
+F 3 "Diodes/Components_Documentation/Littelfuse_Polymer_ESD_Suppressor_PESD0402_140_Pro-1092713.pdf" H 5400 8950 50  0001 C CNN
+F 4 "Littelfuse" H 5400 8950 50  0001 C CNN "Manufacturer"
+F 5 "PESD0402-140" H 5400 8950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 5400 8950 50  0001 C CNN "Supplier"
+F 7 "650-PESD0402-140" H 5400 8950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/Littelfuse/PESD0402-140?qs=y1EbU1W0OrtTHVfbQV6MTg%3D%3D" H 5400 8950 50  0001 C CNN "URL"
+F 9 "2,00" H 5400 8950 50  0001 C CNN "Price@1pc"
+F 10 "0,544" H 5400 8950 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 5400 8950 50  0001 C CNN "Developer"
+F 12 "-basic,+full,+minipcie" H 5400 8950 50  0001 C CNN "Variant"
+F 13 "0402" H 5400 8950 50  0001 C CNN "Package"
+	1    5400 8950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1292,21 +1288,21 @@ $EndComp
 $Comp
 L Resistors_Smd0402:10k_0402 R10
 U 1 1 5CD61215
-P 3950 8550
-F 0 "R10" H 3750 8500 50  0000 L CNN
-F 1 "10k" H 3750 8600 50  0000 L CNN
-F 2 "Resistor_Smd_0402:10k_0402" H 4700 8050 300 0001 C CNN
-F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 4700 8050 300 0001 C CNN
-F 4 "ROYAL OHM" H 3950 8550 50  0001 C CNN "Manufacturer"
-F 5 "0402WGF1002TCE" H 3950 8550 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 3950 8550 50  0001 C CNN "Supplier"
-F 7 "SMD0402-10K-1%" H 3950 8550 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/smd0402-10k-1%2525/rezystory-smd-0402/royal-ohm/0402wgf1002tce/" H 3950 8550 50  0001 C CNN "URL"
-F 9 "0,03878" H 3950 8550 50  0001 C CNN "Price@1pc"
-F 10 "0,01044" H 3950 8550 50  0001 C CNN "Price@1000pcs"
-F 11 "-basic,+full,+minipcie" H 3950 8550 50  0001 C CNN "Variant"
-F 12 "0402" H 3950 8550 50  0001 C CNN "Package"
-	1    3950 8550
+P 3950 7550
+F 0 "R10" H 3750 7500 50  0000 L CNN
+F 1 "10k" H 3750 7600 50  0000 L CNN
+F 2 "Resistor_Smd_0402:10k_0402" H 4700 7050 300 0001 C CNN
+F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 4700 7050 300 0001 C CNN
+F 4 "ROYAL OHM" H 3950 7550 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF1002TCE" H 3950 7550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 3950 7550 50  0001 C CNN "Supplier"
+F 7 "SMD0402-10K-1%" H 3950 7550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0402-10k-1%2525/rezystory-smd-0402/royal-ohm/0402wgf1002tce/" H 3950 7550 50  0001 C CNN "URL"
+F 9 "0,03878" H 3950 7550 50  0001 C CNN "Price@1pc"
+F 10 "0,01044" H 3950 7550 50  0001 C CNN "Price@1000pcs"
+F 11 "-basic,+full,+minipcie" H 3950 7550 50  0001 C CNN "Variant"
+F 12 "0402" H 3950 7550 50  0001 C CNN "Package"
+	1    3950 7550
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1959,32 +1955,32 @@ Wire Wire Line
 $Comp
 L SimCard_Holders:SIM8050-6-0-14-01-A Con1
 U 1 1 5FB61686
-P 3300 9350
-F 0 "Con1" H 3250 9750 50  0000 C CNN
-F 1 "SIM8050-6-0-14-01-A" H 3300 9650 50  0000 C CNN
-F 2 "SimCard_Holders:SIM8050-6-0-14-01-A" H 3300 9475 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1854111.pdf?_ga=2.111840902.384913161.1590787394-1175791256.1590099821&_gac=1.149702084.1590787840.CjwKCAjw5cL2BRASEiwAENqAPoxOb6bAZE0FKXoSmmNfPuIMwAsOvdJzD6Natq6DOLbyI7kTqYJW4BoCMqMQAvD_BwE" H 3300 9475 50  0001 C CNN
-F 4 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" H 3300 9350 50  0001 C CNN "Manufacturer"
-F 5 "SIM8050-6-0-14-01-A." H 3300 9350 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Farnell" H 3300 9350 50  0001 C CNN "Supplier"
-F 7 "2344457" H 3300 9350 50  0001 C CNN "Supplier Part Number"
-F 8 "https://uk.farnell.com/gct-global-connector-technology/sim8050-6-0-14-01-a/connector-nano-sim-card-6pos-smt/dp/2344457" H 3300 9350 50  0001 C CNN "URL"
-F 9 "7,428" H 3300 9350 50  0001 C CNN "Price@1pc"
-F 10 "4,00" H 3300 9350 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 3300 9350 50  0001 C CNN "Developer"
-F 12 "Nano_Sim" H 3300 9350 50  0001 C CNN "Package"
-	1    3300 9350
+P 3300 8350
+F 0 "Con1" H 3250 8750 50  0000 C CNN
+F 1 "SIM8050-6-0-14-01-A" H 3300 8650 50  0000 C CNN
+F 2 "SimCard_Holders:SIM8050-6-0-14-01-A" H 3300 8475 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1854111.pdf?_ga=2.111840902.384913161.1590787394-1175791256.1590099821&_gac=1.149702084.1590787840.CjwKCAjw5cL2BRASEiwAENqAPoxOb6bAZE0FKXoSmmNfPuIMwAsOvdJzD6Natq6DOLbyI7kTqYJW4BoCMqMQAvD_BwE" H 3300 8475 50  0001 C CNN
+F 4 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" H 3300 8350 50  0001 C CNN "Manufacturer"
+F 5 "SIM8050-6-0-14-01-A." H 3300 8350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Farnell" H 3300 8350 50  0001 C CNN "Supplier"
+F 7 "2344457" H 3300 8350 50  0001 C CNN "Supplier Part Number"
+F 8 "https://uk.farnell.com/gct-global-connector-technology/sim8050-6-0-14-01-a/connector-nano-sim-card-6pos-smt/dp/2344457" H 3300 8350 50  0001 C CNN "URL"
+F 9 "7,428" H 3300 8350 50  0001 C CNN "Price@1pc"
+F 10 "4,00" H 3300 8350 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 3300 8350 50  0001 C CNN "Developer"
+F 12 "Nano_Sim" H 3300 8350 50  0001 C CNN "Package"
+	1    3300 8350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2700 9450 2300 9450
+	2700 8450 2300 8450
 Wire Wire Line
-	2300 9450 2300 9000
+	2300 8450 2300 8000
 Wire Wire Line
-	2300 9000 5400 9000
+	2300 8000 5400 8000
 Wire Wire Line
-	2700 9250 2600 9250
-NoConn ~ 2700 9350
+	2700 8250 2600 8250
+NoConn ~ 2700 8350
 $Comp
 L UBlox:Sara_U270 SP?
 U 1 1 5C4ABAA8
@@ -2063,10 +2059,10 @@ Text Label 13450 3300 0    50   ~ 0
 4V0
 Wire Wire Line
 	13450 3400 13450 3300
-Text Label 3950 8200 0    50   ~ 0
+Text Label 3950 7200 0    50   ~ 0
 1V8
 Wire Wire Line
-	3950 8200 3950 8300
+	3950 7200 3950 7300
 Text Label 10000 2900 0    50   ~ 0
 1V8
 Wire Wire Line
@@ -2123,5 +2119,5 @@ Wire Wire Line
 Wire Wire Line
 	7100 7000 7300 7000
 Wire Bus Line
-	5900 6550 5900 9350
+	5900 6550 5900 8350
 $EndSCHEMATC

@@ -560,27 +560,15 @@ $EndComp
 Wire Wire Line
 	9050 8050 10050 8050
 Wire Wire Line
-	9050 8150 10050 8150
+	9050 8150 9400 8150
 Wire Wire Line
-	10050 8250 9050 8250
+	9400 8250 9050 8250
 Wire Wire Line
 	11400 8050 11050 8050
 Wire Wire Line
 	10550 8050 10450 8050
-Wire Wire Line
-	10450 8150 10550 8150
-Wire Wire Line
-	11400 8150 11050 8150
-Wire Wire Line
-	10550 8250 10450 8250
-Wire Wire Line
-	11400 8250 11050 8250
 Text Notes 11600 8050 0    50   Italic 10
 RED
-Text Notes 11600 8150 0    50   Italic 10
-GREEN
-Text Notes 11600 8250 0    50   Italic 10
-YELLOW
 Text HLabel 9050 7600 2    50   Output ~ 10
 ETHERNET_TXP
 Text HLabel 9050 7700 2    50   Output ~ 10
@@ -1234,47 +1222,6 @@ F 12 "0603" H 5900 3450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diodes:KP-1608YC D3
-U 1 1 5CE71DA6
-P 10250 8250
-F 0 "D3" H 10150 8200 50  0000 C CNN
-F 1 "KP-1608YC" H 10850 8200 50  0000 C CNN
-F 2 "Diodes:LED_KP-1608YC" H 10500 7950 50  0001 C CNN
-F 3 "Diodes/Components_Documentation/KP-1608YC.pdf" H 10500 7950 50  0001 C CNN
-F 4 "	KINGBRIGHT ELECTRONIC" H 10250 8250 50  0001 C CNN "Manufacturer"
-F 5 "KP-1608YC" H 10250 8250 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 10250 8250 50  0001 C CNN "Supplier"
-F 7 "KP-1608YC" H 10250 8250 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/kp-1608yc/diody-led-smd-kolorowe/kingbright-electronic/" H 10250 8250 50  0001 C CNN "URL"
-F 9 "0,4591" H 10250 8250 50  0001 C CNN "Price@1pc"
-F 10 "0,1570" H 10250 8250 50  0001 C CNN "Price@1000pcs"
-F 11 "-basic,+full,+minipcie" H 10250 8250 50  0001 C CNN "Variant"
-F 12 "0603" H 10250 8250 50  0001 C CNN "Package"
-	1    10250 8250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diodes:KPT-1608CGCK D2
-U 1 1 5CED3E4F
-P 10250 8150
-F 0 "D2" H 10150 8100 50  0000 C CNN
-F 1 "KPT-1608CGCK" H 10900 8100 50  0000 C CNN
-F 2 "Diodes:LED_KPT-1608CGCK" H 10250 8150 50  0001 C CNN
-F 3 "Diodes/Components_Documentation/KPT-1608CGCK.pdf" H 10250 8150 50  0001 C CNN
-F 4 "	KINGBRIGHT ELECTRONIC" H 10250 8150 50  0001 C CNN "Manufacturer"
-F 5 "KP-1608CGCK" H 10250 8150 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 10250 8150 50  0001 C CNN "Supplier"
-F 7 "KP-1608CGCK" H 10250 8150 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/" H 10250 8150 50  0001 C CNN "URL"
-F 9 "0,47368" H 10250 8150 50  0001 C CNN "Price@1pc"
-F 10 "0,16283" H 10250 8150 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 10250 8150 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 10250 8150 50  0001 C CNN "Variant"
-F 13 "0603" H 10250 8150 50  0001 C CNN "Package"
-	1    10250 8150
-	-1   0    0    1   
-$EndComp
-$Comp
 L Diodes:KPG-1608SURKC-T D1
 U 1 1 5CE9CD40
 P 10250 8050
@@ -1570,43 +1517,43 @@ $EndComp
 $Comp
 L Resistors_Smd0402:470R_0402 R8
 U 1 1 5DD6825D
-P 10800 8150
-F 0 "R8" V 10750 7900 50  0000 C CNN
-F 1 "470R" V 10800 8150 50  0000 C CNN
-F 2 "Resistor_Smd_0402:470R_0402" H 11050 7750 50  0001 C CNN
-F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 11050 7750 50  0001 C CNN
-F 4 "0402" H 10800 8150 50  0001 C CNN "Package"
-F 5 "ROYAL OHM" H 10800 8150 50  0001 C CNN "Manufacturer"
-F 6 "0402WGF4700TCE" H 10800 8150 50  0001 C CNN "Manufacturer Part Number"
-F 7 "TME" H 10800 8150 50  0001 C CNN "Supplier"
-F 8 "SMD0402-470R-1%" H 10800 8150 50  0001 C CNN "Supplier Part Number"
-F 9 "https://www.tme.eu/pl/details/smd0402-470r-1%25/rezystory-smd-0402/royal-ohm/0402wgf4700tce/" H 10800 8150 50  0001 C CNN "URL"
-F 10 "0,0389" H 10800 8150 50  0001 C CNN "Price@1pc"
-F 11 "0,01047" H 10800 8150 50  0001 C CNN "Price@1000pcs"
-F 12 "WP" H 10800 8150 50  0001 C CNN "Developer"
-F 13 "-basic,+full,+minipcie" H 10800 8150 50  0001 C CNN "Variant"
-	1    10800 8150
+P 9650 8150
+F 0 "R8" V 9600 7900 50  0000 C CNN
+F 1 "470R" V 9650 8150 50  0000 C CNN
+F 2 "Resistor_Smd_0402:470R_0402" H 9900 7750 50  0001 C CNN
+F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 9900 7750 50  0001 C CNN
+F 4 "0402" H 9650 8150 50  0001 C CNN "Package"
+F 5 "ROYAL OHM" H 9650 8150 50  0001 C CNN "Manufacturer"
+F 6 "0402WGF4700TCE" H 9650 8150 50  0001 C CNN "Manufacturer Part Number"
+F 7 "TME" H 9650 8150 50  0001 C CNN "Supplier"
+F 8 "SMD0402-470R-1%" H 9650 8150 50  0001 C CNN "Supplier Part Number"
+F 9 "https://www.tme.eu/pl/details/smd0402-470r-1%25/rezystory-smd-0402/royal-ohm/0402wgf4700tce/" H 9650 8150 50  0001 C CNN "URL"
+F 10 "0,0389" H 9650 8150 50  0001 C CNN "Price@1pc"
+F 11 "0,01047" H 9650 8150 50  0001 C CNN "Price@1000pcs"
+F 12 "WP" H 9650 8150 50  0001 C CNN "Developer"
+F 13 "-basic,+full,+minipcie" H 9650 8150 50  0001 C CNN "Variant"
+	1    9650 8150
 	0    1    1    0   
 $EndComp
 $Comp
 L Resistors_Smd0402:470R_0402 R9
 U 1 1 5DD685EA
-P 10800 8250
-F 0 "R9" V 10750 8000 50  0000 C CNN
-F 1 "470R" V 10800 8250 50  0000 C CNN
-F 2 "Resistor_Smd_0402:470R_0402" H 11050 7850 50  0001 C CNN
-F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 11050 7850 50  0001 C CNN
-F 4 "0402" H 10800 8250 50  0001 C CNN "Package"
-F 5 "ROYAL OHM" H 10800 8250 50  0001 C CNN "Manufacturer"
-F 6 "0402WGF4700TCE" H 10800 8250 50  0001 C CNN "Manufacturer Part Number"
-F 7 "TME" H 10800 8250 50  0001 C CNN "Supplier"
-F 8 "SMD0402-470R-1%" H 10800 8250 50  0001 C CNN "Supplier Part Number"
-F 9 "https://www.tme.eu/pl/details/smd0402-470r-1%25/rezystory-smd-0402/royal-ohm/0402wgf4700tce/" H 10800 8250 50  0001 C CNN "URL"
-F 10 "0,0389" H 10800 8250 50  0001 C CNN "Price@1pc"
-F 11 "0,01047" H 10800 8250 50  0001 C CNN "Price@1000pcs"
-F 12 "WP" H 10800 8250 50  0001 C CNN "Developer"
-F 13 "-basic,+full,+minipcie" H 10800 8250 50  0001 C CNN "Variant"
-	1    10800 8250
+P 9650 8250
+F 0 "R9" V 9600 8000 50  0000 C CNN
+F 1 "470R" V 9650 8250 50  0000 C CNN
+F 2 "Resistor_Smd_0402:470R_0402" H 9900 7850 50  0001 C CNN
+F 3 "Resistors/Smd_0402/Components_Documentation/crcw0402.pdf" H 9900 7850 50  0001 C CNN
+F 4 "0402" H 9650 8250 50  0001 C CNN "Package"
+F 5 "ROYAL OHM" H 9650 8250 50  0001 C CNN "Manufacturer"
+F 6 "0402WGF4700TCE" H 9650 8250 50  0001 C CNN "Manufacturer Part Number"
+F 7 "TME" H 9650 8250 50  0001 C CNN "Supplier"
+F 8 "SMD0402-470R-1%" H 9650 8250 50  0001 C CNN "Supplier Part Number"
+F 9 "https://www.tme.eu/pl/details/smd0402-470r-1%25/rezystory-smd-0402/royal-ohm/0402wgf4700tce/" H 9650 8250 50  0001 C CNN "URL"
+F 10 "0,0389" H 9650 8250 50  0001 C CNN "Price@1pc"
+F 11 "0,01047" H 9650 8250 50  0001 C CNN "Price@1000pcs"
+F 12 "WP" H 9650 8250 50  0001 C CNN "Developer"
+F 13 "-basic,+full,+minipcie" H 9650 8250 50  0001 C CNN "Variant"
+	1    9650 8250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1667,10 +1614,6 @@ Text Label 9750 4850 0    50   ~ 0
 3V3
 Text Label 11400 8050 0    50   ~ 0
 3V3
-Text Label 11400 8150 0    50   ~ 0
-3V3
-Text Label 11400 8250 0    50   ~ 0
-3V3
 Text Label 12650 5650 0    50   ~ 0
 VBUS
 Wire Wire Line
@@ -1689,4 +1632,24 @@ Wire Wire Line
 	7050 8250 6950 8250
 Text Label 12250 2500 0    50   ~ 0
 3V3
+Wire Wire Line
+	9900 8150 11400 8150
+Wire Wire Line
+	9900 8250 11400 8250
+Text HLabel 11400 8150 2    50   Input ~ 0
+~LNKA_LED_CATHODE
+Text HLabel 11400 8250 2    50   Input ~ 0
+~SPD_LED_CATHODE
+Text HLabel 11400 8400 2    50   Output ~ 0
+LNKA_LED_ANODE
+Text HLabel 11400 8500 2    50   Output ~ 0
+SPD_LED_ANODE
+Text Label 11300 8400 2    50   ~ 0
+3V3
+Text Label 11300 8500 2    50   ~ 0
+3V3
+Wire Wire Line
+	11400 8400 11300 8400
+Wire Wire Line
+	11300 8500 11400 8500
 $EndSCHEMATC
