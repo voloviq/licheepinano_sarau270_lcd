@@ -1,4 +1,235 @@
-1028968030754605
+1475302126936582
+74xx
+74HC00_SO14
+Quad 2-input NAND gate
+Digiatl IC
+0
+14
+14
+74xx
+74HC04_SO14
+Quad 2-input NAND gate
+Digiatl IC
+0
+14
+14
+74xx
+74HC14_SO14
+Quad 2-input NAND gate
+Digiatl IC
+0
+14
+14
+74xx
+74HC32_SO14
+74HC32_SO14
+Digiatl IC
+0
+14
+14
+74xx
+74HC125_TSSOP14
+XPT2046 Touch Sensor Controller
+Digital IC
+0
+14
+14
+74xx
+74HC138_SO16
+
+74HC138_SO16
+0
+16
+16
+74xx
+74HC157_SO16
+
+74HC157_SO16
+0
+16
+16
+74xx
+74HC165_SO16
+
+74HC165_SO16
+0
+16
+16
+74xx
+74HC173_SO16
+
+74HC173_SO16
+0
+16
+16
+74xx
+74HC244_DIP20_300
+74HC244
+Digital IC
+0
+20
+20
+74xx
+74HC244_SO20
+74HC244
+Digital IC
+0
+20
+20
+74xx
+74HC245_SO20
+74HC245
+Digital IC
+0
+20
+20
+74xx
+74HC245_TSSOP20
+74HC245 3-state buffer
+Digital IC
+0
+20
+20
+74xx
+74HC541_SO20
+74HC541
+Digital IC
+0
+20
+20
+74xx
+74HC573_SO20
+74HC245
+Digital IC
+0
+20
+20
+74xx
+74HC573_TSSOP20
+74HC573 Octal Latch
+Digital IC
+0
+20
+20
+74xx
+74HC595_SO16
+
+74HC595_SO16
+0
+16
+16
+74xx
+74HC4060_SO16
+14-stage binary ripple counter with oscillator
+74HC4060_SO16
+0
+16
+16
+74xx
+74HC_1G125_SOT353-1
+Buffer
+Logic Gate
+0
+5
+5
+74xx
+74HC_1G125_SOT753
+Buffer
+Logic Gate
+0
+5
+5
+74xx
+CD4504B_SO16
+CMOS Hex Voltage Level Shifter ...
+CD4504B_SO16
+0
+16
+16
+74xx
+HEF40244BT_SO20
+HEF40244BT
+Digital IC
+0
+20
+20
+74xx
+SCT
+
+74HC595_SO16
+0
+16
+16
+74xx
+SCT2168CSOG
+
+SCT2168CSOG
+0
+16
+16
+74xx
+SN74AUP1G17DBV_SOT_23_5PIN
+Schmitt-Trigger Inverter
+Logic Gate
+0
+5
+5
+74xx
+SN74AVC2T245_QFN10
+
+Voltage Shifter
+0
+10
+10
+74xx
+SN74LVC1G11_SOT23_6
+Schmitt-Trigger Inverter
+Logic Gate
+0
+6
+6
+74xx
+SN74LVC1G14_SOT_23_DBV
+Schmitt-Trigger Inverter
+Logic Gate
+0
+5
+5
+74xx
+SN74LVC2G126_VSSOP
+
+
+0
+8
+8
+74xx
+SN74LVC2T45DCTR_SM8
+
+Voltage Level Shifter
+0
+8
+8
+74xx
+SN74LVC2T45DCUR_VSSOP
+
+
+0
+8
+8
+74xx
+SN75174_SO20
+74HC541
+Digital IC
+0
+20
+20
+74xx
+SN75175_SO16
+
+74HC138_SO16
+0
+16
+16
 Ant_Microdis
 MEE04
 
@@ -6,6 +237,62 @@ Antenna
 0
 4
 3
+Attend_SimCard_Socket
+115B-AAA0-R01
+
+Sim Card Socket
+0
+8
+6
+Attend_SimCard_Socket
+115I-BEAA-RA1
+
+
+0
+16
+11
+Battery
+CR2032_H
+CR2032 3V Battery
+Battery
+0
+3
+2
+Battery
+DS1092-12-N8S
+CR2032 3V Battery
+Battery
+0
+2
+2
+Battery
+LP401230_CELL
+
+
+0
+0
+0
+Battery
+LP401230_Connector
+
+Goldpin
+0
+2
+2
+Battery_Management_Charger
+BQ24040DSQR
+Single-Input, Single Cell Li-Ion and Li-Pol Battery Charger With Auto Start
+Battery Management Charger
+0
+13
+11
+Battery_Management_Charger
+BQ24773RUYT
+QFN, 28 Pin 0.4mm Pitch
+QFN NoLead
+0
+43
+29
 Capacitors_Smd_0402
 1n5F_0402
 
@@ -1049,6 +1336,48 @@ Smd Connector
 0
 11
 6
+Custom_Pkg
+Custom_Package
+
+Z-3A
+0
+0
+0
+DDR_Memory
+K4B4G1646B_BGA96
+FBGA96-UNIVERSAL PACKAGE
+FBGA96-UNIVERSAL PACKAGE
+0
+98
+98
+DDR_Memory
+MT29PZZZ4D4BKEPK-18_VFBGA168
+MT29PZZZ4D4BKESK-18
+DDR Memory
+0
+224
+168
+DDR_Memory
+MT29PZZZ4D4BKESK-18_VFBGA162
+MT29PZZZ4D4BKESK-18
+DDR Memory
+0
+194
+162
+DDR_Memory
+MT41K256M16TW-107
+DRAM DDR3 4G 256MX16 FBGA-96
+DDR Memory
+0
+96
+96
+DDR_Memory
+NT6CL256T32CQ-H1_167-Ball
+NT6CL256T32CQ-H1 DDR3 Memory
+DDR Memory
+0
+168
+168
 Diodes
 1N4007
 General Purpose Rectifier
@@ -1763,6 +2092,314 @@ Small Signal Schottky Diodes
 0
 2
 2
+Discrete_Buzzers
+LD_BZEG_1205
+
+Buzzer
+0
+2
+2
+Discrete_Connectors
+1_Pin_Automotiv_Connector_0Deg
+Automotive connector power pin 1 0 Deg
+Connector Automotive
+0
+2
+1
+Discrete_Connectors
+1_Pin_Automotiv_Connector_90Deg
+Automotive connector power pin 1 90Deg
+Connector Automotive
+0
+2
+1
+Discrete_Connectors
+284514-2
+Terminal Block, Header Assembly Straight, Closed Ends 3.5mm Pitch
+TE Connector Block
+0
+2
+2
+Discrete_Connectors
+284514-4
+Terminal Block, Header Assembly Straight, Closed Ends 3.5mm Pitch
+TE Connector Block
+0
+4
+4
+Discrete_Connectors
+284514-6
+Terminal Block, Header Assembly Straight, Closed Ends 3.5mm Pitch
+TE Connector Block
+0
+6
+6
+Discrete_Connectors
+Adtranz_Connector_4pin_3_87mm
+Adtranz 4 Pin Connector with 3.87mm raster
+Connector
+0
+4
+4
+Discrete_Connectors
+B3B-ZR(LF)(SN)
+
+
+0
+3
+3
+Discrete_Connectors
+DB_15M
+D-SUB 15 pin socket, Tyco P/N 5747845-5
+
+0
+17
+17
+Discrete_Connectors
+DB_15M_90Deg
+D-SUB 15 pin plug, Tyco P/N 5747841-6
+
+0
+17
+17
+Discrete_Connectors
+DG235-5_0-03P
+Degson Electronics, button released
+
+0
+6
+6
+Discrete_Connectors
+DG301-5.0-02P-12-00A(H)
+
+
+0
+2
+2
+Discrete_Connectors
+DG301-5.0-03P-12-00A(H)
+
+
+0
+3
+3
+Discrete_Connectors
+DG301-5.0-04P-12-00A(H)
+
+
+0
+4
+4
+Discrete_Connectors
+DG301-5.0-06P-12-00A(H)
+
+
+0
+6
+6
+Discrete_Connectors
+DG301-5.0-09P-12-00A(H)
+
+
+0
+9
+9
+Discrete_Connectors
+DS1037-09FNAKT74
+
+
+0
+11
+10
+Discrete_Connectors
+DTMS_2PIN
+
+
+0
+2
+2
+Discrete_Connectors
+Ground_Pin
+Automotive connector power pin 1 0 Deg
+Connector Automotive
+0
+1
+1
+Discrete_Connectors
+Krueger_Lcd_6Pins_Simple
+Krueger 6pins LCD connector
+Discrete Connector
+0
+6
+6
+Discrete_Connectors
+Krueger_Lcd_9Pins_Simple
+Krueger 9pins LCD connector
+Discrete Connector
+0
+9
+9
+Discrete_Connectors
+Krueger_Lcd_11Pins_Connector
+Krueger 11pins LCD connector
+Discrete Connector
+0
+11
+11
+Discrete_Connectors
+Lawo_4Pin_Blue
+Adtranz 4 Pin Connector with 3.87mm raster
+Connector
+0
+4
+4
+Discrete_Connectors
+M8-4F1-P-MALE
+M8-4F1-P-MALE
+Connector
+0
+4
+4
+Discrete_Connectors
+M8-4F1-S-FEMALE
+M8-4F1-S-FEMALE
+Connector
+0
+4
+4
+Discrete_Connectors
+MF42_RE_16
+MF42-RE-16
+Connector
+0
+18
+17
+Discrete_Connectors
+MF42_SE_16
+MF42-RE-16
+Connector
+0
+16
+16
+Discrete_Connectors
+MX-39-30-0060
+
+
+0
+6
+6
+Discrete_Connectors
+MX-5566-06A
+
+
+0
+6
+6
+Discrete_Connectors
+MX-5566-08A
+
+
+0
+8
+8
+Discrete_Connectors
+MX-5566-08A-90
+
+
+0
+8
+8
+Discrete_Connectors
+MX_5566B_04A
+
+
+0
+4
+4
+Discrete_Connectors
+MX_5566_02A
+
+Connector
+0
+2
+2
+Discrete_Connectors
+Minifit_Plug_Housing_2x6
+
+
+0
+6
+6
+Discrete_Connectors
+Minifit_Plug_Housing_2x6_upper_withoutP2
+
+
+0
+5
+5
+Discrete_Connectors
+Minifit_Plug_Housing_2x6_withoutP2
+
+
+0
+5
+5
+Discrete_Connectors
+Molex_22057055
+
+
+0
+5
+5
+Discrete_Connectors
+NiMh_Battery_AA_AAA_Connector
+Automotive connector power pin 1 0 Deg
+Connector Automotive
+0
+3
+3
+Discrete_Connectors
+NiMh_Battery_Custom_Connector
+Automotive connector power pin 1 0 Deg
+Connector Automotive
+0
+2
+2
+Discrete_Connectors
+S3B-ZR(LF)(SN)
+
+
+0
+3
+3
+Discrete_Connectors
+S12B-PH-K-S(LF)(SN)
+Krueger 9pins LCD connector
+Discrete Connector
+0
+12
+12
+Discrete_Connectors
+USB-A-D-RA
+
+
+0
+12
+9
+Discrete_Connectors
+USB_B_0_Angle
+USB B 0 Angle Connector
+USB B Connector
+0
+6
+6
+Discrete_Connectors
+USB_Mini_Vertical
+USB Mini Vertical
+Connector Discrete
+0
+7
+6
 Discrete_Electrolytic
 4.7uF_50V_Vertical_fi6_len12mm
 
@@ -1861,62 +2498,6 @@ Aluminium Electrolytic Capacitor
 0
 2
 2
-Display_Lcd
-Lcd-3_5_Digit
-
-
-0
-40
-40
-Display_Lcd
-LiangHaoCai_Ili9341_spi
-Nokia 5110_3310_Module
-Display
-0
-18
-18
-Display_Lcd
-Nokia_5110_3310_Module
-Nokia 5110_3310_Module
-Display
-0
-12
-9
-Display_Lcd
-Nokia_5110_3310_Module_Alternative
-Nokia 5110_3310_Module
-Display
-0
-12
-9
-Display_Lcd
-PC_1602-L
-Display PC_1602-L
-Display
-0
-22
-18
-Display_Lcd
-maithoga_tft_480x320_rgb
-Nokia 5110_3310_Module
-Display
-0
-47
-46
-Display_Lcd
-maithoga_tft_480x320_rgb_with_capacitive_ts
-Nokia 5110_3310_Module
-Display
-0
-55
-52
-Display_Lcd
-maithoga_tft_480x320_rgb_with_resistive_ts
-Nokia 5110_3310_Module
-Display
-0
-53
-50
 ESD_Protectors
 82357120100
 
@@ -1945,6 +2526,377 @@ Logic Gate
 0
 6
 6
+Fiducial_Markers
+Fpoint_0_8x1_6mm
+
+
+0
+1
+1
+Fiducial_Markers
+Fpoint_1x2mm
+
+
+0
+1
+1
+Fpc_Connectors
+686110188622
+WR-FPC 1.00 MM SMT LIF HORIZONTAL TOP CONTACT,10PINS
+WR-FPC 1.00 MM SMT LIF HORIZONTAL TOP CONTACT,10PINS
+0
+12
+12
+Fpc_Connectors
+1-84981-0
+
+
+0
+12
+11
+Fpc_Connectors
+4pin_Cvilux_1_0mm
+
+FPC_Connector
+0
+6
+5
+Fpc_Connectors
+4pin_Joint_Tech_0_5mm
+
+FPC_Connector
+0
+6
+5
+Fpc_Connectors
+6pin_Molex_1mm_52207-0633
+
+FPC_Connector
+0
+8
+7
+Fpc_Connectors
+6pin_TE_2328702-6
+
+FPC_Connector
+0
+8
+7
+Fpc_Connectors
+10pin_HRS_FH12A_Series_0_5mm
+
+
+0
+12
+11
+Fpc_Connectors
+10pin_MOLEX_527451097_0_5mm
+10pin_MOLEX_527451097_0_5mm
+Fpc Connector
+0
+12
+11
+Fpc_Connectors
+16pin_fpc_top_0_5mm
+
+FPC_Connector
+0
+18
+17
+Fpc_Connectors
+24pin_fpc_top_0_5mm
+
+FPC_Connector
+0
+26
+25
+Fpc_Connectors
+40pin_fpc_0_5mm
+
+FPC_Connector
+0
+42
+41
+Fpc_Connectors
+40pin_fpc_top_0_5mm
+
+FPC_Connector
+0
+42
+41
+Fpc_Connectors
+50pin_HRS_FH12S_Series_0_5mm
+
+
+0
+52
+51
+Fpc_Connectors
+50pin_WURTH_68715014022_0_5mm
+50pin_WURTH_68715014022_0_5mm
+Fpc Connector
+0
+52
+51
+Fpc_Connectors
+50pins_0_5pitch
+50pins_0_5pitch
+Fpc Connector
+0
+52
+51
+Fpc_Connectors
+52745-0697
+
+
+0
+10
+7
+Fpc_Connectors
+52745-0897
+
+
+0
+12
+9
+Fpc_Connectors
+52745-2097
+
+
+0
+24
+21
+Fpc_Connectors
+512810594
+Molex 5 pin 0,5mm
+FPC_Connector
+0
+7
+6
+Fpc_Connectors
+545502471
+
+FPC_Connector
+0
+26
+25
+Fpc_Connectors
+AYF532435
+
+FPC_Connector
+0
+26
+25
+Fpc_Connectors
+BM15FR0_8-DS22-0_35V
+
+
+0
+26
+23
+Fpc_Connectors
+CF2033SF_10pins_0_5pitch
+10pins_0_5pitch
+Fpc Connector
+0
+12
+11
+Fpc_Connectors
+CVILUX_20pins_1_0pitch
+20pins_1_0pitch
+Fpc Connector
+0
+22
+21
+Fpc_Connectors
+FH12-6S-0.5SH(55)
+
+FPC_Connector
+0
+8
+7
+Fpc_Connectors
+FH12-10S-0.5SH
+
+
+0
+12
+11
+Fpc_Connectors
+FH12A-30S-0.5SH
+
+
+0
+32
+31
+Fpc_Connectors
+FH12A-32S-0.5SH
+
+
+0
+34
+33
+Fpc_Connectors
+FH12A-50S-0.5SH
+
+
+0
+52
+51
+Fpc_Connectors
+FH26W-25S-0.3SHW(97)
+HRS 0.3mm FPC/FFC Connector
+FPC_Connector
+0
+27
+26
+Fpc_Connectors
+FH26W-45S-0.3SHW(97)
+HRS 0.3mm FPC/FFC Connector
+FPC_Connector
+0
+47
+46
+Fpc_Connectors
+FH28D-50S-0.5SH
+FH28D-50S-0.5SH
+Fpc Connector
+0
+52
+51
+Fpc_Connectors
+Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal
+Molex FH12, FFC/FPC connector, FH12-24S-0.5SH, 24 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+26
+25
+Fpc_Connectors
+Molex_52806-0810
+Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 24 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
+molex FFC/FPC connector Pitch 0.5mm right angle
+0
+8
+8
+Fpc_Connectors
+Molex_52806-2410
+Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 24 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
+molex FFC/FPC connector Pitch 0.5mm right angle
+0
+24
+24
+Fpc_Connectors
+Molex_502244-2430_1x24-1MP_P0.5mm_Horizontal
+Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 24 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
+molex FFC/FPC connector Pitch 0.5mm right angle
+0
+28
+25
+Fpc_Connectors
+NX1001-10SMS
+NX1001-10SMS
+SMT Connector
+0
+12
+11
+Fpc_Connectors
+PCA-6L-10-HU-3-T_R
+
+
+0
+14
+11
+Fpc_Connectors
+PF030-039B-C10-39-POL
+HRS 0.3mm FPC/FFC Connector
+FPC_Connector
+0
+41
+40
+Fpc_Connectors
+TE_2-84952-4_1x24-1MP_P1.0mm_Horizontal
+TE FPC connector, 24 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+26
+25
+Fpc_Connectors
+TE_2-84953-4_1x24-1MP_P1.0mm_Horizontal
+TE FPC connector, 24 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+26
+25
+Fpc_Connectors
+fpc12x0_5mm_68611214422
+
+FPC_Connector
+0
+14
+13
+Hot_Swap
+ADM1270_QFN-16
+QFN, 16 Pin
+QFN DFN_QFN
+0
+31
+17
+Hot_Swap
+ADM1270_RQ-16
+
+
+0
+16
+16
+Hot_Swap
+LT4256-3_SSOP16
+
+
+0
+16
+16
+Hot_Swap
+LTC4231_MSOP12
+
+
+0
+12
+12
+Hot_Swap
+MAX5943_QSOP16
+
+
+0
+16
+16
+Hot_Swap
+RT1720_MSOP10
+
+
+0
+10
+10
+IDC_Connectors
+5103308-1
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+IDC_Connectors
+DS1014-44SF1B
+
+Header Socket
+0
+44
+44
+IDC_Connectors
+P2304
+P2304 4 PIN
+Connector
+0
+4
+4
 Inductors
 1uH_4.3A_2520
 Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
@@ -2428,13 +3380,6 @@ XEL6060-272MEC
 0
 2
 2
-LicheePi_SOM
-LicheePiNano
-
-
-0
-68
-68
 Linear
 1711S12_SOT23
 
@@ -2540,13 +3485,6 @@ Regulator
 0
 4
 3
-Linear
-LM317DCYR_SOT223
-Linear Adjustable Regulator
-LDO Regulator
-0
-4
-4
 Linear
 LM7805_TO-220_CASE_3Pin_Horizontal
 Lm7805_To-220_Horizontal
@@ -2687,13 +3625,251 @@ Digital IC
 0
 14
 14
-RF_Connectors
-RF2-03E-T-00-50-G
+Memory_Eprom_Flash
+24LC32A_SOT23-5
+EEPROM with Serial Number
+EEPROM
+0
+5
+5
+Memory_Eprom_Flash
+AT24CS32_SOT23
+EEPROM with Serial Number
+EEPROM
+0
+5
+5
+Memory_Eprom_Flash
+AT45DB161D_SOIC
+Flash AT45DB161D
+SOIC_8
+0
+8
+8
+Memory_Eprom_Flash
+AT45DB321C_TSSOP
+Flash_AT45DB321C
+CMS TSOP
+0
+28
+28
+Memory_Eprom_Flash
+M27C256DIP-28_W600
+Eprom 32768 kbyte in Dip Package
+Eprom
+0
+28
+28
+Memory_Eprom_Flash
+M27C256DIP-28_W600_Socket
+Eprom 32768 kbyte in Dip Package
+Eprom
+0
+28
+28
+Memory_Eprom_Flash
+M27C1001_Dip32_W600
+Eprom 1Mbit (128kbyte)
+Eprom
+0
+32
+32
+Memory_Eprom_Flash
+M27C1001_Dip32_W600_Socket
+Eprom 1Mbit (128kbyte)
+Eprom
+0
+32
+32
+Memory_Eprom_Flash
+M24512-W_SO8
+M24512-W
+EEPROM
+0
+8
+8
+Memory_Eprom_Flash
+MX25R6435F_SOIC
+Flash MX25R6435F
+SOIC_8
+0
+8
+8
+Memory_Eprom_Flash
+MX25R6435F_WSON-8L
+WSON, 8 Pin (http://ww1.microchip.com/downloads/en/AppNotes/S72030.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+13
+9
+Memory_Eprom_Flash
+SST26VF016B_SOIC
+Flash SST26VF016B
+SOIC_8
+0
+8
+8
+Memory_Eprom_Flash
+SST26VF016_SOIC
+Flash SST26VF016
+SOIC_8
+0
+8
+8
+Memory_Eprom_Flash
+SST26VF032B_SOIC
+Flash SST26VF032B
+SOIC_8
+0
+8
+8
+Memory_Eprom_Flash
+SST26VF064B_SOIC
+Flash SST26VF064B
+SOIC_8
+0
+8
+8
+Memory_Eprom_Flash
+ST24C04_SO8
+Flash SST26VF016
+EEPROM
+0
+8
+8
+Memory_Eprom_Flash
+TMS27C512_DIP-28_W600
+Eprom 65536kbyte in Dip Package
+Eprom
+0
+28
+28
+Memory_Eprom_Flash
+TMS27C512_DIP-28_W600_Socket
+Eprom 65536kbyte in Dip Package With Socket
+Eprom
+0
+28
+28
+Memory_Eprom_Flash
+TMS27C512_Dip32_W600_Socket
+Eprom 1Mbit (128kbyte)
+Eprom
+0
+32
+32
+Micro_Match
+690357281076-10
+
+
+0
+10
+10
+Micro_Match
+1-215464-0
+
+
+0
+10
+10
+Micro_Match
+7-215079-4
 
 
 0
 5
+5
+Micro_Match
+7-215079-6
+
+
+0
+7
+7
+Micro_Match
+7-215464-4
+
+
+0
+4
+4
+Micro_Match
+7-215464-6
+
+
+0
+6
+6
+Micro_Match
+8-215079-0
+
+
+0
+11
+11
+Microswitches
+434153017835
+
+
+0
+4
+4
+Microswitches
+DTSM-31N_SMD
+DTSM-31N
+Microswitch
+0
 2
+2
+Motor_Drivers
+A3906_qfn20
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=164), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+30
+21
+Motor_Drivers
+A4985SLPTR-T
+HTSSOP, 24 Pin (https://www.st.com/resource/en/datasheet/stp16cp05.pdf#page=25), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO
+0
+31
+25
+Octavo_SIP
+OSD32MP157C-512M-BAA-BGA302
+BGA302 18x18mm 1pitch
+BGA
+0
+302
+302
+Octavo_SIP
+OSD3358-512M-IND
+
+
+0
+400
+400
+Power_Switches
+FPF1504LUCX
+
+
+0
+4
+4
+RJ45_Ethernet_Transformer
+7498011122AR_Eagle_WE-RJ45_rev20a-7498011122AR
+WE-RJ45 LAN TRANSFORMER
+WE-RJ45 LAN TRANSFORMER
+0
+13
+13
+RJ45_Ethernet_Transformer
+7498011122AR_Eagle_WE-RJ45_rev20a-74990101210
+WE-RJ45 LAN TRANSFORMER
+WE-RJ45 LAN TRANSFORMER
+0
+14
+14
 RJ45_Ethernet_Transformer
 LMJ3628844TA753
 
@@ -2708,20 +3884,27 @@ RJ-45_LMJ30288115CNL
 0
 16
 13
-RJ45_Ethernet_Transformer
-WE-RJ45_7498011122AR
-WE-RJ45 LAN TRANSFORMER
-WE-RJ45 LAN TRANSFORMER
+Reset_Device_Microchip
+MCP120T-300I_TT
+
+Bipolar Transistor
 0
-13
-13
-RJ45_Ethernet_Transformer
-WE-RJ45_74990101210
-WE-RJ45 LAN TRANSFORMER
-WE-RJ45 LAN TRANSFORMER
+3
+3
+Reset_Device_Microchip
+MCP120T-315I_TT
+
+Bipolar Transistor
 0
-14
-14
+3
+3
+Reset_Device_Microchip
+MCP1319T-29CE_OT
+
+
+0
+5
+5
 Resistor_Smd_0402
 0R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
@@ -3849,6 +5032,76 @@ Resistor
 0
 2
 2
+Resistor_Smd_2512
+0R_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+5mR_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+10R_2512
+Resistor Royal OHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+10mR_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+15mR_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+20mR_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+25m5R_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+30mR_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+50mR_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
+Resistor_Smd_2512
+100mR_2512
+Resistor RoyalOHM 2512 1W
+resistor 2512
+0
+2
+2
 Resonators
 7A-24.000MAAJ-T_24MHz
 
@@ -3996,6 +5249,55 @@ Full_M2M_Quad_SIM
 0
 8
 8
+ST_pmu
+STPMIC1APQR
+
+
+0
+63
+45
+Separate_Transformers
+749010013
+
+
+0
+16
+16
+Separate_Transformers
+749010310
+
+
+0
+16
+16
+Separate_Transformers
+749013011A
+
+
+0
+16
+16
+Separate_Transformers
+ADUM3160BRWZ-RL
+
+
+0
+16
+16
+Separate_Transformers
+H1112NLT
+
+
+0
+12
+12
+Separate_Transformers
+SM51625L
+
+
+0
+24
+24
 SimCard_Holders
 105034-0001
 
@@ -4017,6 +5319,650 @@ SIM8050-6-0-14-01-A
 0
 8
 7
+Smd_Connectors
+4_Solder_Point_0_635mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+4_Solder_Point_1_7mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+4_Solder_Point_1_27mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+4_Solder_Point_2_54mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+10pin_Wuerth_665110131822
+
+SMD Connector
+0
+12
+11
+Smd_Connectors
+2060-452_998-404
+WAGO 2pole connector
+SMD Connector
+0
+4
+2
+Smd_Connectors
+2060-453_998-404
+WAGO 3pole connector
+SMD Connector
+0
+6
+6
+Smd_Connectors
+87437-0373
+
+
+0
+6
+3
+Smd_Connectors
+87438-0343
+
+
+0
+6
+3
+Smd_Connectors
+2041119-1
+
+
+0
+54
+53
+Smd_Connectors
+662004231822
+
+
+0
+6
+5
+Smd_Connectors
+A1001WR-S-10P
+
+
+0
+12
+11
+Smd_Connectors
+DS1031-14-20S8B
+
+
+0
+20
+20
+Smd_Connectors
+NX1001-10SMS
+NX1001-10SMS
+SMT Connector
+0
+12
+11
+Smd_Connectors
+NX1001_06SMR
+
+Smd Connector
+0
+8
+7
+Smd_Connectors
+U_FL-R-SMT-1(10)_U
+
+Antenna Connector SMD
+0
+3
+2
+Smd_Connectors
+Usb_C_12401548E4-2A
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
+Smd_Connectors
+Usb_Micro
+Usb Micro
+Smd Connector
+0
+9
+6
+Smd_Connectors
+Usb_Mini
+Usb Mini
+Smd Connector
+0
+11
+6
+Smd_Electrolytic
+10uF_10V_Size_C_5x5_3
+
+SMD Capacitor, Aluminimu Electrolytic, Size 10x10
+0
+2
+2
+Smd_Electrolytic
+10uF_35V_Size_C_4x5_8
+SMT capacitor, aluminium electrolytic, 4x5.8
+
+0
+2
+2
+Smd_Electrolytic
+100uF_16V_Size_6_3x5_8
+SMT Capacitor
+Capacitor
+0
+2
+2
+Smd_Electrolytic
+100uF_50V_Size_C_8x10
+SMT capacitor, aluminium electrolytic, 8x10
+
+0
+2
+2
+Smd_Electrolytic
+100uF_63V_Size_10x10
+SMT capacitor, aluminium electrolytic, 10x10
+
+0
+2
+2
+Smd_Electrolytic
+330uF_6V3_size6.3x7.7
+SMT capacitor, aluminium electrolytic, 6.3x7.7
+
+0
+2
+2
+Smd_Electrolytic
+330uF_16V_Size_F_8x8_3
+
+SMD Capacitor, Aluminimu Electrolytic, Size 10x10
+0
+2
+2
+Smd_Electrolytic
+330uF_35V_Size_F_8x8_3
+
+SMD Capacitor, Aluminimu Electrolytic, Size 10x10
+0
+2
+2
+Smd_Electrolytic
+470uF_6V3_size8x10
+SMT capacitor, aluminium electrolytic, 8x10
+
+0
+2
+2
+Smd_Electrolytic
+1000uF_6V3_Size_10x10
+
+SMD Capacitor, Aluminimu Electrolytic, Size 10x10
+0
+2
+2
+Smd_Glass_Fuses
+3413_0326_11
+
+
+0
+2
+2
+Smd_Glass_Fuses
+Fuse_1A_0603_Schurter_3412.0115.11
+
+
+0
+2
+2
+Smd_Glass_Fuses
+Fuse_1A_Littlelfuse
+
+
+0
+2
+2
+Smd_Glass_Fuses
+Fuse_4A_Littlelfuse
+
+
+0
+2
+2
+Smd_Glass_Fuses
+Fuse_6A3_Littlelfuse
+
+
+0
+2
+2
+Smd_Tantal
+1uF_35V_B_Tantal
+1uF_35V_B
+Capacitor Tantal
+0
+2
+2
+Smd_Tantal
+2_2uF_10V_A_Tantal
+2_2uF_10V_A
+Capacitor Tantal
+0
+2
+2
+Smd_Tantal
+4u7F_35V_C_Tantal
+SMD Tantal Capacitor 4u7F / 16V
+Capacitor
+0
+2
+2
+Smd_Tantal
+10uF_16V_A_Tantal
+10uF_16V_A
+Capacitor Tantal
+0
+2
+2
+Smd_Tantal
+10uF_16V_B_Tantal
+1uF_35V_B
+Capacitor Tantal
+0
+2
+2
+Smd_Tantal
+10uF_16V_C_Tantal
+SMD Tantal Capacitor 10uF / 16V
+Capacitor
+0
+2
+2
+Smd_Tantal
+10uF_35V_C
+SMD Tantal Capacitor 10uF / 35V
+Capacitor
+0
+2
+2
+Smd_Tantal
+10uF_35V_D_Tantal
+SMT capacitor, tantalum size D
+Capacitor Tantal
+0
+2
+2
+Smd_Tantal
+22uF6V3_1206
+SMD Capacitor
+Capacitor
+0
+2
+2
+Smd_Tantal
+22uF_35V_Size_D
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Smd_Tantal
+47uF6V3_1206
+SMD Capacitor
+Capacitor
+0
+2
+2
+Smd_Tantal
+100_16V_Size_D
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Smd_Tantal
+470_6V3_Size_D
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Stm32_Microcontrollers
+STM32F407I(E-G)Hx
+
+
+0
+201
+201
+Stm32_Microcontrollers
+STM32MP151CAB3_LFBGA-354
+BGA354 16x16mm 0.8pitch
+BGA
+0
+354
+354
+Stm32_Microcontrollers
+STM32MP157CAD3_TBGA257
+BGA257 10x10mm 0.5pitch
+BGA
+0
+257
+257
+Switching
+A4403
+QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+21
+17
+Switching
+A8498
+
+
+0
+0
+0
+Switching
+A8586KLJTR-T
+
+
+0
+18
+9
+Switching
+AP3012-DTE
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+AP3032
+Boost Converter
+VRegulator
+0
+6
+6
+Switching
+AP3211KTR-G1
+
+
+0
+6
+6
+Switching
+CAT4139
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+FAN5331_SOT23_5
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+L5973d_SO8
+
+Switching Voltage Regulator
+0
+14
+9
+Switching
+LM2575_D2PAK_CASE_936A-5Pins
+LM2575_D2PAK_CASE_936A-5Pins
+Regulator
+0
+6
+5
+Switching
+LM2575_TO-220_CASE_314D-5Pin_Horizontal
+Lm2575_To-220_Case_314_Horizontal
+Regulator
+0
+6
+6
+Switching
+LM2575_TO-220_CASE_314D-5Pin_Vertical
+LM2575_TO-220_CASE_314D-5Pin_Vertical
+Regulator
+0
+5
+5
+Switching
+LM2576_D2PAK_CASE_936A-5Pins
+LM2576_D2PAK_CASE_936A-5Pins
+Regulator
+0
+6
+5
+Switching
+LM2576_TO-220_CASE_314D-5Pin_Horizontal
+Lm2576_To-220_Case_314_Horizontal
+Regulator
+0
+6
+6
+Switching
+LM2576_TO-220_CASE_314D-5Pin_Vertical
+LM2576_TO-220_CASE_314D-5Pin_Vertical
+Regulator
+0
+5
+5
+Switching
+LM2576_TO220_5_Simple
+
+Switching Regulator
+0
+5
+5
+Switching
+LM3488MM_VSSOP8
+8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Switching
+LM27313_SOT23
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+MIC29204BM_SO8
+
+Switching Voltage Regulator
+0
+8
+8
+Switching
+MP1517DR
+QFN, 16 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=266), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+21
+17
+Switching
+MP2980_32QFN
+36V, 100W, Synchronous Buck-Boost Controller with I 2 C and Current Monitor
+IC QFN DFN_QFN
+0
+42
+33
+Switching
+MP4245GVE_21QFN
+36V, 6A Peak, Buck-Boost Converter with I2C Interface for Power Delivery
+IC
+0
+21
+21
+Switching
+MP9447_20QFN
+
+
+0
+25
+25
+Switching
+SY8088_SOT23-5
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+TK65600B
+
+
+0
+8
+8
+Switching
+TPS61085DGKR_TSSOP8
+8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Switching
+TPS61088RHLR
+Boost Converter 10A Fully-Integrated Synchronous
+DC-DC Converter
+0
+25
+22
+Switching
+XL1507_TO252-5L
+
+
+0
+31
+30
+Switching
+XL6007_SO8
+
+DCDC_Converter
+0
+8
+8
+Switching
+to220-5
+TO220, 5pins
+
+0
+5
+5
+TPM_Ic
+Slb9670_vqfn
+UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)
+QFN 0.5
+0
+36
+33
+Tact_Switches
+D6_SPST_MKS
+Momentary Button
+Switch
+0
+9
+4
+Tact_Switches
+EVQPF008K
+
+
+0
+4
+4
+Tact_Switches
+TACT-24K-F
+
+
+0
+4
+4
+Tact_Switches
+Tactm-24n_Ninigi_Smd
+
+
+0
+4
+4
+Tag_Connectors
+TC2050-IDC
+
+
+0
+10
+10
+Tag_Connectors
+TC2050-IDC-NL
+
+
+0
+10
+10
+Test_Points
+Test_Point_1.27mm
+
+
+0
+1
+1
+Test_Points
+Test_Point_2.54mm
+
+
+0
+1
+1
+Tf_Sd_Card_Connectors
+112A-TAAR-R03
+
+
+0
+14
+10
+Tf_Sd_Card_Connectors
+693071020811
+WR-CRDMICRO SD CARD CONNECTOR PUSH & PUSH,8 PINS
+WR-CRDMICRO SD CARD CONNECTOR PUSH & PUSH,8 PINS
+0
+13
+13
+Tf_Sd_Card_Connectors
+micro_tf_sd_card_socket
+
+Card_Socket
+0
+12
+12
 Transistor_Bipolar
 2SB772_TO126H
 PNP Transistor
@@ -4479,13 +6425,6 @@ Sara_U270
 0
 99
 98
-UBlox_GPS
-Max-M8C
-
-GPS Module
-0
-18
-18
 UBlox_WiFi_Module
 LILY_W132
 
@@ -4493,3 +6432,115 @@ Buzzer
 0
 37
 26
+Varistors
+B72580E0250K062
+
+
+0
+2
+2
+Varistors
+B72580V250K62
+
+
+0
+2
+2
+Varistors
+S14_K30_EPOCS
+Varistor Vrms(30V) / Vdc(38V)
+Varistor Discrete
+0
+2
+2
+Varistors
+SR390K14DS
+Varistor Vrms(30V) / Vdc(38V)
+Varistor Discrete
+0
+2
+2
+WiFi_Module
+BT_Antenna_1Ant_2Gnd
+
+
+0
+12
+3
+WiFi_Module
+ESP32
+
+
+0
+49
+49
+WiFi_Module
+ESP32-SOLO-1
+
+
+0
+39
+39
+WiFi_Module
+ESP32-WROOM
+
+
+0
+39
+39
+WiFi_Module
+ESP3212
+
+
+0
+31
+31
+WiFi_Module
+Esp8089_QFN32
+
+Esp8089_QFN32_Pitch0.5mm
+0
+33
+33
+WiFi_Module
+WiFi_Logo
+
+
+0
+0
+0
+WiFi_Module
+WiFi_PCB_Antenna
+
+
+0
+2
+2
+eMMC_NAND
+KLM4G1FE3B-B001
+
+
+0
+153
+153
+eMMC_NAND
+MT29TZZZAD8DKKBT_107_W.9F8
+
+
+0
+281
+225
+eMMC_NAND
+MTFC8GAKAJCN
+EMMC 8G
+EMMC
+0
+153
+153
+eMMC_NAND
+S34ML02G100TFI000
+
+
+0
+48
+48
