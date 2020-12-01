@@ -95,9 +95,9 @@ Text HLabel 9050 5850 2    50   BiDi ~ 10
 USB_D4_OUT_P
 Text HLabel 9050 5950 2    50   BiDi ~ 10
 USB_D4_OUT_N
-Text HLabel 13200 5250 2    50   BiDi ~ 10
+Text HLabel 9050 5250 2    50   BiDi ~ 10
 USB_D2_OUT_P
-Text HLabel 13200 5500 2    50   BiDi ~ 10
+Text HLabel 9050 5350 2    50   BiDi ~ 10
 USB_D2_OUT_N
 Wire Wire Line
 	9050 2500 9150 2500
@@ -582,44 +582,6 @@ Wire Wire Line
 Wire Wire Line
 	11600 2250 11600 2500
 Wire Wire Line
-	10050 5350 10350 5350
-Wire Wire Line
-	10350 5350 10350 5500
-Wire Wire Line
-	10350 5500 10950 5500
-Wire Wire Line
-	9550 5250 9050 5250
-Wire Wire Line
-	10050 5250 10950 5250
-$Comp
-L power:GND #PWR?
-U 1 1 5C677095
-P 12650 7050
-AR Path="/5C677095" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C677095" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C677095" Ref="#PWR045"  Part="1" 
-F 0 "#PWR045" H 12650 7150 30  0001 C CNN
-F 1 "GND" H 12650 6950 30  0001 C CNN
-F 2 "" H 12650 7050 60  0000 C CNN
-F 3 "" H 12650 7050 60  0000 C CNN
-	1    12650 7050
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C67ECEE
-P 11800 6600
-AR Path="/5C67ECEE" Ref="#PWR?"  Part="1" 
-AR Path="/5BF670C0/5C67ECEE" Ref="#PWR?"  Part="1" 
-AR Path="/5FB1924B/5C67ECEE" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 11800 6700 30  0001 C CNN
-F 1 "GND" H 11800 6500 30  0001 C CNN
-F 2 "" H 11800 6600 60  0000 C CNN
-F 3 "" H 11800 6600 60  0000 C CNN
-	1    11800 6600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
 	6600 4850 7050 4850
 Wire Wire Line
 	6600 4950 7050 4950
@@ -701,28 +663,6 @@ F 3 "" H 6600 9000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7050 10300
-Text Label 9100 5250 0    50   ~ 10
-USB_HUB_5+
-Text Label 9100 5350 0    50   ~ 10
-USB_HUB_5-
-Wire Wire Line
-	11550 5250 12400 5250
-Wire Wire Line
-	11550 5500 12100 5500
-Wire Wire Line
-	12400 7050 12100 7050
-Wire Wire Line
-	12100 7050 12100 5500
-Connection ~ 12100 5500
-Wire Wire Line
-	12100 5500 13200 5500
-Wire Wire Line
-	12400 5750 12400 5250
-Connection ~ 12400 5250
-Wire Wire Line
-	12400 5250 13200 5250
-NoConn ~ 12900 5750
-NoConn ~ 12900 7050
 Wire Wire Line
 	6600 3150 7050 3150
 $Comp
@@ -751,8 +691,6 @@ F 3 "" H 6900 3600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6900 3600 6900 3800
-Wire Wire Line
-	9050 5350 9550 5350
 $Comp
 L Capacitors_Smd0402:100nF_0402 C5
 U 1 1 5CCB02DD
@@ -1090,29 +1028,6 @@ F 13 "0402" H 6600 8800 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_Smd0603:100nF_0603 C?
-U 1 1 5CD69239
-P 11800 6400
-AR Path="/5BF66FFE/5CD69239" Ref="C?"  Part="1" 
-AR Path="/5BF670C0/5CD69239" Ref="C?"  Part="1" 
-AR Path="/5FB1924B/5CD69239" Ref="C22"  Part="1" 
-F 0 "C22" H 11931 6446 50  0000 L CNN
-F 1 "100nF/50V" H 11931 6355 50  0000 L CNN
-F 2 "Capacitors_Smd_0603:100nF_0603" H 11800 6400 60  0001 C CNN
-F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 11800 6400 60  0001 C CNN
-F 4 "SAMSUNG" H 11800 6400 50  0001 C CNN "Manufacturer"
-F 5 "CL10B104JB8NNNC" H 11800 6400 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 11800 6400 50  0001 C CNN "Supplier"
-F 7 "CL10B104JB8NNNC" H 11800 6400 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 11800 6400 50  0001 C CNN "URL"
-F 9 "0,04540" H 11800 6400 50  0001 C CNN "Price@1pc"
-F 10 "0,02231" H 11800 6400 50  0001 C CNN "Price@1000pcs"
-F 11 "+basic,+full,+minipcie" H 11800 6400 50  0001 C CNN "Variant"
-F 12 "0603" H 11800 6400 50  0001 C CNN "Package"
-	1    11800 6400
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Capacitors_Smd0603:1uF_0603 C10
 U 1 1 5CDD38FB
 P 6250 4000
@@ -1238,30 +1153,6 @@ F 13 "0603" H 10250 8050 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Inductors:DLW21HN900SQ2L L?
-U 1 1 5CC9A927
-P 11250 5350
-AR Path="/5CC9A927" Ref="L?"  Part="1" 
-AR Path="/5BF670C0/5CC9A927" Ref="L?"  Part="1" 
-AR Path="/5FB1924B/5CC9A927" Ref="L2"  Part="1" 
-F 0 "L2" V 11400 5350 50  0000 C CNN
-F 1 "DLW21HN900SQ2L" V 11050 5350 50  0000 C CNN
-F 2 "Inductors:DLW21HN900SQ2L" H 11900 4950 50  0001 C CNN
-F 3 "Inductors/Components_Documentation/DLW21HN121SQ2L - Murata Common Choke Coil.pdf" H 11900 4950 50  0001 C CNN
-F 4 "Murata Electronics" H 11250 5350 50  0001 C CNN "Manufacturer"
-F 5 "DLW21HN900SQ2L" H 11250 5350 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 11250 5350 50  0001 C CNN "Supplier"
-F 7 "81-DLW21HN900SQ2L" H 11250 5350 50  0001 C CNN "Supplier Part Number"
-F 8 "https://pl.mouser.com/ProductDetail/Murata-Electronics/DLW21HN900SQ2L?qs=kQ41K8e6ctG0YxiPaVQXxA%3D%3D" H 11250 5350 50  0001 C CNN "URL"
-F 9 "1,24" H 11250 5350 50  0001 C CNN "Price@1pc"
-F 10 "0,639" H 11250 5350 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 11250 5350 50  0001 C CNN "Developer"
-F 12 "-basic,+full,+minipcie" H 11250 5350 50  0001 C CNN "Variant"
-F 13 "0805_EMI" H 11250 5350 50  0001 C CNN "Package"
-	1    11250 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Inductors:LCBA-601 L3
 U 1 1 5CCAD96C
 P 12000 2500
@@ -1281,46 +1172,6 @@ F 12 "-basic,+full,+minipcie" H 12000 2500 50  0001 C CNN "Variant"
 F 13 "0603" H 12000 2500 50  0001 C CNN "Package"
 	1    12000 2500
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Resistors_Smd0603:0R_0603 R5
-U 1 1 5CCFFEC5
-P 9800 5250
-F 0 "R5" V 9700 5250 50  0000 C CNN
-F 1 "0R" V 9750 5600 50  0000 C CNN
-F 2 "Resistor_Smd_0603:0R_0603" H 9800 5250 60  0001 C CNN
-F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9800 5250 60  0001 C CNN
-F 4 "ROYAL OHM" H 9800 5250 50  0001 C CNN "Manufacturer"
-F 5 "0603SAJ0000T5E" H 9800 5250 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 9800 5250 50  0001 C CNN "Supplier"
-F 7 "SMD0603-0R" H 9800 5250 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/" H 9800 5250 50  0001 C CNN "URL"
-F 9 "0,03966" H 9800 5250 50  0001 C CNN "Price@1pc"
-F 10 "0,00967" H 9800 5250 50  0001 C CNN "Price@1000pcs"
-F 11 "-basic,+full,+minipcie" H 9800 5250 50  0001 C CNN "Variant"
-F 12 "0603" H 9800 5250 50  0001 C CNN "Package"
-	1    9800 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistors_Smd0603:0R_0603 R6
-U 1 1 5CD00B92
-P 9800 5350
-F 0 "R6" V 9700 5350 50  0000 C CNN
-F 1 "0R" V 9750 5700 50  0000 C CNN
-F 2 "Resistor_Smd_0603:0R_0603" H 9800 5350 60  0001 C CNN
-F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9800 5350 60  0001 C CNN
-F 4 "ROYAL OHM" H 9800 5350 50  0001 C CNN "Manufacturer"
-F 5 "0603SAJ0000T5E" H 9800 5350 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 9800 5350 50  0001 C CNN "Supplier"
-F 7 "SMD0603-0R" H 9800 5350 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/" H 9800 5350 50  0001 C CNN "URL"
-F 9 "0,03966" H 9800 5350 50  0001 C CNN "Price@1pc"
-F 10 "0,00967" H 9800 5350 50  0001 C CNN "Price@1000pcs"
-F 11 "-basic,+full,+minipcie" H 9800 5350 50  0001 C CNN "Variant"
-F 12 "0603" H 9800 5350 50  0001 C CNN "Package"
-	1    9800 5350
-	0    1    -1   0   
 $EndComp
 $Comp
 L Resistors_Smd0402:10k_0402 R2
@@ -1402,27 +1253,6 @@ F 10 "0,01044" H 6600 9450 50  0001 C CNN "Price@1000pcs"
 F 11 "-basic,+full,+minipcie" H 6600 9450 50  0001 C CNN "Variant"
 F 12 "0402" H 6600 9450 50  0001 C CNN "Package"
 	1    6600 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L esd_protectors:IP4220CZ6 U2
-U 1 1 5CCCCADB
-P 12650 6400
-F 0 "U2" H 13128 6453 60  0000 L CNN
-F 1 "IP4220CZ6" H 13128 6347 60  0000 L CNN
-F 2 "ESD_Protectors:IP4220CZ6_SOT457" H 12650 6400 60  0001 C CNN
-F 3 "ESD_Protectors/Components_Documentation/IP4220CZ6.pdf" H 12650 6400 60  0001 C CNN
-F 4 "NEXPERIA" H 12650 6400 50  0001 C CNN "Manufacturer"
-F 5 "	IP4220CZ6.125" H 12650 6400 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 12650 6400 50  0001 C CNN "Supplier"
-F 7 "IP4220CZ6" H 12650 6400 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/ip4220cz6/diody-zabezpieczajace-drabinki/nexperia/ip4220cz6-125/" H 12650 6400 50  0001 C CNN "URL"
-F 9 "0,8592" H 12650 6400 50  0001 C CNN "Price@1pc"
-F 10 "0,3364" H 12650 6400 50  0001 C CNN "Price@1000pcs"
-F 11 "WP" H 12650 6400 50  0001 C CNN "Developer"
-F 12 "+basic,+full,+minipcie" H 12650 6400 50  0001 C CNN "Variant"
-F 13 "SC-74" H 12650 6400 50  0001 C CNN "Package"
-	1    12650 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1586,14 +1416,6 @@ Text Label 9750 4850 0    50   ~ 0
 3V3
 Text Label 11400 8050 0    50   ~ 0
 3V3
-Text Label 12650 5650 0    50   ~ 0
-VBUS
-Wire Wire Line
-	12650 5650 12650 5750
-Text Label 11800 6100 0    50   ~ 0
-VBUS
-Wire Wire Line
-	11800 6100 11800 6200
 Text Label 6250 7750 2    50   ~ 0
 3V3
 Wire Wire Line

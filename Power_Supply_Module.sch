@@ -175,8 +175,6 @@ Wire Wire Line
 	5150 4050 5150 4100
 NoConn ~ 5050 6550
 NoConn ~ 5050 6450
-NoConn ~ 5050 6250
-NoConn ~ 5050 6150
 NoConn ~ 5050 5950
 NoConn ~ 5050 5850
 NoConn ~ 5050 5650
@@ -659,4 +657,19 @@ Wire Wire Line
 Wire Wire Line
 	11150 5400 10600 5400
 Connection ~ 10600 5400
+Wire Wire Line
+	5050 6150 5150 6150
+Wire Wire Line
+	5150 6150 5150 6200
+Wire Wire Line
+	5150 6250 5050 6250
+Text Label 5250 4500 0    50   ~ 0
+USB_ID
+Text Label 5250 6200 0    50   ~ 0
+USB_ID
+Wire Wire Line
+	5250 6200 5150 6200
+Connection ~ 5150 6200
+Wire Wire Line
+	5150 6200 5150 6250
 $EndSCHEMATC
